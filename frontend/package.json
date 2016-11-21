@@ -1,0 +1,49 @@
+{
+  "name": "warroom",
+  "browserify": {
+    "transform": [
+      [
+        "browserify-css",
+        {
+          "autoInject": true,
+          "minify": true,
+          "rootDir": "css"
+        }
+      ],
+      [
+        "reactify",
+        {
+          "es6": true
+        }
+      ]
+    ]
+  },
+  "version": "1.0.0",
+  "description": "dashboard some sparklines",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "",
+    "start": "beefy js/index.js:js/browserifybundle.js"
+  },
+  "author": "Kelsey Dawes https://github.com/kdawes",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "babelify": "^7.2.0",
+    "bootstrap": "^3.3.6",
+    "browserify-css": "^0.8.3",
+    "highlight.js": "^8.9.1",
+    "lodash": "^3.10.1",
+    "moment": "^2.10.6",
+    "react": "^0.14.3",
+    "react-bootstrap": "^0.28.1",
+    "react-highcharts": "^6.0.0",
+    "react-highlight": "^0.6.1",
+    "react-sparklines": "^1.4.2",
+    "reactify": "^1.1.1",
+    "request": "^2.67.0",
+    "selectn": "^0.10.0",
+    "standard": "^5.4.1",
+    "ws": "^0.8.1"
+  }
+}

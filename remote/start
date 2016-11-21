@@ -1,0 +1,12 @@
+source ./env.sh
+
+if [ -z $1 ];
+then
+  echo "usage : start <level_name>"
+  exit 1
+fi
+
+#echo "sing HEADER = ${HEADER}"
+#echo "using URL = ${URL}"
+
+curl -X POST -H ${HEADER} ${URL}/levels/$1

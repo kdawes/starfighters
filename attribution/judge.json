@@ -1,0 +1,5 @@
+{
+  "explanation_link": "https://gist.github.com/kdawes/ce632b6477ef2b22b646f073d068628a",
+  "account": "MDG95313976",
+  "executive_summary": "TLDR : You need to identify your trading account (not your API key!) in the URL. This is the only form of authorization for this web socket. \n:1234 \n: trololol ?\n\n So you can figure out who 'owns' a trade by trying to cancel them and parsing the error messages.  You take those account names and subscribe to their execution websockets. Using the id, standingId and incomingId, it is then possible to link trades to\n accounts."
+}

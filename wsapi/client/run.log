@@ -1,0 +1,2803 @@
+connecting to  ws://localhost:8123
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 112
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 112
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 113
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 113
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 113
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 113
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 113
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 114
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 114
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 114
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 114
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 114
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 115
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 115
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 115
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 115
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 115
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 116
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 116
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 116
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 116
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 116
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 117
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 117
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 117
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 117
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 117
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 118
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 118
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 118
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 118
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 118
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 119
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 119
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 119
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 119
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 119
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 120
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 120
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 120
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 120
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 120
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 121
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 121
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 121
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 121
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 121
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 122
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 122
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 122
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 122
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 122
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 123
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 123
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 123
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 123
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 123
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 124
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 124
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 124
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 124
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 124
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 125
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 125
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 125
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 125
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 125
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 126
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 126
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 126
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 126
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 126
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 127
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 127
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 127
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 127
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 127
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 128
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 128
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 128
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 128
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 128
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 129
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 129
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 129
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 129
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 129
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 130
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 130
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 130
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 130
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 130
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 131
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 131
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 131
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 131
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 131
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 132
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 132
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 132
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 132
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 132
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 133
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 133
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 133
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 133
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 133
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 134
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 134
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 134
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 134
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 134
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 135
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 135
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 135
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 135
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 135
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 136
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 136
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 136
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 136
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 136
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 137
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 137
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 137
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 137
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 137
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 138
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 138
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 138
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 138
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 138
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 139
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 139
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 139
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 139
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 139
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 140
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 140
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 140
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 140
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 140
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 140
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 141
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 141
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 141
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 141
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 142
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 142
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 142
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 142
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 143
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 143
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 143
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 143
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 143
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 144
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 144
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 144
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 144
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 144
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 144
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 145
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 145
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 145
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 145
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 145
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 146
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 146
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 146
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "open",
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 146
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 147
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 147
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 147
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 147
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 147
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 148
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 148
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 148
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 148
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 148
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 148
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 149
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 149
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 149
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 149
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 150
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 150
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 150
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 150
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 150
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 151
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 151
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 151
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 151
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 151
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 152
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 152
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 152
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 152
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 152
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 153
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 153
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 153
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 153
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 153
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 154
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 154
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 154
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 154
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 154
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 155
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 155
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 155
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 155
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 155
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 156
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 156
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 156
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 156
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 156
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 157
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 157
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 157
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 157
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 157
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 158
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 158
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 158
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 158
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 158
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 159
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 159
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 159
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 159
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 159
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 159
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 160
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 160
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 160
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 160
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 161
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 161
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 161
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 161
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 161
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 162
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 162
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 162
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 162
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 162
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 163
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 163
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 163
+  }
+}
+>  {
+  "ok": true,
+  "done": false,
+  "id": 22252,
+  "state": "lost",
+  "flash": {
+    "error": "We only had $100,000 budgeted for this investigation and you've blown through it.  You're done"
+  },
+  "details": {
+    "endOfTheWorldDay": 499,
+    "tradingDay": 163
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "ok": true,
+  "data": {
+    "cash": -230880,
+    "shares": -10,
+    "ee": {
+      "domain": null,
+      "_events": {
+        "fillevent": [
+          null,
+          null
+        ]
+      },
+      "_eventsCount": 111
+    },
+    "db": {
+      "asks": {},
+      "bids": {},
+      "cancelled": {
+        "asks": [],
+        "bids": []
+      },
+      "fills": {
+        "asks": [
+          {
+            "ok": true,
+            "symbol": "GYD",
+            "venue": "FZMEX",
+            "direction": "sell",
+            "originalQty": 500,
+            "qty": 500,
+            "price": 0,
+            "orderType": "market",
+            "id": 1067,
+            "account": "CES51917020",
+            "ts": "2016-05-19T20:15:58.075904526Z",
+            "fills": [
+              {
+                "price": 10003,
+                "qty": 10,
+                "ts": "2016-05-19T20:15:58.07590649Z"
+              }
+            ],
+            "totalFilled": 10,
+            "open": true
+          },
+          {
+            "ok": true,
+            "symbol": "GYD",
+            "venue": "FZMEX",
+            "direction": "sell",
+            "originalQty": 500,
+            "qty": 0,
+            "price": 0,
+            "orderType": "market",
+            "id": 1067,
+            "account": "CES51917020",
+            "ts": "2016-05-19T20:15:58.075904526Z",
+            "fills": [
+              {
+                "price": 10003,
+                "qty": 10,
+                "ts": "2016-05-19T20:15:58.07590649Z"
+              },
+              {
+                "price": 9944,
+                "qty": 490,
+                "ts": "2016-05-19T20:15:58.075907711Z"
+              }
+            ],
+            "totalFilled": 500,
+            "open": false
+          }
+        ],
+        "bids": [
+          {
+            "ok": true,
+            "symbol": "GYD",
+            "venue": "FZMEX",
+            "direction": "buy",
+            "originalQty": 500,
+            "qty": 0,
+            "price": 0,
+            "orderType": "market",
+            "id": 999,
+            "account": "CES51917020",
+            "ts": "2016-05-19T20:15:52.370767822Z",
+            "fills": [
+              {
+                "price": 10607,
+                "qty": 500,
+                "ts": "2016-05-19T20:15:52.370769766Z"
+              }
+            ],
+            "totalFilled": 500,
+            "open": false
+          }
+        ]
+      }
+    }
+  }
+}

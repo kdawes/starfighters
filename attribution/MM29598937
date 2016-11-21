@@ -1,0 +1,2693 @@
+{
+  "cash": -25262876,
+  "shares": 2371,
+  "ee": {
+    "domain": null,
+    "_events": {
+      "ask": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "bid": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "cancel": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "fillevent": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "_eventsCount": 4
+  },
+  "db": {
+    "asks": {},
+    "bids": {},
+    "cancelled": {
+      "asks": [],
+      "bids": []
+    },
+    "fills": {
+      "asks": [
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14213,
+          "qty": 14130,
+          "price": 11173,
+          "orderType": "limit",
+          "id": 2409,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:23.334007716Z",
+          "fills": [
+            {
+              "price": 11173,
+              "qty": 83,
+              "ts": "2016-05-18T01:34:28.114685352Z"
+            }
+          ],
+          "totalFilled": 83,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14213,
+          "qty": 13983,
+          "price": 11173,
+          "orderType": "limit",
+          "id": 2409,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:23.334007716Z",
+          "fills": [
+            {
+              "price": 11173,
+              "qty": 83,
+              "ts": "2016-05-18T01:34:28.114685352Z"
+            },
+            {
+              "price": 11173,
+              "qty": 147,
+              "ts": "2016-05-18T01:34:28.119443934Z"
+            }
+          ],
+          "totalFilled": 230,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14213,
+          "qty": 13883,
+          "price": 11173,
+          "orderType": "limit",
+          "id": 2409,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:23.334007716Z",
+          "fills": [
+            {
+              "price": 11173,
+              "qty": 83,
+              "ts": "2016-05-18T01:34:28.114685352Z"
+            },
+            {
+              "price": 11173,
+              "qty": 147,
+              "ts": "2016-05-18T01:34:28.119443934Z"
+            },
+            {
+              "price": 11173,
+              "qty": 100,
+              "ts": "2016-05-18T01:34:28.12130781Z"
+            }
+          ],
+          "totalFilled": 330,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14213,
+          "qty": 13761,
+          "price": 11173,
+          "orderType": "limit",
+          "id": 2409,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:23.334007716Z",
+          "fills": [
+            {
+              "price": 11173,
+              "qty": 83,
+              "ts": "2016-05-18T01:34:28.114685352Z"
+            },
+            {
+              "price": 11173,
+              "qty": 147,
+              "ts": "2016-05-18T01:34:28.119443934Z"
+            },
+            {
+              "price": 11173,
+              "qty": 100,
+              "ts": "2016-05-18T01:34:28.12130781Z"
+            },
+            {
+              "price": 11173,
+              "qty": 122,
+              "ts": "2016-05-18T01:34:28.123038255Z"
+            }
+          ],
+          "totalFilled": 452,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14213,
+          "qty": 13722,
+          "price": 11173,
+          "orderType": "limit",
+          "id": 2409,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:23.334007716Z",
+          "fills": [
+            {
+              "price": 11173,
+              "qty": 83,
+              "ts": "2016-05-18T01:34:28.114685352Z"
+            },
+            {
+              "price": 11173,
+              "qty": 147,
+              "ts": "2016-05-18T01:34:28.119443934Z"
+            },
+            {
+              "price": 11173,
+              "qty": 100,
+              "ts": "2016-05-18T01:34:28.12130781Z"
+            },
+            {
+              "price": 11173,
+              "qty": 122,
+              "ts": "2016-05-18T01:34:28.123038255Z"
+            },
+            {
+              "price": 11173,
+              "qty": 39,
+              "ts": "2016-05-18T01:34:28.125773898Z"
+            }
+          ],
+          "totalFilled": 491,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14336,
+          "qty": 14219,
+          "price": 11074,
+          "orderType": "limit",
+          "id": 2507,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:33.593427808Z",
+          "fills": [
+            {
+              "price": 11074,
+              "qty": 117,
+              "ts": "2016-05-18T01:34:33.649295944Z"
+            }
+          ],
+          "totalFilled": 117,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14336,
+          "qty": 14073,
+          "price": 11074,
+          "orderType": "limit",
+          "id": 2507,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:33.593427808Z",
+          "fills": [
+            {
+              "price": 11074,
+              "qty": 117,
+              "ts": "2016-05-18T01:34:33.649295944Z"
+            },
+            {
+              "price": 11074,
+              "qty": 146,
+              "ts": "2016-05-18T01:34:33.653713327Z"
+            }
+          ],
+          "totalFilled": 263,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14336,
+          "qty": 14018,
+          "price": 11074,
+          "orderType": "limit",
+          "id": 2507,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:33.593427808Z",
+          "fills": [
+            {
+              "price": 11074,
+              "qty": 117,
+              "ts": "2016-05-18T01:34:33.649295944Z"
+            },
+            {
+              "price": 11074,
+              "qty": 146,
+              "ts": "2016-05-18T01:34:33.653713327Z"
+            },
+            {
+              "price": 11074,
+              "qty": 55,
+              "ts": "2016-05-18T01:34:33.655544212Z"
+            }
+          ],
+          "totalFilled": 318,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14336,
+          "qty": 13930,
+          "price": 11074,
+          "orderType": "limit",
+          "id": 2507,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:33.593427808Z",
+          "fills": [
+            {
+              "price": 11074,
+              "qty": 117,
+              "ts": "2016-05-18T01:34:33.649295944Z"
+            },
+            {
+              "price": 11074,
+              "qty": 146,
+              "ts": "2016-05-18T01:34:33.653713327Z"
+            },
+            {
+              "price": 11074,
+              "qty": 55,
+              "ts": "2016-05-18T01:34:33.655544212Z"
+            },
+            {
+              "price": 11074,
+              "qty": 88,
+              "ts": "2016-05-18T01:34:33.657601829Z"
+            }
+          ],
+          "totalFilled": 406,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14336,
+          "qty": 13838,
+          "price": 11074,
+          "orderType": "limit",
+          "id": 2507,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:33.593427808Z",
+          "fills": [
+            {
+              "price": 11074,
+              "qty": 117,
+              "ts": "2016-05-18T01:34:33.649295944Z"
+            },
+            {
+              "price": 11074,
+              "qty": 146,
+              "ts": "2016-05-18T01:34:33.653713327Z"
+            },
+            {
+              "price": 11074,
+              "qty": 55,
+              "ts": "2016-05-18T01:34:33.655544212Z"
+            },
+            {
+              "price": 11074,
+              "qty": 88,
+              "ts": "2016-05-18T01:34:33.657601829Z"
+            },
+            {
+              "price": 11074,
+              "qty": 92,
+              "ts": "2016-05-18T01:34:33.666841728Z"
+            }
+          ],
+          "totalFilled": 498,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14286,
+          "qty": 14216,
+          "price": 10922,
+          "orderType": "limit",
+          "id": 2550,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:33.842861197Z",
+          "fills": [
+            {
+              "price": 10922,
+              "qty": 70,
+              "ts": "2016-05-18T01:34:38.114383675Z"
+            }
+          ],
+          "totalFilled": 70,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14286,
+          "qty": 14139,
+          "price": 10922,
+          "orderType": "limit",
+          "id": 2550,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:33.842861197Z",
+          "fills": [
+            {
+              "price": 10922,
+              "qty": 70,
+              "ts": "2016-05-18T01:34:38.114383675Z"
+            },
+            {
+              "price": 10922,
+              "qty": 77,
+              "ts": "2016-05-18T01:34:38.11672741Z"
+            }
+          ],
+          "totalFilled": 147,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14286,
+          "qty": 14071,
+          "price": 10922,
+          "orderType": "limit",
+          "id": 2550,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:33.842861197Z",
+          "fills": [
+            {
+              "price": 10922,
+              "qty": 70,
+              "ts": "2016-05-18T01:34:38.114383675Z"
+            },
+            {
+              "price": 10922,
+              "qty": 77,
+              "ts": "2016-05-18T01:34:38.11672741Z"
+            },
+            {
+              "price": 10922,
+              "qty": 68,
+              "ts": "2016-05-18T01:34:38.121911755Z"
+            }
+          ],
+          "totalFilled": 215,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14286,
+          "qty": 13983,
+          "price": 10922,
+          "orderType": "limit",
+          "id": 2550,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:33.842861197Z",
+          "fills": [
+            {
+              "price": 10922,
+              "qty": 70,
+              "ts": "2016-05-18T01:34:38.114383675Z"
+            },
+            {
+              "price": 10922,
+              "qty": 77,
+              "ts": "2016-05-18T01:34:38.11672741Z"
+            },
+            {
+              "price": 10922,
+              "qty": 68,
+              "ts": "2016-05-18T01:34:38.121911755Z"
+            },
+            {
+              "price": 10922,
+              "qty": 88,
+              "ts": "2016-05-18T01:34:38.124040894Z"
+            }
+          ],
+          "totalFilled": 303,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14286,
+          "qty": 13887,
+          "price": 10922,
+          "orderType": "limit",
+          "id": 2550,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:33.842861197Z",
+          "fills": [
+            {
+              "price": 10922,
+              "qty": 70,
+              "ts": "2016-05-18T01:34:38.114383675Z"
+            },
+            {
+              "price": 10922,
+              "qty": 77,
+              "ts": "2016-05-18T01:34:38.11672741Z"
+            },
+            {
+              "price": 10922,
+              "qty": 68,
+              "ts": "2016-05-18T01:34:38.121911755Z"
+            },
+            {
+              "price": 10922,
+              "qty": 88,
+              "ts": "2016-05-18T01:34:38.124040894Z"
+            },
+            {
+              "price": 10922,
+              "qty": 96,
+              "ts": "2016-05-18T01:34:38.129181474Z"
+            }
+          ],
+          "totalFilled": 399,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14286,
+          "qty": 13793,
+          "price": 10922,
+          "orderType": "limit",
+          "id": 2550,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:33.842861197Z",
+          "fills": [
+            {
+              "price": 10922,
+              "qty": 70,
+              "ts": "2016-05-18T01:34:38.114383675Z"
+            },
+            {
+              "price": 10922,
+              "qty": 77,
+              "ts": "2016-05-18T01:34:38.11672741Z"
+            },
+            {
+              "price": 10922,
+              "qty": 68,
+              "ts": "2016-05-18T01:34:38.121911755Z"
+            },
+            {
+              "price": 10922,
+              "qty": 88,
+              "ts": "2016-05-18T01:34:38.124040894Z"
+            },
+            {
+              "price": 10922,
+              "qty": 96,
+              "ts": "2016-05-18T01:34:38.129181474Z"
+            },
+            {
+              "price": 10922,
+              "qty": 94,
+              "ts": "2016-05-18T01:34:38.131503728Z"
+            }
+          ],
+          "totalFilled": 493,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14286,
+          "qty": 13692,
+          "price": 10922,
+          "orderType": "limit",
+          "id": 2550,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:33.842861197Z",
+          "fills": [
+            {
+              "price": 10922,
+              "qty": 70,
+              "ts": "2016-05-18T01:34:38.114383675Z"
+            },
+            {
+              "price": 10922,
+              "qty": 77,
+              "ts": "2016-05-18T01:34:38.11672741Z"
+            },
+            {
+              "price": 10922,
+              "qty": 68,
+              "ts": "2016-05-18T01:34:38.121911755Z"
+            },
+            {
+              "price": 10922,
+              "qty": 88,
+              "ts": "2016-05-18T01:34:38.124040894Z"
+            },
+            {
+              "price": 10922,
+              "qty": 96,
+              "ts": "2016-05-18T01:34:38.129181474Z"
+            },
+            {
+              "price": 10922,
+              "qty": 94,
+              "ts": "2016-05-18T01:34:38.131503728Z"
+            },
+            {
+              "price": 10922,
+              "qty": 101,
+              "ts": "2016-05-18T01:34:38.135806717Z"
+            }
+          ],
+          "totalFilled": 594,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14286,
+          "qty": 13622,
+          "price": 10922,
+          "orderType": "limit",
+          "id": 2550,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:33.842861197Z",
+          "fills": [
+            {
+              "price": 10922,
+              "qty": 70,
+              "ts": "2016-05-18T01:34:38.114383675Z"
+            },
+            {
+              "price": 10922,
+              "qty": 77,
+              "ts": "2016-05-18T01:34:38.11672741Z"
+            },
+            {
+              "price": 10922,
+              "qty": 68,
+              "ts": "2016-05-18T01:34:38.121911755Z"
+            },
+            {
+              "price": 10922,
+              "qty": 88,
+              "ts": "2016-05-18T01:34:38.124040894Z"
+            },
+            {
+              "price": 10922,
+              "qty": 96,
+              "ts": "2016-05-18T01:34:38.129181474Z"
+            },
+            {
+              "price": 10922,
+              "qty": 94,
+              "ts": "2016-05-18T01:34:38.131503728Z"
+            },
+            {
+              "price": 10922,
+              "qty": 101,
+              "ts": "2016-05-18T01:34:38.135806717Z"
+            },
+            {
+              "price": 10922,
+              "qty": 70,
+              "ts": "2016-05-18T01:34:38.138523296Z"
+            }
+          ],
+          "totalFilled": 664,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14286,
+          "qty": 13483,
+          "price": 10922,
+          "orderType": "limit",
+          "id": 2550,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:33.842861197Z",
+          "fills": [
+            {
+              "price": 10922,
+              "qty": 70,
+              "ts": "2016-05-18T01:34:38.114383675Z"
+            },
+            {
+              "price": 10922,
+              "qty": 77,
+              "ts": "2016-05-18T01:34:38.11672741Z"
+            },
+            {
+              "price": 10922,
+              "qty": 68,
+              "ts": "2016-05-18T01:34:38.121911755Z"
+            },
+            {
+              "price": 10922,
+              "qty": 88,
+              "ts": "2016-05-18T01:34:38.124040894Z"
+            },
+            {
+              "price": 10922,
+              "qty": 96,
+              "ts": "2016-05-18T01:34:38.129181474Z"
+            },
+            {
+              "price": 10922,
+              "qty": 94,
+              "ts": "2016-05-18T01:34:38.131503728Z"
+            },
+            {
+              "price": 10922,
+              "qty": 101,
+              "ts": "2016-05-18T01:34:38.135806717Z"
+            },
+            {
+              "price": 10922,
+              "qty": 70,
+              "ts": "2016-05-18T01:34:38.138523296Z"
+            },
+            {
+              "price": 10922,
+              "qty": 139,
+              "ts": "2016-05-18T01:34:38.140169076Z"
+            }
+          ],
+          "totalFilled": 803,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14233,
+          "qty": 14192,
+          "price": 11324,
+          "orderType": "limit",
+          "id": 2569,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:38.164942408Z",
+          "fills": [
+            {
+              "price": 11324,
+              "qty": 41,
+              "ts": "2016-05-18T01:34:38.180350513Z"
+            }
+          ],
+          "totalFilled": 41,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14261,
+          "qty": 14183,
+          "price": 11215,
+          "orderType": "limit",
+          "id": 2628,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:43.137600891Z",
+          "fills": [
+            {
+              "price": 11215,
+              "qty": 78,
+              "ts": "2016-05-18T01:34:43.144817456Z"
+            }
+          ],
+          "totalFilled": 78,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14261,
+          "qty": 13893,
+          "price": 11215,
+          "orderType": "limit",
+          "id": 2628,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:43.137600891Z",
+          "fills": [
+            {
+              "price": 11215,
+              "qty": 78,
+              "ts": "2016-05-18T01:34:43.144817456Z"
+            },
+            {
+              "price": 11215,
+              "qty": 290,
+              "ts": "2016-05-18T01:34:43.153659075Z"
+            }
+          ],
+          "totalFilled": 368,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14261,
+          "qty": 13837,
+          "price": 11215,
+          "orderType": "limit",
+          "id": 2628,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:43.137600891Z",
+          "fills": [
+            {
+              "price": 11215,
+              "qty": 78,
+              "ts": "2016-05-18T01:34:43.144817456Z"
+            },
+            {
+              "price": 11215,
+              "qty": 290,
+              "ts": "2016-05-18T01:34:43.153659075Z"
+            },
+            {
+              "price": 11215,
+              "qty": 56,
+              "ts": "2016-05-18T01:34:43.158573949Z"
+            }
+          ],
+          "totalFilled": 424,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 48,
+          "qty": 0,
+          "price": 11215,
+          "orderType": "limit",
+          "id": 2668,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:43.33059036Z",
+          "fills": [
+            {
+              "price": 11215,
+              "qty": 48,
+              "ts": "2016-05-18T01:34:43.334833309Z"
+            }
+          ],
+          "totalFilled": 48,
+          "open": false
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 48,
+          "qty": 0,
+          "price": 11270,
+          "orderType": "limit",
+          "id": 2667,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:43.329266196Z",
+          "fills": [
+            {
+              "price": 11270,
+              "qty": 48,
+              "ts": "2016-05-18T01:34:43.334835003Z"
+            }
+          ],
+          "totalFilled": 48,
+          "open": false
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14300,
+          "qty": 14230,
+          "price": 11215,
+          "orderType": "limit",
+          "id": 2677,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:43.371400958Z",
+          "fills": [
+            {
+              "price": 11215,
+              "qty": 70,
+              "ts": "2016-05-18T01:34:48.142605623Z"
+            }
+          ],
+          "totalFilled": 70,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14300,
+          "qty": 14176,
+          "price": 11215,
+          "orderType": "limit",
+          "id": 2677,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:43.371400958Z",
+          "fills": [
+            {
+              "price": 11215,
+              "qty": 70,
+              "ts": "2016-05-18T01:34:48.142605623Z"
+            },
+            {
+              "price": 11215,
+              "qty": 54,
+              "ts": "2016-05-18T01:34:48.144892311Z"
+            }
+          ],
+          "totalFilled": 124,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14300,
+          "qty": 14100,
+          "price": 11215,
+          "orderType": "limit",
+          "id": 2677,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:43.371400958Z",
+          "fills": [
+            {
+              "price": 11215,
+              "qty": 70,
+              "ts": "2016-05-18T01:34:48.142605623Z"
+            },
+            {
+              "price": 11215,
+              "qty": 54,
+              "ts": "2016-05-18T01:34:48.144892311Z"
+            },
+            {
+              "price": 11215,
+              "qty": 76,
+              "ts": "2016-05-18T01:34:48.147192918Z"
+            }
+          ],
+          "totalFilled": 200,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14300,
+          "qty": 14020,
+          "price": 11215,
+          "orderType": "limit",
+          "id": 2677,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:43.371400958Z",
+          "fills": [
+            {
+              "price": 11215,
+              "qty": 70,
+              "ts": "2016-05-18T01:34:48.142605623Z"
+            },
+            {
+              "price": 11215,
+              "qty": 54,
+              "ts": "2016-05-18T01:34:48.144892311Z"
+            },
+            {
+              "price": 11215,
+              "qty": 76,
+              "ts": "2016-05-18T01:34:48.147192918Z"
+            },
+            {
+              "price": 11215,
+              "qty": 80,
+              "ts": "2016-05-18T01:34:48.149524481Z"
+            }
+          ],
+          "totalFilled": 280,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14300,
+          "qty": 13969,
+          "price": 11215,
+          "orderType": "limit",
+          "id": 2677,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:43.371400958Z",
+          "fills": [
+            {
+              "price": 11215,
+              "qty": 70,
+              "ts": "2016-05-18T01:34:48.142605623Z"
+            },
+            {
+              "price": 11215,
+              "qty": 54,
+              "ts": "2016-05-18T01:34:48.144892311Z"
+            },
+            {
+              "price": 11215,
+              "qty": 76,
+              "ts": "2016-05-18T01:34:48.147192918Z"
+            },
+            {
+              "price": 11215,
+              "qty": 80,
+              "ts": "2016-05-18T01:34:48.149524481Z"
+            },
+            {
+              "price": 11215,
+              "qty": 51,
+              "ts": "2016-05-18T01:34:48.151805597Z"
+            }
+          ],
+          "totalFilled": 331,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14300,
+          "qty": 13891,
+          "price": 11215,
+          "orderType": "limit",
+          "id": 2677,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:43.371400958Z",
+          "fills": [
+            {
+              "price": 11215,
+              "qty": 70,
+              "ts": "2016-05-18T01:34:48.142605623Z"
+            },
+            {
+              "price": 11215,
+              "qty": 54,
+              "ts": "2016-05-18T01:34:48.144892311Z"
+            },
+            {
+              "price": 11215,
+              "qty": 76,
+              "ts": "2016-05-18T01:34:48.147192918Z"
+            },
+            {
+              "price": 11215,
+              "qty": 80,
+              "ts": "2016-05-18T01:34:48.149524481Z"
+            },
+            {
+              "price": 11215,
+              "qty": 51,
+              "ts": "2016-05-18T01:34:48.151805597Z"
+            },
+            {
+              "price": 11215,
+              "qty": 78,
+              "ts": "2016-05-18T01:34:48.154053279Z"
+            }
+          ],
+          "totalFilled": 409,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14300,
+          "qty": 13770,
+          "price": 11215,
+          "orderType": "limit",
+          "id": 2677,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:43.371400958Z",
+          "fills": [
+            {
+              "price": 11215,
+              "qty": 70,
+              "ts": "2016-05-18T01:34:48.142605623Z"
+            },
+            {
+              "price": 11215,
+              "qty": 54,
+              "ts": "2016-05-18T01:34:48.144892311Z"
+            },
+            {
+              "price": 11215,
+              "qty": 76,
+              "ts": "2016-05-18T01:34:48.147192918Z"
+            },
+            {
+              "price": 11215,
+              "qty": 80,
+              "ts": "2016-05-18T01:34:48.149524481Z"
+            },
+            {
+              "price": 11215,
+              "qty": 51,
+              "ts": "2016-05-18T01:34:48.151805597Z"
+            },
+            {
+              "price": 11215,
+              "qty": 78,
+              "ts": "2016-05-18T01:34:48.154053279Z"
+            },
+            {
+              "price": 11215,
+              "qty": 121,
+              "ts": "2016-05-18T01:34:48.155901067Z"
+            }
+          ],
+          "totalFilled": 530,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14247,
+          "qty": 14089,
+          "price": 11117,
+          "orderType": "limit",
+          "id": 2710,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:48.178452053Z",
+          "fills": [
+            {
+              "price": 11117,
+              "qty": 158,
+              "ts": "2016-05-18T01:34:48.18696553Z"
+            }
+          ],
+          "totalFilled": 158,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14247,
+          "qty": 13977,
+          "price": 11117,
+          "orderType": "limit",
+          "id": 2710,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:48.178452053Z",
+          "fills": [
+            {
+              "price": 11117,
+              "qty": 158,
+              "ts": "2016-05-18T01:34:48.18696553Z"
+            },
+            {
+              "price": 11117,
+              "qty": 112,
+              "ts": "2016-05-18T01:34:48.189221242Z"
+            }
+          ],
+          "totalFilled": 270,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14247,
+          "qty": 13876,
+          "price": 11117,
+          "orderType": "limit",
+          "id": 2710,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:48.178452053Z",
+          "fills": [
+            {
+              "price": 11117,
+              "qty": 158,
+              "ts": "2016-05-18T01:34:48.18696553Z"
+            },
+            {
+              "price": 11117,
+              "qty": 112,
+              "ts": "2016-05-18T01:34:48.189221242Z"
+            },
+            {
+              "price": 11117,
+              "qty": 101,
+              "ts": "2016-05-18T01:34:48.191440005Z"
+            }
+          ],
+          "totalFilled": 371,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14247,
+          "qty": 13764,
+          "price": 11117,
+          "orderType": "limit",
+          "id": 2710,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:48.178452053Z",
+          "fills": [
+            {
+              "price": 11117,
+              "qty": 158,
+              "ts": "2016-05-18T01:34:48.18696553Z"
+            },
+            {
+              "price": 11117,
+              "qty": 112,
+              "ts": "2016-05-18T01:34:48.189221242Z"
+            },
+            {
+              "price": 11117,
+              "qty": 101,
+              "ts": "2016-05-18T01:34:48.191440005Z"
+            },
+            {
+              "price": 11117,
+              "qty": 112,
+              "ts": "2016-05-18T01:34:48.193439785Z"
+            }
+          ],
+          "totalFilled": 483,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14247,
+          "qty": 13670,
+          "price": 11117,
+          "orderType": "limit",
+          "id": 2710,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:48.178452053Z",
+          "fills": [
+            {
+              "price": 11117,
+              "qty": 158,
+              "ts": "2016-05-18T01:34:48.18696553Z"
+            },
+            {
+              "price": 11117,
+              "qty": 112,
+              "ts": "2016-05-18T01:34:48.189221242Z"
+            },
+            {
+              "price": 11117,
+              "qty": 101,
+              "ts": "2016-05-18T01:34:48.191440005Z"
+            },
+            {
+              "price": 11117,
+              "qty": 112,
+              "ts": "2016-05-18T01:34:48.193439785Z"
+            },
+            {
+              "price": 11117,
+              "qty": 94,
+              "ts": "2016-05-18T01:34:48.195853258Z"
+            }
+          ],
+          "totalFilled": 577,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14247,
+          "qty": 13601,
+          "price": 11117,
+          "orderType": "limit",
+          "id": 2710,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:48.178452053Z",
+          "fills": [
+            {
+              "price": 11117,
+              "qty": 158,
+              "ts": "2016-05-18T01:34:48.18696553Z"
+            },
+            {
+              "price": 11117,
+              "qty": 112,
+              "ts": "2016-05-18T01:34:48.189221242Z"
+            },
+            {
+              "price": 11117,
+              "qty": 101,
+              "ts": "2016-05-18T01:34:48.191440005Z"
+            },
+            {
+              "price": 11117,
+              "qty": 112,
+              "ts": "2016-05-18T01:34:48.193439785Z"
+            },
+            {
+              "price": 11117,
+              "qty": 94,
+              "ts": "2016-05-18T01:34:48.195853258Z"
+            },
+            {
+              "price": 11117,
+              "qty": 69,
+              "ts": "2016-05-18T01:34:48.199156491Z"
+            }
+          ],
+          "totalFilled": 646,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 14247,
+          "qty": 13452,
+          "price": 11117,
+          "orderType": "limit",
+          "id": 2710,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:48.178452053Z",
+          "fills": [
+            {
+              "price": 11117,
+              "qty": 158,
+              "ts": "2016-05-18T01:34:48.18696553Z"
+            },
+            {
+              "price": 11117,
+              "qty": 112,
+              "ts": "2016-05-18T01:34:48.189221242Z"
+            },
+            {
+              "price": 11117,
+              "qty": 101,
+              "ts": "2016-05-18T01:34:48.191440005Z"
+            },
+            {
+              "price": 11117,
+              "qty": 112,
+              "ts": "2016-05-18T01:34:48.193439785Z"
+            },
+            {
+              "price": 11117,
+              "qty": 94,
+              "ts": "2016-05-18T01:34:48.195853258Z"
+            },
+            {
+              "price": 11117,
+              "qty": 69,
+              "ts": "2016-05-18T01:34:48.199156491Z"
+            },
+            {
+              "price": 11117,
+              "qty": 149,
+              "ts": "2016-05-18T01:34:48.240950016Z"
+            }
+          ],
+          "totalFilled": 795,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 5,
+          "qty": 0,
+          "price": 11026,
+          "orderType": "limit",
+          "id": 2751,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:48.485565505Z",
+          "fills": [
+            {
+              "price": 11026,
+              "qty": 5,
+              "ts": "2016-05-18T01:34:48.496205349Z"
+            }
+          ],
+          "totalFilled": 5,
+          "open": false
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 5,
+          "qty": 0,
+          "price": 11080,
+          "orderType": "limit",
+          "id": 2750,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:48.484001124Z",
+          "fills": [
+            {
+              "price": 11080,
+              "qty": 5,
+              "ts": "2016-05-18T01:34:48.496208156Z"
+            }
+          ],
+          "totalFilled": 5,
+          "open": false
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "sell",
+          "originalQty": 5,
+          "qty": 0,
+          "price": 11134,
+          "orderType": "limit",
+          "id": 2749,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:48.482646153Z",
+          "fills": [
+            {
+              "price": 11134,
+              "qty": 5,
+              "ts": "2016-05-18T01:34:48.496210228Z"
+            }
+          ],
+          "totalFilled": 5,
+          "open": false
+        }
+      ],
+      "bids": [
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15786,
+          "qty": 15674,
+          "price": 10532,
+          "orderType": "limit",
+          "id": 2412,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:23.338137205Z",
+          "fills": [
+            {
+              "price": 10532,
+              "qty": 112,
+              "ts": "2016-05-18T01:34:28.11675984Z"
+            }
+          ],
+          "totalFilled": 112,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15824,
+          "qty": 15646,
+          "price": 11019,
+          "orderType": "limit",
+          "id": 2456,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:28.266410202Z",
+          "fills": [
+            {
+              "price": 11019,
+              "qty": 178,
+              "ts": "2016-05-18T01:34:28.275086619Z"
+            }
+          ],
+          "totalFilled": 178,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15824,
+          "qty": 15521,
+          "price": 11019,
+          "orderType": "limit",
+          "id": 2456,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:28.266410202Z",
+          "fills": [
+            {
+              "price": 11019,
+              "qty": 178,
+              "ts": "2016-05-18T01:34:28.275086619Z"
+            },
+            {
+              "price": 11019,
+              "qty": 125,
+              "ts": "2016-05-18T01:34:28.305444404Z"
+            }
+          ],
+          "totalFilled": 303,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15824,
+          "qty": 15393,
+          "price": 11019,
+          "orderType": "limit",
+          "id": 2456,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:28.266410202Z",
+          "fills": [
+            {
+              "price": 11019,
+              "qty": 178,
+              "ts": "2016-05-18T01:34:28.275086619Z"
+            },
+            {
+              "price": 11019,
+              "qty": 125,
+              "ts": "2016-05-18T01:34:28.305444404Z"
+            },
+            {
+              "price": 11019,
+              "qty": 128,
+              "ts": "2016-05-18T01:34:28.337443341Z"
+            }
+          ],
+          "totalFilled": 431,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15824,
+          "qty": 15263,
+          "price": 11019,
+          "orderType": "limit",
+          "id": 2456,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:28.266410202Z",
+          "fills": [
+            {
+              "price": 11019,
+              "qty": 178,
+              "ts": "2016-05-18T01:34:28.275086619Z"
+            },
+            {
+              "price": 11019,
+              "qty": 125,
+              "ts": "2016-05-18T01:34:28.305444404Z"
+            },
+            {
+              "price": 11019,
+              "qty": 128,
+              "ts": "2016-05-18T01:34:28.337443341Z"
+            },
+            {
+              "price": 11019,
+              "qty": 130,
+              "ts": "2016-05-18T01:34:28.340206771Z"
+            }
+          ],
+          "totalFilled": 561,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15824,
+          "qty": 15171,
+          "price": 11019,
+          "orderType": "limit",
+          "id": 2456,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:28.266410202Z",
+          "fills": [
+            {
+              "price": 11019,
+              "qty": 178,
+              "ts": "2016-05-18T01:34:28.275086619Z"
+            },
+            {
+              "price": 11019,
+              "qty": 125,
+              "ts": "2016-05-18T01:34:28.305444404Z"
+            },
+            {
+              "price": 11019,
+              "qty": 128,
+              "ts": "2016-05-18T01:34:28.337443341Z"
+            },
+            {
+              "price": 11019,
+              "qty": 130,
+              "ts": "2016-05-18T01:34:28.340206771Z"
+            },
+            {
+              "price": 11019,
+              "qty": 92,
+              "ts": "2016-05-18T01:34:28.344792286Z"
+            }
+          ],
+          "totalFilled": 653,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15824,
+          "qty": 14969,
+          "price": 11019,
+          "orderType": "limit",
+          "id": 2456,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:28.266410202Z",
+          "fills": [
+            {
+              "price": 11019,
+              "qty": 178,
+              "ts": "2016-05-18T01:34:28.275086619Z"
+            },
+            {
+              "price": 11019,
+              "qty": 125,
+              "ts": "2016-05-18T01:34:28.305444404Z"
+            },
+            {
+              "price": 11019,
+              "qty": 128,
+              "ts": "2016-05-18T01:34:28.337443341Z"
+            },
+            {
+              "price": 11019,
+              "qty": 130,
+              "ts": "2016-05-18T01:34:28.340206771Z"
+            },
+            {
+              "price": 11019,
+              "qty": 92,
+              "ts": "2016-05-18T01:34:28.344792286Z"
+            },
+            {
+              "price": 11019,
+              "qty": 202,
+              "ts": "2016-05-18T01:34:28.350026937Z"
+            }
+          ],
+          "totalFilled": 855,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15824,
+          "qty": 14826,
+          "price": 11019,
+          "orderType": "limit",
+          "id": 2456,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:28.266410202Z",
+          "fills": [
+            {
+              "price": 11019,
+              "qty": 178,
+              "ts": "2016-05-18T01:34:28.275086619Z"
+            },
+            {
+              "price": 11019,
+              "qty": 125,
+              "ts": "2016-05-18T01:34:28.305444404Z"
+            },
+            {
+              "price": 11019,
+              "qty": 128,
+              "ts": "2016-05-18T01:34:28.337443341Z"
+            },
+            {
+              "price": 11019,
+              "qty": 130,
+              "ts": "2016-05-18T01:34:28.340206771Z"
+            },
+            {
+              "price": 11019,
+              "qty": 92,
+              "ts": "2016-05-18T01:34:28.344792286Z"
+            },
+            {
+              "price": 11019,
+              "qty": 202,
+              "ts": "2016-05-18T01:34:28.350026937Z"
+            },
+            {
+              "price": 11019,
+              "qty": 143,
+              "ts": "2016-05-18T01:34:28.362079231Z"
+            }
+          ],
+          "totalFilled": 998,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15824,
+          "qty": 14617,
+          "price": 11019,
+          "orderType": "limit",
+          "id": 2456,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:28.266410202Z",
+          "fills": [
+            {
+              "price": 11019,
+              "qty": 178,
+              "ts": "2016-05-18T01:34:28.275086619Z"
+            },
+            {
+              "price": 11019,
+              "qty": 125,
+              "ts": "2016-05-18T01:34:28.305444404Z"
+            },
+            {
+              "price": 11019,
+              "qty": 128,
+              "ts": "2016-05-18T01:34:28.337443341Z"
+            },
+            {
+              "price": 11019,
+              "qty": 130,
+              "ts": "2016-05-18T01:34:28.340206771Z"
+            },
+            {
+              "price": 11019,
+              "qty": 92,
+              "ts": "2016-05-18T01:34:28.344792286Z"
+            },
+            {
+              "price": 11019,
+              "qty": 202,
+              "ts": "2016-05-18T01:34:28.350026937Z"
+            },
+            {
+              "price": 11019,
+              "qty": 143,
+              "ts": "2016-05-18T01:34:28.362079231Z"
+            },
+            {
+              "price": 11019,
+              "qty": 209,
+              "ts": "2016-05-18T01:34:28.403410787Z"
+            }
+          ],
+          "totalFilled": 1207,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15824,
+          "qty": 14469,
+          "price": 11019,
+          "orderType": "limit",
+          "id": 2456,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:28.266410202Z",
+          "fills": [
+            {
+              "price": 11019,
+              "qty": 178,
+              "ts": "2016-05-18T01:34:28.275086619Z"
+            },
+            {
+              "price": 11019,
+              "qty": 125,
+              "ts": "2016-05-18T01:34:28.305444404Z"
+            },
+            {
+              "price": 11019,
+              "qty": 128,
+              "ts": "2016-05-18T01:34:28.337443341Z"
+            },
+            {
+              "price": 11019,
+              "qty": 130,
+              "ts": "2016-05-18T01:34:28.340206771Z"
+            },
+            {
+              "price": 11019,
+              "qty": 92,
+              "ts": "2016-05-18T01:34:28.344792286Z"
+            },
+            {
+              "price": 11019,
+              "qty": 202,
+              "ts": "2016-05-18T01:34:28.350026937Z"
+            },
+            {
+              "price": 11019,
+              "qty": 143,
+              "ts": "2016-05-18T01:34:28.362079231Z"
+            },
+            {
+              "price": 11019,
+              "qty": 209,
+              "ts": "2016-05-18T01:34:28.403410787Z"
+            },
+            {
+              "price": 11019,
+              "qty": 148,
+              "ts": "2016-05-18T01:34:28.406204639Z"
+            }
+          ],
+          "totalFilled": 1355,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15824,
+          "qty": 14344,
+          "price": 11019,
+          "orderType": "limit",
+          "id": 2456,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:28.266410202Z",
+          "fills": [
+            {
+              "price": 11019,
+              "qty": 178,
+              "ts": "2016-05-18T01:34:28.275086619Z"
+            },
+            {
+              "price": 11019,
+              "qty": 125,
+              "ts": "2016-05-18T01:34:28.305444404Z"
+            },
+            {
+              "price": 11019,
+              "qty": 128,
+              "ts": "2016-05-18T01:34:28.337443341Z"
+            },
+            {
+              "price": 11019,
+              "qty": 130,
+              "ts": "2016-05-18T01:34:28.340206771Z"
+            },
+            {
+              "price": 11019,
+              "qty": 92,
+              "ts": "2016-05-18T01:34:28.344792286Z"
+            },
+            {
+              "price": 11019,
+              "qty": 202,
+              "ts": "2016-05-18T01:34:28.350026937Z"
+            },
+            {
+              "price": 11019,
+              "qty": 143,
+              "ts": "2016-05-18T01:34:28.362079231Z"
+            },
+            {
+              "price": 11019,
+              "qty": 209,
+              "ts": "2016-05-18T01:34:28.403410787Z"
+            },
+            {
+              "price": 11019,
+              "qty": 148,
+              "ts": "2016-05-18T01:34:28.406204639Z"
+            },
+            {
+              "price": 11019,
+              "qty": 125,
+              "ts": "2016-05-18T01:34:28.408738313Z"
+            }
+          ],
+          "totalFilled": 1480,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15824,
+          "qty": 14213,
+          "price": 11019,
+          "orderType": "limit",
+          "id": 2456,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:28.266410202Z",
+          "fills": [
+            {
+              "price": 11019,
+              "qty": 178,
+              "ts": "2016-05-18T01:34:28.275086619Z"
+            },
+            {
+              "price": 11019,
+              "qty": 125,
+              "ts": "2016-05-18T01:34:28.305444404Z"
+            },
+            {
+              "price": 11019,
+              "qty": 128,
+              "ts": "2016-05-18T01:34:28.337443341Z"
+            },
+            {
+              "price": 11019,
+              "qty": 130,
+              "ts": "2016-05-18T01:34:28.340206771Z"
+            },
+            {
+              "price": 11019,
+              "qty": 92,
+              "ts": "2016-05-18T01:34:28.344792286Z"
+            },
+            {
+              "price": 11019,
+              "qty": 202,
+              "ts": "2016-05-18T01:34:28.350026937Z"
+            },
+            {
+              "price": 11019,
+              "qty": 143,
+              "ts": "2016-05-18T01:34:28.362079231Z"
+            },
+            {
+              "price": 11019,
+              "qty": 209,
+              "ts": "2016-05-18T01:34:28.403410787Z"
+            },
+            {
+              "price": 11019,
+              "qty": 148,
+              "ts": "2016-05-18T01:34:28.406204639Z"
+            },
+            {
+              "price": 11019,
+              "qty": 125,
+              "ts": "2016-05-18T01:34:28.408738313Z"
+            },
+            {
+              "price": 11019,
+              "qty": 131,
+              "ts": "2016-05-18T01:34:28.411359484Z"
+            }
+          ],
+          "totalFilled": 1611,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15663,
+          "qty": 15571,
+          "price": 10814,
+          "orderType": "limit",
+          "id": 2553,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:33.847056922Z",
+          "fills": [
+            {
+              "price": 10814,
+              "qty": 92,
+              "ts": "2016-05-18T01:34:38.119225484Z"
+            }
+          ],
+          "totalFilled": 92,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15663,
+          "qty": 15491,
+          "price": 10814,
+          "orderType": "limit",
+          "id": 2553,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:33.847056922Z",
+          "fills": [
+            {
+              "price": 10814,
+              "qty": 92,
+              "ts": "2016-05-18T01:34:38.119225484Z"
+            },
+            {
+              "price": 10814,
+              "qty": 80,
+              "ts": "2016-05-18T01:34:38.126521395Z"
+            }
+          ],
+          "totalFilled": 172,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15663,
+          "qty": 15389,
+          "price": 10814,
+          "orderType": "limit",
+          "id": 2553,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:33.847056922Z",
+          "fills": [
+            {
+              "price": 10814,
+              "qty": 92,
+              "ts": "2016-05-18T01:34:38.119225484Z"
+            },
+            {
+              "price": 10814,
+              "qty": 80,
+              "ts": "2016-05-18T01:34:38.126521395Z"
+            },
+            {
+              "price": 10814,
+              "qty": 102,
+              "ts": "2016-05-18T01:34:38.133650404Z"
+            }
+          ],
+          "totalFilled": 274,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15766,
+          "qty": 15670,
+          "price": 10868,
+          "orderType": "limit",
+          "id": 2572,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:38.16940605Z",
+          "fills": [
+            {
+              "price": 10868,
+              "qty": 96,
+              "ts": "2016-05-18T01:34:38.173934764Z"
+            }
+          ],
+          "totalFilled": 96,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15766,
+          "qty": 15543,
+          "price": 10868,
+          "orderType": "limit",
+          "id": 2572,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:38.16940605Z",
+          "fills": [
+            {
+              "price": 10868,
+              "qty": 96,
+              "ts": "2016-05-18T01:34:38.173934764Z"
+            },
+            {
+              "price": 10868,
+              "qty": 127,
+              "ts": "2016-05-18T01:34:38.175805398Z"
+            }
+          ],
+          "totalFilled": 223,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15766,
+          "qty": 15451,
+          "price": 10868,
+          "orderType": "limit",
+          "id": 2572,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:38.16940605Z",
+          "fills": [
+            {
+              "price": 10868,
+              "qty": 96,
+              "ts": "2016-05-18T01:34:38.173934764Z"
+            },
+            {
+              "price": 10868,
+              "qty": 127,
+              "ts": "2016-05-18T01:34:38.175805398Z"
+            },
+            {
+              "price": 10868,
+              "qty": 92,
+              "ts": "2016-05-18T01:34:38.177599718Z"
+            }
+          ],
+          "totalFilled": 315,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15738,
+          "qty": 15586,
+          "price": 11105,
+          "orderType": "limit",
+          "id": 2631,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:43.142087902Z",
+          "fills": [
+            {
+              "price": 11105,
+              "qty": 152,
+              "ts": "2016-05-18T01:34:43.149625011Z"
+            }
+          ],
+          "totalFilled": 152,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15738,
+          "qty": 15522,
+          "price": 11105,
+          "orderType": "limit",
+          "id": 2631,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:43.142087902Z",
+          "fills": [
+            {
+              "price": 11105,
+              "qty": 152,
+              "ts": "2016-05-18T01:34:43.149625011Z"
+            },
+            {
+              "price": 11105,
+              "qty": 64,
+              "ts": "2016-05-18T01:34:43.156106662Z"
+            }
+          ],
+          "totalFilled": 216,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15738,
+          "qty": 15446,
+          "price": 11105,
+          "orderType": "limit",
+          "id": 2631,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:43.142087902Z",
+          "fills": [
+            {
+              "price": 11105,
+              "qty": 152,
+              "ts": "2016-05-18T01:34:43.149625011Z"
+            },
+            {
+              "price": 11105,
+              "qty": 64,
+              "ts": "2016-05-18T01:34:43.156106662Z"
+            },
+            {
+              "price": 11105,
+              "qty": 76,
+              "ts": "2016-05-18T01:34:43.204845107Z"
+            }
+          ],
+          "totalFilled": 292,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15738,
+          "qty": 15354,
+          "price": 11105,
+          "orderType": "limit",
+          "id": 2631,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:43.142087902Z",
+          "fills": [
+            {
+              "price": 11105,
+              "qty": 152,
+              "ts": "2016-05-18T01:34:43.149625011Z"
+            },
+            {
+              "price": 11105,
+              "qty": 64,
+              "ts": "2016-05-18T01:34:43.156106662Z"
+            },
+            {
+              "price": 11105,
+              "qty": 76,
+              "ts": "2016-05-18T01:34:43.204845107Z"
+            },
+            {
+              "price": 11105,
+              "qty": 92,
+              "ts": "2016-05-18T01:34:43.207103082Z"
+            }
+          ],
+          "totalFilled": 384,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15738,
+          "qty": 15191,
+          "price": 11105,
+          "orderType": "limit",
+          "id": 2631,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:43.142087902Z",
+          "fills": [
+            {
+              "price": 11105,
+              "qty": 152,
+              "ts": "2016-05-18T01:34:43.149625011Z"
+            },
+            {
+              "price": 11105,
+              "qty": 64,
+              "ts": "2016-05-18T01:34:43.156106662Z"
+            },
+            {
+              "price": 11105,
+              "qty": 76,
+              "ts": "2016-05-18T01:34:43.204845107Z"
+            },
+            {
+              "price": 11105,
+              "qty": 92,
+              "ts": "2016-05-18T01:34:43.207103082Z"
+            },
+            {
+              "price": 11105,
+              "qty": 163,
+              "ts": "2016-05-18T01:34:43.210080366Z"
+            }
+          ],
+          "totalFilled": 547,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15738,
+          "qty": 15087,
+          "price": 11105,
+          "orderType": "limit",
+          "id": 2631,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:43.142087902Z",
+          "fills": [
+            {
+              "price": 11105,
+              "qty": 152,
+              "ts": "2016-05-18T01:34:43.149625011Z"
+            },
+            {
+              "price": 11105,
+              "qty": 64,
+              "ts": "2016-05-18T01:34:43.156106662Z"
+            },
+            {
+              "price": 11105,
+              "qty": 76,
+              "ts": "2016-05-18T01:34:43.204845107Z"
+            },
+            {
+              "price": 11105,
+              "qty": 92,
+              "ts": "2016-05-18T01:34:43.207103082Z"
+            },
+            {
+              "price": 11105,
+              "qty": 163,
+              "ts": "2016-05-18T01:34:43.210080366Z"
+            },
+            {
+              "price": 11105,
+              "qty": 104,
+              "ts": "2016-05-18T01:34:43.213105961Z"
+            }
+          ],
+          "totalFilled": 651,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15738,
+          "qty": 14900,
+          "price": 11105,
+          "orderType": "limit",
+          "id": 2631,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:43.142087902Z",
+          "fills": [
+            {
+              "price": 11105,
+              "qty": 152,
+              "ts": "2016-05-18T01:34:43.149625011Z"
+            },
+            {
+              "price": 11105,
+              "qty": 64,
+              "ts": "2016-05-18T01:34:43.156106662Z"
+            },
+            {
+              "price": 11105,
+              "qty": 76,
+              "ts": "2016-05-18T01:34:43.204845107Z"
+            },
+            {
+              "price": 11105,
+              "qty": 92,
+              "ts": "2016-05-18T01:34:43.207103082Z"
+            },
+            {
+              "price": 11105,
+              "qty": 163,
+              "ts": "2016-05-18T01:34:43.210080366Z"
+            },
+            {
+              "price": 11105,
+              "qty": 104,
+              "ts": "2016-05-18T01:34:43.213105961Z"
+            },
+            {
+              "price": 11105,
+              "qty": 187,
+              "ts": "2016-05-18T01:34:43.271231105Z"
+            }
+          ],
+          "totalFilled": 838,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15738,
+          "qty": 14828,
+          "price": 11105,
+          "orderType": "limit",
+          "id": 2631,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:43.142087902Z",
+          "fills": [
+            {
+              "price": 11105,
+              "qty": 152,
+              "ts": "2016-05-18T01:34:43.149625011Z"
+            },
+            {
+              "price": 11105,
+              "qty": 64,
+              "ts": "2016-05-18T01:34:43.156106662Z"
+            },
+            {
+              "price": 11105,
+              "qty": 76,
+              "ts": "2016-05-18T01:34:43.204845107Z"
+            },
+            {
+              "price": 11105,
+              "qty": 92,
+              "ts": "2016-05-18T01:34:43.207103082Z"
+            },
+            {
+              "price": 11105,
+              "qty": 163,
+              "ts": "2016-05-18T01:34:43.210080366Z"
+            },
+            {
+              "price": 11105,
+              "qty": 104,
+              "ts": "2016-05-18T01:34:43.213105961Z"
+            },
+            {
+              "price": 11105,
+              "qty": 187,
+              "ts": "2016-05-18T01:34:43.271231105Z"
+            },
+            {
+              "price": 11105,
+              "qty": 72,
+              "ts": "2016-05-18T01:34:43.303629093Z"
+            }
+          ],
+          "totalFilled": 910,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15752,
+          "qty": 15692,
+          "price": 10918,
+          "orderType": "limit",
+          "id": 2713,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:48.183026416Z",
+          "fills": [
+            {
+              "price": 10918,
+              "qty": 60,
+              "ts": "2016-05-18T01:34:48.302545691Z"
+            }
+          ],
+          "totalFilled": 60,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15752,
+          "qty": 15572,
+          "price": 10918,
+          "orderType": "limit",
+          "id": 2713,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:48.183026416Z",
+          "fills": [
+            {
+              "price": 10918,
+              "qty": 60,
+              "ts": "2016-05-18T01:34:48.302545691Z"
+            },
+            {
+              "price": 10918,
+              "qty": 120,
+              "ts": "2016-05-18T01:34:48.305208909Z"
+            }
+          ],
+          "totalFilled": 180,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 15752,
+          "qty": 15433,
+          "price": 10918,
+          "orderType": "limit",
+          "id": 2713,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:48.183026416Z",
+          "fills": [
+            {
+              "price": 10918,
+              "qty": 60,
+              "ts": "2016-05-18T01:34:48.302545691Z"
+            },
+            {
+              "price": 10918,
+              "qty": 120,
+              "ts": "2016-05-18T01:34:48.305208909Z"
+            },
+            {
+              "price": 10918,
+              "qty": 139,
+              "ts": "2016-05-18T01:34:48.308291415Z"
+            }
+          ],
+          "totalFilled": 319,
+          "open": true
+        },
+        {
+          "ok": true,
+          "symbol": "UIBY",
+          "venue": "IJWBEX",
+          "direction": "buy",
+          "originalQty": 48,
+          "qty": 0,
+          "price": 10918,
+          "orderType": "limit",
+          "id": 2741,
+          "account": "BI38868855",
+          "ts": "2016-05-18T01:34:48.34306852Z",
+          "fills": [
+            {
+              "price": 10918,
+              "qty": 48,
+              "ts": "2016-05-18T01:34:48.344721035Z"
+            }
+          ],
+          "totalFilled": 48,
+          "open": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,578 @@
+worker 57287 started.
+RESTART LEVEL
+levelREstart
+StartWatchers : leveljs object   {
+  "ok": true,
+  "instanceId": 22252,
+  "account": "CES86493405",
+  "instructions": {
+    "Instructions": "# Nail This Bastard To The Wall (Street)\n\nWe're the regulator for the EIHQ Dehli Exchange (HQDEX), the Committee for Exchange Security, better known as \nthe CES.  We need your help.\n\nOur primary responsibility is making sure that the public markets operate in a fair and stable manner.  Insider trading,\nwhere someone with a fiduciary duty to a company uses material non-public information for their own benefit,\ndestabilizes the market and destroys investor confidence.  We prosecute it, vigorously, when we find it.\n\nWe got an anonymous tip from a whistleblower inside UUKG Corporation (UUKG).  Apparently their comptroller\nwas very underwater on his mortgage but recently, quote, \"a rich uncle died and left me a fortune.\"  We pulled birth\nrecords, marriage licenses, and social network profiles, and we believe no such uncle existed.\n\nWhen comptrollers suddenly come into a lot of money, it either means embezzlement or insider trading.  We have\ntalked to some market makers for UUKG Corporation and they spontaneously offered \"Yeah, it feels funny recently.\nCan't quite put my finger on it.\"\n\nWe used our regulatory authority to lean on the comptroller's brokerage, but his accounts are clean: he has no\nposition in UUKG and hasn't in a decade.  We suspect he has an accomplice on the outside.  We have no clue\nwho it is.  We don't have enough resources to put the comptroller under surveillance and we don't have any evidence\nto justify a search warrant of his phone or email.\n\nWe need you to help us identify that accomplice.  Find the account making the insider trades and give us hard evidence\nwhich supports them as being anomalous.  We'll use a regulatory subpoena on their brokerage, get their information,\nand your evidence will be used to support a subpoena of their stored communications.  If they've ever talked to the\ncomptroller, both of them are going to have a *very, very bad time.*\n\nWe regulate Wall Street but we don't work on it, so resources are limited.  We put $100,000 in **account CES86493405** for your use.\nThe taxpayers don't need to see a return, so use it responsibly for the purpose of this investigation.  Word to the wise: embezzling it \nwould be an **exceptionally** poor career decision.\n\n\n# Your Goal\n* Identify the accomplice of the comptroller.  You only get one shot at this, so make it count.\n* See \"Submitting Evidence\" under the Instructions menu for how to give us the evidence.\n\n# You'll Be Fired If\n* You accuse someone who turns out to be innocent.\n* You spend more than the $100,000 we allocated for this investigation.\n* You go short -- this is not a margin account.\n* You can't develop a case in 500 days.\n\n## Starfighter Notes\n\nThis level is designed to be challenging but not impossible.  There are multiple steps you'll need to overcome to win\nit.  \n\nYour first order of business should probably be identifying the accounts of everyone trading UUKG on HQDEX.\nDon't know how to do that?  Read the API docs *very thoroughly.*",
+    "Submitting Evidence": "# Submitting Evidence\n\nWe'll take your evidence as a JSON document, in the following format:\n\n```\n{\n  \"account\" : \"ABC123456\",\n  \"explanation_link\": \"http://www.example.com\",\n  \"executive_summary\": \"Lorem ipsum blah blah blah.\"\n}\n```\n\n* **account** (string): the trading account of the comptroller's accomplice\n* **explanation_link** (string): a publicly accessible URL leading to a *detailed* explanation of your evidence. (Feel free to show us code via Github or similar.)\n* **executive_summary** (string): A paragraph or two of text explaining your approach.\n\nPost your evidence to ```/gm/instances/YOUR_INSTANCE_ID/judge```  You can find your instance ID by taking a look at the\ndeveloper tools in your browser and looking for the GET request against ```/gm/instances/YOUR_INSTANCE_ID``` which the UI\nis presently polling every few seconds.\n\n## Starfighter Notes\n\nYou have **one shot per level instance** (i.e. per reset of the level) to get this right.  Submitting any valid JSON\ndocument consumes that shot.  (If you have a formatting problem or similar, you can correct it and try again.)\n\nYour submission will be evaluated automatically with regards to the correctness of the accusation.  If you get it right,\nyou're guaranteed at least one badge for winning the level.\n\nStarfighter's founders will also read *every submission* which is correct.  We'd love to talk with you about yours,\nparticularly if you do something which is novel or compelling.  (Feel free to drop us a note in the executive summary\nif you'd rather we not get in touch -- your call.)\n\nWe will award additional badges, at our discretion, for solutions which:\n\n* Are particularly novel.\n* Demonstrate exceptional insight into the problem as presented.\n* Creatively avoid solving the problem presented and instead \"cheat\" to a solution.\n* Go above and beyond the call of duty.\n* Deserve particular recognition for feats of engineering awesomeness.\n\nWe can't wait to see what you come up with.\n"
+  },
+  "tickers": [
+    "UUKG"
+  ],
+  "venues": [
+    "HQDEX"
+  ],
+  "secondsPerTradingDay": 5,
+  "balances": {
+    "USD": 0
+  }
+}
+With :  wss://api.stockfighter.io/ob/api/ws/CES86493405/venues/HQDEX/tickertape
+With :  wss://api.stockfighter.io/ob/api/ws/CES86493405/venues/HQDEX/executions
+TickerProxy >>> {"wsText":"wss://api.stockfighter.io/ob/api/ws/CES86493405/venues/HQDEX/tickertape","tia":{},"port":9090,"ee":{"domain":null,"_events":{},"_eventsCount":0}}
+TickerProxy :this.wsText >>> wss://api.stockfighter.io/ob/api/ws/CES86493405/venues/HQDEX/tickertape
+AbstractWatcher >>> {"wsText":"wss://api.stockfighter.io/ob/api/ws/CES86493405/venues/HQDEX/tickertape","tia":{},"port":9090,"ee":{"domain":null,"_events":{},"_eventsCount":0}}
+AbstractWatcher :this.wsText >>> wss://api.stockfighter.io/ob/api/ws/CES86493405/venues/HQDEX/tickertape
+TickerProxy, start, wstext is : wss://api.stockfighter.io/ob/api/ws/CES86493405/venues/HQDEX/tickertape
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/CES86493405/venues/HQDEX/tickertape
+AbstractWatcher:serverWrap
+ExecWatcher >>> {"wsText":"wss://api.stockfighter.io/ob/api/ws/CES86493405/venues/HQDEX/executions","instanceId":22252,"tia":{},"port":8081,"ee":{"domain":null,"_events":{},"_eventsCount":1}}
+ExecWatcher :this.wsText >>> wss://api.stockfighter.io/ob/api/ws/CES86493405/venues/HQDEX/executions
+AbstractWatcher >>> {"wsText":"wss://api.stockfighter.io/ob/api/ws/CES86493405/venues/HQDEX/executions","instanceId":22252,"tia":{},"port":8081,"ee":{"domain":null,"_events":{},"_eventsCount":1}}
+AbstractWatcher :this.wsText >>> wss://api.stockfighter.io/ob/api/ws/CES86493405/venues/HQDEX/executions
+ExecWatcher, start, wstext is : wss://api.stockfighter.io/ob/api/ws/CES86493405/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/CES86493405/venues/HQDEX/executions
+AbstractWatcher:serverWrap
+Watiting for localWatcher...
+localWatcher : go ---> 22252
+localWatcher >>> {"wsText":"ws://localhost:8123","instanceId":22252,"tia":{},"port":8123}
+localWatcher :this.wsText >>> ws://localhost:8123
+AbstractWatcher >>> {"wsText":"ws://localhost:8123","instanceId":22252,"tia":{},"port":8123}
+AbstractWatcher :this.wsText >>> ws://localhost:8123
+localwatcher, start, wstext is : ws://localhost:8123
+AbstractWatcher:serverWrap
+Watiting for OrderbookWatcher... HQDEX   UUKG
+ExecWatcher >>> {"wsText":"ws://localhost:8082","instanceId":22252,"tia":{},"port":8082,"venue":"HQDEX","symbol":"UUKG"}
+ExecWatcher :this.wsText >>> ws://localhost:8082
+AbstractWatcher >>> {"wsText":"ws://localhost:8082","instanceId":22252,"tia":{},"port":8082,"venue":"HQDEX","symbol":"UUKG"}
+AbstractWatcher :this.wsText >>> ws://localhost:8082
+watcher, start, wstext is : ws://localhost:8082
+AbstractWatcher:serverWrap
+Watiting for AskBidWatcher... and EE is a  object
+local AskBidWatcher  >>> {"instanceId":22252,"port":8888,"ee":{"domain":null,"_events":{},"_eventsCount":2}}
+AbstractWatcher >>> {"instanceId":22252,"port":8888,"ee":{"domain":null,"_events":{},"_eventsCount":2}}
+AbstractWatcher :this.wsText >>> undefined
+ AskBidWatcher , start, wstext is : undefined
+AbstractWatcher:serverWrap
+TRADING :  UUKG
+LEVELCFG : beautified :  {
+  "ok": true,
+  "instanceId": 22252,
+  "account": "CES86493405",
+  "instructions": {
+    "Instructions": "# Nail This Bastard To The Wall (Street)\n\nWe're the regulator for the EIHQ Dehli Exchange (HQDEX), the Committee for Exchange Security, better known as \nthe CES.  We need your help.\n\nOur primary responsibility is making sure that the public markets operate in a fair and stable manner.  Insider trading,\nwhere someone with a fiduciary duty to a company uses material non-public information for their own benefit,\ndestabilizes the market and destroys investor confidence.  We prosecute it, vigorously, when we find it.\n\nWe got an anonymous tip from a whistleblower inside UUKG Corporation (UUKG).  Apparently their comptroller\nwas very underwater on his mortgage but recently, quote, \"a rich uncle died and left me a fortune.\"  We pulled birth\nrecords, marriage licenses, and social network profiles, and we believe no such uncle existed.\n\nWhen comptrollers suddenly come into a lot of money, it either means embezzlement or insider trading.  We have\ntalked to some market makers for UUKG Corporation and they spontaneously offered \"Yeah, it feels funny recently.\nCan't quite put my finger on it.\"\n\nWe used our regulatory authority to lean on the comptroller's brokerage, but his accounts are clean: he has no\nposition in UUKG and hasn't in a decade.  We suspect he has an accomplice on the outside.  We have no clue\nwho it is.  We don't have enough resources to put the comptroller under surveillance and we don't have any evidence\nto justify a search warrant of his phone or email.\n\nWe need you to help us identify that accomplice.  Find the account making the insider trades and give us hard evidence\nwhich supports them as being anomalous.  We'll use a regulatory subpoena on their brokerage, get their information,\nand your evidence will be used to support a subpoena of their stored communications.  If they've ever talked to the\ncomptroller, both of them are going to have a *very, very bad time.*\n\nWe regulate Wall Street but we don't work on it, so resources are limited.  We put $100,000 in **account CES86493405** for your use.\nThe taxpayers don't need to see a return, so use it responsibly for the purpose of this investigation.  Word to the wise: embezzling it \nwould be an **exceptionally** poor career decision.\n\n\n# Your Goal\n* Identify the accomplice of the comptroller.  You only get one shot at this, so make it count.\n* See \"Submitting Evidence\" under the Instructions menu for how to give us the evidence.\n\n# You'll Be Fired If\n* You accuse someone who turns out to be innocent.\n* You spend more than the $100,000 we allocated for this investigation.\n* You go short -- this is not a margin account.\n* You can't develop a case in 500 days.\n\n## Starfighter Notes\n\nThis level is designed to be challenging but not impossible.  There are multiple steps you'll need to overcome to win\nit.  \n\nYour first order of business should probably be identifying the accounts of everyone trading UUKG on HQDEX.\nDon't know how to do that?  Read the API docs *very thoroughly.*",
+    "Submitting Evidence": "# Submitting Evidence\n\nWe'll take your evidence as a JSON document, in the following format:\n\n```\n{\n  \"account\" : \"ABC123456\",\n  \"explanation_link\": \"http://www.example.com\",\n  \"executive_summary\": \"Lorem ipsum blah blah blah.\"\n}\n```\n\n* **account** (string): the trading account of the comptroller's accomplice\n* **explanation_link** (string): a publicly accessible URL leading to a *detailed* explanation of your evidence. (Feel free to show us code via Github or similar.)\n* **executive_summary** (string): A paragraph or two of text explaining your approach.\n\nPost your evidence to ```/gm/instances/YOUR_INSTANCE_ID/judge```  You can find your instance ID by taking a look at the\ndeveloper tools in your browser and looking for the GET request against ```/gm/instances/YOUR_INSTANCE_ID``` which the UI\nis presently polling every few seconds.\n\n## Starfighter Notes\n\nYou have **one shot per level instance** (i.e. per reset of the level) to get this right.  Submitting any valid JSON\ndocument consumes that shot.  (If you have a formatting problem or similar, you can correct it and try again.)\n\nYour submission will be evaluated automatically with regards to the correctness of the accusation.  If you get it right,\nyou're guaranteed at least one badge for winning the level.\n\nStarfighter's founders will also read *every submission* which is correct.  We'd love to talk with you about yours,\nparticularly if you do something which is novel or compelling.  (Feel free to drop us a note in the executive summary\nif you'd rather we not get in touch -- your call.)\n\nWe will award additional badges, at our discretion, for solutions which:\n\n* Are particularly novel.\n* Demonstrate exceptional insight into the problem as presented.\n* Creatively avoid solving the problem presented and instead \"cheat\" to a solution.\n* Go above and beyond the call of duty.\n* Deserve particular recognition for feats of engineering awesomeness.\n\nWe can't wait to see what you come up with.\n"
+  },
+  "tickers": [
+    "UUKG"
+  ],
+  "venues": [
+    "HQDEX"
+  ],
+  "secondsPerTradingDay": 5,
+  "balances": {
+    "USD": 0
+  }
+}
+With :  wss://api.stockfighter.io/ob/api/ws/CES86493405/venues/HQDEX/tickertape
+TickerTiaProxy >>> {"wsText":"wss://api.stockfighter.io/ob/api/ws/CES86493405/venues/HQDEX/tickertape","tia":{},"port":8080,"trading":{"scanned":0,"outlier":true,"position":{"cash":0,"shares":0,"ee":{"domain":null,"_events":{"fillevent":[null,null]},"_eventsCount":8},"db":{"asks":{},"bids":{},"cancelled":{"asks":[],"bids":[]},"fills":{"asks":[],"bids":[]}}},"genesis":1463550237659,"levelcfg":{"ok":true,"instanceId":22252,"account":"CES86493405","instructions":{"Instructions":"# Nail This Bastard To The Wall (Street)\n\nWe're the regulator for the EIHQ Dehli Exchange (HQDEX), the Committee for Exchange Security, better known as \nthe CES.  We need your help.\n\nOur primary responsibility is making sure that the public markets operate in a fair and stable manner.  Insider trading,\nwhere someone with a fiduciary duty to a company uses material non-public information for their own benefit,\ndestabilizes the market and destroys investor confidence.  We prosecute it, vigorously, when we find it.\n\nWe got an anonymous tip from a whistleblower inside UUKG Corporation (UUKG).  Apparently their comptroller\nwas very underwater on his mortgage but recently, quote, \"a rich uncle died and left me a fortune.\"  We pulled birth\nrecords, marriage licenses, and social network profiles, and we believe no such uncle existed.\n\nWhen comptrollers suddenly come into a lot of money, it either means embezzlement or insider trading.  We have\ntalked to some market makers for UUKG Corporation and they spontaneously offered \"Yeah, it feels funny recently.\nCan't quite put my finger on it.\"\n\nWe used our regulatory authority to lean on the comptroller's brokerage, but his accounts are clean: he has no\nposition in UUKG and hasn't in a decade.  We suspect he has an accomplice on the outside.  We have no clue\nwho it is.  We don't have enough resources to put the comptroller under surveillance and we don't have any evidence\nto justify a search warrant of his phone or email.\n\nWe need you to help us identify that accomplice.  Find the account making the insider trades and give us hard evidence\nwhich supports them as being anomalous.  We'll use a regulatory subpoena on their brokerage, get their information,\nand your evidence will be used to support a subpoena of their stored communications.  If they've ever talked to the\ncomptroller, both of them are going to have a *very, very bad time.*\n\nWe regulate Wall Street but we don't work on it, so resources are limited.  We put $100,000 in **account CES86493405** for your use.\nThe taxpayers don't need to see a return, so use it responsibly for the purpose of this investigation.  Word to the wise: embezzling it \nwould be an **exceptionally** poor career decision.\n\n\n# Your Goal\n* Identify the accomplice of the comptroller.  You only get one shot at this, so make it count.\n* See \"Submitting Evidence\" under the Instructions menu for how to give us the evidence.\n\n# You'll Be Fired If\n* You accuse someone who turns out to be innocent.\n* You spend more than the $100,000 we allocated for this investigation.\n* You go short -- this is not a margin account.\n* You can't develop a case in 500 days.\n\n## Starfighter Notes\n\nThis level is designed to be challenging but not impossible.  There are multiple steps you'll need to overcome to win\nit.  \n\nYour first order of business should probably be identifying the accounts of everyone trading UUKG on HQDEX.\nDon't know how to do that?  Read the API docs *very thoroughly.*","Submitting Evidence":"# Submitting Evidence\n\nWe'll take your evidence as a JSON document, in the following format:\n\n```\n{\n  \"account\" : \"ABC123456\",\n  \"explanation_link\": \"http://www.example.com\",\n  \"executive_summary\": \"Lorem ipsum blah blah blah.\"\n}\n```\n\n* **account** (string): the trading account of the comptroller's accomplice\n* **explanation_link** (string): a publicly accessible URL leading to a *detailed* explanation of your evidence. (Feel free to show us code via Github or similar.)\n* **executive_summary** (string): A paragraph or two of text explaining your approach.\n\nPost your evidence to ```/gm/instances/YOUR_INSTANCE_ID/judge```  You can find your instance ID by taking a look at the\ndeveloper tools in your browser and looking for the GET request against ```/gm/instances/YOUR_INSTANCE_ID``` which the UI\nis presently polling every few seconds.\n\n## Starfighter Notes\n\nYou have **one shot per level instance** (i.e. per reset of the level) to get this right.  Submitting any valid JSON\ndocument consumes that shot.  (If you have a formatting problem or similar, you can correct it and try again.)\n\nYour submission will be evaluated automatically with regards to the correctness of the accusation.  If you get it right,\nyou're guaranteed at least one badge for winning the level.\n\nStarfighter's founders will also read *every submission* which is correct.  We'd love to talk with you about yours,\nparticularly if you do something which is novel or compelling.  (Feel free to drop us a note in the executive summary\nif you'd rather we not get in touch -- your call.)\n\nWe will award additional badges, at our discretion, for solutions which:\n\n* Are particularly novel.\n* Demonstrate exceptional insight into the problem as presented.\n* Creatively avoid solving the problem presented and instead \"cheat\" to a solution.\n* Go above and beyond the call of duty.\n* Deserve particular recognition for feats of engineering awesomeness.\n\nWe can't wait to see what you come up with.\n"},"tickers":["UUKG"],"venues":["HQDEX"],"secondsPerTradingDay":5,"balances":{"USD":0}},"aiinterval":null,"stalls":{},"tia":{},"tweakables":{"FSM":"trading","BUCKET_SIZE":20,"ASK_PCT":0.05,"BID_PCT":0.05,"SELL_SIZE":25,"WINDOW":400,"HIST_WINDOW":10},"ee":{"domain":null,"_events":{"fillevent":[null,null]},"_eventsCount":8}}}
+TickerProxy :this.wsText >>> wss://api.stockfighter.io/ob/api/ws/CES86493405/venues/HQDEX/tickertape
+AbstractWatcher >>> {"wsText":"wss://api.stockfighter.io/ob/api/ws/CES86493405/venues/HQDEX/tickertape","tia":{},"port":8080,"trading":{"scanned":0,"outlier":true,"position":{"cash":0,"shares":0,"ee":{"domain":null,"_events":{"fillevent":[null,null]},"_eventsCount":8},"db":{"asks":{},"bids":{},"cancelled":{"asks":[],"bids":[]},"fills":{"asks":[],"bids":[]}}},"genesis":1463550237659,"levelcfg":{"ok":true,"instanceId":22252,"account":"CES86493405","instructions":{"Instructions":"# Nail This Bastard To The Wall (Street)\n\nWe're the regulator for the EIHQ Dehli Exchange (HQDEX), the Committee for Exchange Security, better known as \nthe CES.  We need your help.\n\nOur primary responsibility is making sure that the public markets operate in a fair and stable manner.  Insider trading,\nwhere someone with a fiduciary duty to a company uses material non-public information for their own benefit,\ndestabilizes the market and destroys investor confidence.  We prosecute it, vigorously, when we find it.\n\nWe got an anonymous tip from a whistleblower inside UUKG Corporation (UUKG).  Apparently their comptroller\nwas very underwater on his mortgage but recently, quote, \"a rich uncle died and left me a fortune.\"  We pulled birth\nrecords, marriage licenses, and social network profiles, and we believe no such uncle existed.\n\nWhen comptrollers suddenly come into a lot of money, it either means embezzlement or insider trading.  We have\ntalked to some market makers for UUKG Corporation and they spontaneously offered \"Yeah, it feels funny recently.\nCan't quite put my finger on it.\"\n\nWe used our regulatory authority to lean on the comptroller's brokerage, but his accounts are clean: he has no\nposition in UUKG and hasn't in a decade.  We suspect he has an accomplice on the outside.  We have no clue\nwho it is.  We don't have enough resources to put the comptroller under surveillance and we don't have any evidence\nto justify a search warrant of his phone or email.\n\nWe need you to help us identify that accomplice.  Find the account making the insider trades and give us hard evidence\nwhich supports them as being anomalous.  We'll use a regulatory subpoena on their brokerage, get their information,\nand your evidence will be used to support a subpoena of their stored communications.  If they've ever talked to the\ncomptroller, both of them are going to have a *very, very bad time.*\n\nWe regulate Wall Street but we don't work on it, so resources are limited.  We put $100,000 in **account CES86493405** for your use.\nThe taxpayers don't need to see a return, so use it responsibly for the purpose of this investigation.  Word to the wise: embezzling it \nwould be an **exceptionally** poor career decision.\n\n\n# Your Goal\n* Identify the accomplice of the comptroller.  You only get one shot at this, so make it count.\n* See \"Submitting Evidence\" under the Instructions menu for how to give us the evidence.\n\n# You'll Be Fired If\n* You accuse someone who turns out to be innocent.\n* You spend more than the $100,000 we allocated for this investigation.\n* You go short -- this is not a margin account.\n* You can't develop a case in 500 days.\n\n## Starfighter Notes\n\nThis level is designed to be challenging but not impossible.  There are multiple steps you'll need to overcome to win\nit.  \n\nYour first order of business should probably be identifying the accounts of everyone trading UUKG on HQDEX.\nDon't know how to do that?  Read the API docs *very thoroughly.*","Submitting Evidence":"# Submitting Evidence\n\nWe'll take your evidence as a JSON document, in the following format:\n\n```\n{\n  \"account\" : \"ABC123456\",\n  \"explanation_link\": \"http://www.example.com\",\n  \"executive_summary\": \"Lorem ipsum blah blah blah.\"\n}\n```\n\n* **account** (string): the trading account of the comptroller's accomplice\n* **explanation_link** (string): a publicly accessible URL leading to a *detailed* explanation of your evidence. (Feel free to show us code via Github or similar.)\n* **executive_summary** (string): A paragraph or two of text explaining your approach.\n\nPost your evidence to ```/gm/instances/YOUR_INSTANCE_ID/judge```  You can find your instance ID by taking a look at the\ndeveloper tools in your browser and looking for the GET request against ```/gm/instances/YOUR_INSTANCE_ID``` which the UI\nis presently polling every few seconds.\n\n## Starfighter Notes\n\nYou have **one shot per level instance** (i.e. per reset of the level) to get this right.  Submitting any valid JSON\ndocument consumes that shot.  (If you have a formatting problem or similar, you can correct it and try again.)\n\nYour submission will be evaluated automatically with regards to the correctness of the accusation.  If you get it right,\nyou're guaranteed at least one badge for winning the level.\n\nStarfighter's founders will also read *every submission* which is correct.  We'd love to talk with you about yours,\nparticularly if you do something which is novel or compelling.  (Feel free to drop us a note in the executive summary\nif you'd rather we not get in touch -- your call.)\n\nWe will award additional badges, at our discretion, for solutions which:\n\n* Are particularly novel.\n* Demonstrate exceptional insight into the problem as presented.\n* Creatively avoid solving the problem presented and instead \"cheat\" to a solution.\n* Go above and beyond the call of duty.\n* Deserve particular recognition for feats of engineering awesomeness.\n\nWe can't wait to see what you come up with.\n"},"tickers":["UUKG"],"venues":["HQDEX"],"secondsPerTradingDay":5,"balances":{"USD":0}},"aiinterval":null,"stalls":{},"tia":{},"tweakables":{"FSM":"trading","BUCKET_SIZE":20,"ASK_PCT":0.05,"BID_PCT":0.05,"SELL_SIZE":25,"WINDOW":400,"HIST_WINDOW":10},"ee":{"domain":null,"_events":{"fillevent":[null,null]},"_eventsCount":8}}}
+AbstractWatcher :this.wsText >>> wss://api.stockfighter.io/ob/api/ws/CES86493405/venues/HQDEX/tickertape
+TickerTiaProxy, start, wstext is : wss://api.stockfighter.io/ob/api/ws/CES86493405/venues/HQDEX/tickertape
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/CES86493405/venues/HQDEX/tickertape
+AbstractWatcher:serverWrap
+MuxDemux init : account : CES86493405  venue  HQDEX  symbol  UUKG
+setupAccount :  {"account":"CES86493405"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/CES86493405/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/CES86493405/venues/HQDEX/executions
+cancelSpike
+cancelSpike : rawBody :  {"ok":false,"error":"order 9999999 not found (highest available on this venue is 112)"}
+
+cancelSpike , maxId : 112
+setupAccount :  {"account":"SAT79601265"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/SAT79601265/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SAT79601265/venues/HQDEX/executions
+setupAccount :  {"account":"TAR5480454"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/TAR5480454/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/TAR5480454/venues/HQDEX/executions
+setupAccount :  {"account":"JAS15453922"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/JAS15453922/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/JAS15453922/venues/HQDEX/executions
+setupAccount :  {"account":"RTS82565005"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/RTS82565005/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/RTS82565005/venues/HQDEX/executions
+setupAccount :  {"account":"SMS57278396"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/SMS57278396/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SMS57278396/venues/HQDEX/executions
+setupAccount :  {"account":"LAM70191379"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/LAM70191379/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/LAM70191379/venues/HQDEX/executions
+setupAccount :  {"account":"SC12858127"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/SC12858127/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SC12858127/venues/HQDEX/executions
+setupAccount :  {"account":"AB95240819"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/AB95240819/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/AB95240819/venues/HQDEX/executions
+setupAccount :  {"account":"PAL46861828"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/PAL46861828/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/PAL46861828/venues/HQDEX/executions
+setupAccount :  {"account":"BFS91157813"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/BFS91157813/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BFS91157813/venues/HQDEX/executions
+setupAccount :  {"account":"NAY1152974"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/NAY1152974/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/NAY1152974/venues/HQDEX/executions
+setupAccount :  {"account":"SSS56799342"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/SSS56799342/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SSS56799342/venues/HQDEX/executions
+setupAccount :  {"account":"SJ5557400"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/SJ5557400/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SJ5557400/venues/HQDEX/executions
+setupAccount :  {"account":"CDS838365"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/CDS838365/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/CDS838365/venues/HQDEX/executions
+setupAccount :  {"account":"YB37953799"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/YB37953799/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/YB37953799/venues/HQDEX/executions
+setupAccount :  {"account":"BBB57843735"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/BBB57843735/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BBB57843735/venues/HQDEX/executions
+setupAccount :  {"account":"HBS55690436"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/HBS55690436/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/HBS55690436/venues/HQDEX/executions
+setupAccount :  {"account":"ME21403800"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/ME21403800/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/ME21403800/venues/HQDEX/executions
+setupAccount :  {"account":"BRS57844290"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/BRS57844290/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BRS57844290/venues/HQDEX/executions
+setupAccount :  {"account":"RDB65046742"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/RDB65046742/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/RDB65046742/venues/HQDEX/executions
+setupAccount :  {"account":"BS17612201"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/BS17612201/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BS17612201/venues/HQDEX/executions
+setupAccount :  {"account":"GJR81941671"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/GJR81941671/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/GJR81941671/venues/HQDEX/executions
+setupAccount :  {"account":"AAM56815374"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/AAM56815374/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/AAM56815374/venues/HQDEX/executions
+setupAccount :  {"account":"RAW29495286"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/RAW29495286/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/RAW29495286/venues/HQDEX/executions
+setupAccount :  {"account":"YS91315757"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/YS91315757/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/YS91315757/venues/HQDEX/executions
+setupAccount :  {"account":"LKB97040363"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/LKB97040363/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/LKB97040363/venues/HQDEX/executions
+setupAccount :  {"account":"MLB85968695"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/MLB85968695/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MLB85968695/venues/HQDEX/executions
+setupAccount :  {"account":"ICY35137857"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/ICY35137857/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/ICY35137857/venues/HQDEX/executions
+setupAccount :  {"account":"IOB62669532"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/IOB62669532/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/IOB62669532/venues/HQDEX/executions
+setupAccount :  {"account":"TFB30868444"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/TFB30868444/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/TFB30868444/venues/HQDEX/executions
+setupAccount :  {"account":"MOB10113904"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/MOB10113904/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MOB10113904/venues/HQDEX/executions
+setupAccount :  {"account":"MAH19532189"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/MAH19532189/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MAH19532189/venues/HQDEX/executions
+setupAccount :  {"account":"TYM62499818"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/TYM62499818/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/TYM62499818/venues/HQDEX/executions
+setupAccount :  {"account":"RAM27753139"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/RAM27753139/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/RAM27753139/venues/HQDEX/executions
+setupAccount :  {"account":"CCH58058710"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/CCH58058710/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/CCH58058710/venues/HQDEX/executions
+setupAccount :  {"account":"SOB18648921"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/SOB18648921/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SOB18648921/venues/HQDEX/executions
+setupAccount :  {"account":"TAH91986383"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/TAH91986383/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/TAH91986383/venues/HQDEX/executions
+setupAccount :  {"account":"SRB13717062"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/SRB13717062/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SRB13717062/venues/HQDEX/executions
+setupAccount :  {"account":"RRB18935869"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/RRB18935869/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/RRB18935869/venues/HQDEX/executions
+setupAccount :  {"account":"BFB68388185"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/BFB68388185/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BFB68388185/venues/HQDEX/executions
+setupAccount :  {"account":"TWB89247493"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/TWB89247493/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/TWB89247493/venues/HQDEX/executions
+setupAccount :  {"account":"CAJ7586695"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/CAJ7586695/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/CAJ7586695/venues/HQDEX/executions
+setupAccount :  {"account":"RFB85472700"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/RFB85472700/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/RFB85472700/venues/HQDEX/executions
+setupAccount :  {"account":"LB79571725"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/LB79571725/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/LB79571725/venues/HQDEX/executions
+setupAccount :  {"account":"FPS67017567"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/FPS67017567/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/FPS67017567/venues/HQDEX/executions
+setupAccount :  {"account":"PFB37831388"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/PFB37831388/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/PFB37831388/venues/HQDEX/executions
+setupAccount :  {"account":"NAY51044458"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/NAY51044458/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/NAY51044458/venues/HQDEX/executions
+setupAccount :  {"account":"MS79243120"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/MS79243120/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MS79243120/venues/HQDEX/executions
+setupAccount :  {"account":"SS63734672"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/SS63734672/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SS63734672/venues/HQDEX/executions
+setupAccount :  {"account":"BC46600744"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/BC46600744/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BC46600744/venues/HQDEX/executions
+setupAccount :  {"account":"KAS84211701"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/KAS84211701/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/KAS84211701/venues/HQDEX/executions
+setupAccount :  {"account":"TDB13954793"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/TDB13954793/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/TDB13954793/venues/HQDEX/executions
+setupAccount :  {"account":"DSS88558337"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/DSS88558337/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/DSS88558337/venues/HQDEX/executions
+setupAccount :  {"account":"LHB16493218"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/LHB16493218/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/LHB16493218/venues/HQDEX/executions
+setupAccount :  {"account":"YS56930288"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/YS56930288/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/YS56930288/venues/HQDEX/executions
+setupAccount :  {"account":"EAP76811332"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/EAP76811332/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/EAP76811332/venues/HQDEX/executions
+setupAccount :  {"account":"MH53967769"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/MH53967769/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MH53967769/venues/HQDEX/executions
+setupAccount :  {"account":"FSJ47438533"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/FSJ47438533/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/FSJ47438533/venues/HQDEX/executions
+setupAccount :  {"account":"TRB72009724"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/TRB72009724/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/TRB72009724/venues/HQDEX/executions
+setupAccount :  {"account":"FTS45441236"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/FTS45441236/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/FTS45441236/venues/HQDEX/executions
+setupAccount :  {"account":"KAB57426735"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/KAB57426735/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/KAB57426735/venues/HQDEX/executions
+setupAccount :  {"account":"HMS91155558"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/HMS91155558/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/HMS91155558/venues/HQDEX/executions
+setupAccount :  {"account":"OFB40126054"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/OFB40126054/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/OFB40126054/venues/HQDEX/executions
+setupAccount :  {"account":"MHY5665507"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/MHY5665507/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MHY5665507/venues/HQDEX/executions
+setupAccount :  {"account":"TMJ69539534"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/TMJ69539534/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/TMJ69539534/venues/HQDEX/executions
+setupAccount :  {"account":"HAR26149920"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/HAR26149920/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/HAR26149920/venues/HQDEX/executions
+setupAccount :  {"account":"JAN25343213"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/JAN25343213/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/JAN25343213/venues/HQDEX/executions
+setupAccount :  {"account":"TFB85709410"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/TFB85709410/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/TFB85709410/venues/HQDEX/executions
+setupAccount :  {"account":"BMS90851909"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/BMS90851909/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BMS90851909/venues/HQDEX/executions
+setupAccount :  {"account":"NS23596181"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/NS23596181/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/NS23596181/venues/HQDEX/executions
+setupAccount :  {"account":"SS19088961"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/SS19088961/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SS19088961/venues/HQDEX/executions
+setupAccount :  {"account":"GFS89333467"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/GFS89333467/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/GFS89333467/venues/HQDEX/executions
+setupAccount :  {"account":"RKB25480869"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/RKB25480869/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/RKB25480869/venues/HQDEX/executions
+setupAccount :  {"account":"YIS50955651"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/YIS50955651/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/YIS50955651/venues/HQDEX/executions
+setupAccount :  {"account":"SAY9507349"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/SAY9507349/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SAY9507349/venues/HQDEX/executions
+AbstractWatcher:CONNECTION
+cancelSpike
+cancelSpike : rawBody :  {"ok":false,"error":"order 9999999 not found (highest available on this venue is 460)"}
+
+cancelSpike , maxId : 460
+setupAccount :  {"account":"EFS48868942"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/EFS48868942/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/EFS48868942/venues/HQDEX/executions
+setupAccount :  {"account":"PMB61576818"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/PMB61576818/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/PMB61576818/venues/HQDEX/executions
+setupAccount :  {"account":"RAC35464949"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/RAC35464949/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/RAC35464949/venues/HQDEX/executions
+setupAccount :  {"account":"FEB4354625"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/FEB4354625/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/FEB4354625/venues/HQDEX/executions
+setupAccount :  {"account":"MSB95155530"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/MSB95155530/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MSB95155530/venues/HQDEX/executions
+setupAccount :  {"account":"STB73582706"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/STB73582706/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/STB73582706/venues/HQDEX/executions
+setupAccount :  {"account":"EFS88757525"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/EFS88757525/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/EFS88757525/venues/HQDEX/executions
+setupAccount :  {"account":"EJH35433279"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/EJH35433279/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/EJH35433279/venues/HQDEX/executions
+setupAccount :  {"account":"CMS50684222"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/CMS50684222/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/CMS50684222/venues/HQDEX/executions
+setupAccount :  {"account":"RJC61700026"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/RJC61700026/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/RJC61700026/venues/HQDEX/executions
+cancelSpike
+cancelSpike : rawBody :  {"ok":false,"error":"order 9999999 not found (highest available on this venue is 514)"}
+
+cancelSpike , maxId : 514
+setupAccount :  {"account":"BDS70640757"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/BDS70640757/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BDS70640757/venues/HQDEX/executions
+setupAccount :  {"account":"EAL43781311"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/EAL43781311/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/EAL43781311/venues/HQDEX/executions
+cancelSpike
+cancelSpike : rawBody :  {"ok":false,"error":"order 9999999 not found (highest available on this venue is 576)"}
+
+cancelSpike , maxId : 576
+setupAccount :  {"account":"WAA50659054"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/WAA50659054/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/WAA50659054/venues/HQDEX/executions
+cancelSpike
+cancelSpike : rawBody :  {"ok":false,"error":"order 9999999 not found (highest available on this venue is 640)"}
+
+cancelSpike , maxId : 640
+setupAccount :  {"account":"YAP45242417"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/YAP45242417/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/YAP45242417/venues/HQDEX/executions
+setupAccount :  {"account":"YB15461439"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/YB15461439/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/YB15461439/venues/HQDEX/executions
+setupAccount :  {"account":"BFS76961503"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/BFS76961503/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BFS76961503/venues/HQDEX/executions
+cancelSpike
+cancelSpike : rawBody :  {"ok":false,"error":"order 9999999 not found (highest available on this venue is 705)"}
+
+cancelSpike , maxId : 705
+setupAccount :  {"account":"IMS13067240"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/IMS13067240/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/IMS13067240/venues/HQDEX/executions
+setupAccount :  {"account":"JAI67921320"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/JAI67921320/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/JAI67921320/venues/HQDEX/executions
+setupAccount :  {"account":"IBB10438159"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/IBB10438159/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/IBB10438159/venues/HQDEX/executions
+setupAccount :  {"account":"MAY80358970"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/MAY80358970/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MAY80358970/venues/HQDEX/executions
+setupAccount :  {"account":"WMG61623257"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/WMG61623257/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/WMG61623257/venues/HQDEX/executions
+cancelSpike
+cancelSpike : rawBody :  {"ok":false,"error":"order 9999999 not found (highest available on this venue is 771)"}
+
+cancelSpike , maxId : 771
+setupAccount :  {"account":"YAB55909732"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/YAB55909732/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/YAB55909732/venues/HQDEX/executions
+setupAccount :  {"account":"MY71338164"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/MY71338164/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MY71338164/venues/HQDEX/executions
+setupAccount :  {"account":"IFB55520251"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/IFB55520251/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/IFB55520251/venues/HQDEX/executions
+cancelSpike
+cancelSpike : rawBody :  {"ok":false,"error":"order 9999999 not found (highest available on this venue is 835)"}
+
+cancelSpike , maxId : 835
+setupAccount :  {"account":"BM40679048"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/BM40679048/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BM40679048/venues/HQDEX/executions
+cancelSpike
+cancelSpike : rawBody :  {"ok":false,"error":"order 9999999 not found (highest available on this venue is 912)"}
+
+cancelSpike , maxId : 912
+cancelSpike
+cancelSpike : rawBody :  {"ok":false,"error":"order 9999999 not found (highest available on this venue is 972)"}
+
+cancelSpike , maxId : 972
+setupAccount :  {"account":"while"}
+setupAccount : wstext :  wss://api.stockfighter.io/ob/api/ws/while/venues/HQDEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/while/venues/HQDEX/executions
+cancelSpike
+cancelSpike : rawBody :  {"ok":false,"error":"order 9999999 not found (highest available on this venue is 1013)"}
+
+cancelSpike , maxId : 1013
+cancelSpike
+cancelSpike : rawBody :  {"ok":false,"error":"order 9999999 not found (highest available on this venue is 1103)"}
+
+cancelSpike , maxId : 1103
+cancelSpike
+cancelSpike : rawBody :  {"ok":false,"error":"order 9999999 not found (highest available on this venue is 1229)"}
+
+cancelSpike , maxId : 1229
+cancelSpike
+cancelSpike : rawBody :  {"ok":false,"error":"order 9999999 not found (highest available on this venue is 1229)"}
+
+cancelSpike , maxId : 1229
+cancelSpike
+cancelSpike : rawBody :  {"ok":false,"error":"order 9999999 not found (highest available on this venue is 1229)"}
+
+cancelSpike , maxId : 1229
+cancelSpike
+cancelSpike : rawBody :  {"ok":false,"error":"order 9999999 not found (highest available on this venue is 1229)"}
+
+cancelSpike , maxId : 1229
+cancelSpike
+cancelSpike : rawBody :  {"ok":false,"error":"order 9999999 not found (highest available on this venue is 1229)"}
+
+cancelSpike , maxId : 1229
+cancelSpike
+cancelSpike : rawBody :  {"ok":false,"error":"No venue exists with the symbol HQDEX"}
+
+cancelSpike , maxId : HQDE
+cancelSpike
+cancelSpike : rawBody :  {"ok":false,"error":"No venue exists with the symbol HQDEX"}
+
+cancelSpike , maxId : HQDE
+localwatcher: ooops - client has disconnected [Error: not opened]
+Websocket died - cleaning up connection :  0

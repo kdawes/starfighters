@@ -1,0 +1,16 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "nconf": "^0.8.2",
+    "request": "^2.67.0"
+  }
+}

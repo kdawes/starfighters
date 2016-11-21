@@ -1,0 +1,2522 @@
+worker 15419 started.
+RESTART LEVEL
+levelREstart
+StartWatchers : leveljs object   {
+  "ok": true,
+  "instanceId": 22252,
+  "account": "CES97894573",
+  "instructions": {
+    "Instructions": "# Nail This Bastard To The Wall (Street)\n\nWe're the regulator for the UIEV Karachi Exchange (UIEVEX), the Committee for Exchange Security, better known as \nthe CES.  We need your help.\n\nOur primary responsibility is making sure that the public markets operate in a fair and stable manner.  Insider trading,\nwhere someone with a fiduciary duty to a company uses material non-public information for their own benefit,\ndestabilizes the market and destroys investor confidence.  We prosecute it, vigorously, when we find it.\n\nWe got an anonymous tip from a whistleblower inside Bitcoin Airlines Corporation (BAC).  Apparently their comptroller\nwas very underwater on his mortgage but recently, quote, \"a rich uncle died and left me a fortune.\"  We pulled birth\nrecords, marriage licenses, and social network profiles, and we believe no such uncle existed.\n\nWhen comptrollers suddenly come into a lot of money, it either means embezzlement or insider trading.  We have\ntalked to some market makers for Bitcoin Airlines Corporation and they spontaneously offered \"Yeah, it feels funny recently.\nCan't quite put my finger on it.\"\n\nWe used our regulatory authority to lean on the comptroller's brokerage, but his accounts are clean: he has no\nposition in BAC and hasn't in a decade.  We suspect he has an accomplice on the outside.  We have no clue\nwho it is.  We don't have enough resources to put the comptroller under surveillance and we don't have any evidence\nto justify a search warrant of his phone or email.\n\nWe need you to help us identify that accomplice.  Find the account making the insider trades and give us hard evidence\nwhich supports them as being anomalous.  We'll use a regulatory subpoena on their brokerage, get their information,\nand your evidence will be used to support a subpoena of their stored communications.  If they've ever talked to the\ncomptroller, both of them are going to have a *very, very bad time.*\n\nWe regulate Wall Street but we don't work on it, so resources are limited.  We put $100,000 in **account CES97894573** for your use.\nThe taxpayers don't need to see a return, so use it responsibly for the purpose of this investigation.  Word to the wise: embezzling it \nwould be an **exceptionally** poor career decision.\n\n\n# Your Goal\n* Identify the accomplice of the comptroller.  You only get one shot at this, so make it count.\n* See \"Submitting Evidence\" under the Instructions menu for how to give us the evidence.\n\n# You'll Be Fired If\n* You accuse someone who turns out to be innocent.\n* You spend more than the $100,000 we allocated for this investigation.\n* You go short -- this is not a margin account.\n* You can't develop a case in 500 days.\n\n## Starfighter Notes\n\nThis level is designed to be challenging but not impossible.  There are multiple steps you'll need to overcome to win\nit.  \n\nYour first order of business should probably be identifying the accounts of everyone trading BAC on UIEVEX.\nDon't know how to do that?  Read the API docs *very thoroughly.*",
+    "Submitting Evidence": "# Submitting Evidence\n\nWe'll take your evidence as a JSON document, in the following format:\n\n```\n{\n  \"account\" : \"ABC123456\",\n  \"explanation_link\": \"http://www.example.com\",\n  \"executive_summary\": \"Lorem ipsum blah blah blah.\"\n}\n```\n\n* **account** (string): the trading account of the comptroller's accomplice\n* **explanation_link** (string): a publicly accessible URL leading to a *detailed* explanation of your evidence. (Feel free to show us code via Github or similar.)\n* **executive_summary** (string): A paragraph or two of text explaining your approach.\n\nPost your evidence to ```/gm/instances/YOUR_INSTANCE_ID/judge```  You can find your instance ID by taking a look at the\ndeveloper tools in your browser and looking for the GET request against ```/gm/instances/YOUR_INSTANCE_ID``` which the UI\nis presently polling every few seconds.\n\n## Starfighter Notes\n\nYou have **one shot per level instance** (i.e. per reset of the level) to get this right.  Submitting any valid JSON\ndocument consumes that shot.  (If you have a formatting problem or similar, you can correct it and try again.)\n\nYour submission will be evaluated automatically with regards to the correctness of the accusation.  If you get it right,\nyou're guaranteed at least one badge for winning the level.\n\nStarfighter's founders will also read *every submission* which is correct.  We'd love to talk with you about yours,\nparticularly if you do something which is novel or compelling.  (Feel free to drop us a note in the executive summary\nif you'd rather we not get in touch -- your call.)\n\nWe will award additional badges, at our discretion, for solutions which:\n\n* Are particularly novel.\n* Demonstrate exceptional insight into the problem as presented.\n* Creatively avoid solving the problem presented and instead \"cheat\" to a solution.\n* Go above and beyond the call of duty.\n* Deserve particular recognition for feats of engineering awesomeness.\n\nWe can't wait to see what you come up with.\n"
+  },
+  "tickers": [
+    "BAC"
+  ],
+  "venues": [
+    "UIEVEX"
+  ],
+  "secondsPerTradingDay": 5,
+  "balances": {
+    "USD": 0
+  }
+}
+With :  wss://api.stockfighter.io/ob/api/ws/CES97894573/venues/UIEVEX/tickertape
+With :  wss://api.stockfighter.io/ob/api/ws/CES97894573/venues/UIEVEX/executions
+TickerProxy >>> {"wsText":"wss://api.stockfighter.io/ob/api/ws/CES97894573/venues/UIEVEX/tickertape","tia":{},"port":9090,"ee":{"domain":null,"_events":{},"_eventsCount":0}}
+TickerProxy :this.wsText >>> wss://api.stockfighter.io/ob/api/ws/CES97894573/venues/UIEVEX/tickertape
+AbstractWatcher >>> {"wsText":"wss://api.stockfighter.io/ob/api/ws/CES97894573/venues/UIEVEX/tickertape","tia":{},"port":9090,"ee":{"domain":null,"_events":{},"_eventsCount":0}}
+AbstractWatcher :this.wsText >>> wss://api.stockfighter.io/ob/api/ws/CES97894573/venues/UIEVEX/tickertape
+TickerProxy, start, wstext is : wss://api.stockfighter.io/ob/api/ws/CES97894573/venues/UIEVEX/tickertape
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/CES97894573/venues/UIEVEX/tickertape
+AbstractWatcher:serverWrap
+ExecWatcher >>> {"wsText":"wss://api.stockfighter.io/ob/api/ws/CES97894573/venues/UIEVEX/executions","instanceId":22252,"tia":{},"port":8081,"ee":{"domain":null,"_events":{},"_eventsCount":1}}
+ExecWatcher :this.wsText >>> wss://api.stockfighter.io/ob/api/ws/CES97894573/venues/UIEVEX/executions
+AbstractWatcher >>> {"wsText":"wss://api.stockfighter.io/ob/api/ws/CES97894573/venues/UIEVEX/executions","instanceId":22252,"tia":{},"port":8081,"ee":{"domain":null,"_events":{},"_eventsCount":1}}
+AbstractWatcher :this.wsText >>> wss://api.stockfighter.io/ob/api/ws/CES97894573/venues/UIEVEX/executions
+ExecWatcher, start, wstext is : wss://api.stockfighter.io/ob/api/ws/CES97894573/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/CES97894573/venues/UIEVEX/executions
+AbstractWatcher:serverWrap
+Watiting for localWatcher...
+localWatcher : go ---> 22252
+localWatcher >>> {"wsText":"ws://localhost:8123","instanceId":22252,"tia":{},"port":8123}
+localWatcher :this.wsText >>> ws://localhost:8123
+AbstractWatcher >>> {"wsText":"ws://localhost:8123","instanceId":22252,"tia":{},"port":8123}
+AbstractWatcher :this.wsText >>> ws://localhost:8123
+localwatcher, start, wstext is : ws://localhost:8123
+AbstractWatcher:serverWrap
+Watiting for OrderbookWatcher... UIEVEX   BAC
+ExecWatcher >>> {"wsText":"ws://localhost:8082","instanceId":22252,"tia":{},"port":8082,"venue":"UIEVEX","symbol":"BAC"}
+ExecWatcher :this.wsText >>> ws://localhost:8082
+AbstractWatcher >>> {"wsText":"ws://localhost:8082","instanceId":22252,"tia":{},"port":8082,"venue":"UIEVEX","symbol":"BAC"}
+AbstractWatcher :this.wsText >>> ws://localhost:8082
+watcher, start, wstext is : ws://localhost:8082
+AbstractWatcher:serverWrap
+Watiting for AskBidWatcher... and EE is a  object
+local AskBidWatcher  >>> {"instanceId":22252,"port":8888,"ee":{"domain":null,"_events":{},"_eventsCount":2}}
+AbstractWatcher >>> {"instanceId":22252,"port":8888,"ee":{"domain":null,"_events":{},"_eventsCount":2}}
+AbstractWatcher :this.wsText >>> undefined
+ AskBidWatcher , start, wstext is : undefined
+AbstractWatcher:serverWrap
+TRADING :  BAC
+LEVELCFG : beautified :  {
+  "ok": true,
+  "instanceId": 22252,
+  "account": "CES97894573",
+  "instructions": {
+    "Instructions": "# Nail This Bastard To The Wall (Street)\n\nWe're the regulator for the UIEV Karachi Exchange (UIEVEX), the Committee for Exchange Security, better known as \nthe CES.  We need your help.\n\nOur primary responsibility is making sure that the public markets operate in a fair and stable manner.  Insider trading,\nwhere someone with a fiduciary duty to a company uses material non-public information for their own benefit,\ndestabilizes the market and destroys investor confidence.  We prosecute it, vigorously, when we find it.\n\nWe got an anonymous tip from a whistleblower inside Bitcoin Airlines Corporation (BAC).  Apparently their comptroller\nwas very underwater on his mortgage but recently, quote, \"a rich uncle died and left me a fortune.\"  We pulled birth\nrecords, marriage licenses, and social network profiles, and we believe no such uncle existed.\n\nWhen comptrollers suddenly come into a lot of money, it either means embezzlement or insider trading.  We have\ntalked to some market makers for Bitcoin Airlines Corporation and they spontaneously offered \"Yeah, it feels funny recently.\nCan't quite put my finger on it.\"\n\nWe used our regulatory authority to lean on the comptroller's brokerage, but his accounts are clean: he has no\nposition in BAC and hasn't in a decade.  We suspect he has an accomplice on the outside.  We have no clue\nwho it is.  We don't have enough resources to put the comptroller under surveillance and we don't have any evidence\nto justify a search warrant of his phone or email.\n\nWe need you to help us identify that accomplice.  Find the account making the insider trades and give us hard evidence\nwhich supports them as being anomalous.  We'll use a regulatory subpoena on their brokerage, get their information,\nand your evidence will be used to support a subpoena of their stored communications.  If they've ever talked to the\ncomptroller, both of them are going to have a *very, very bad time.*\n\nWe regulate Wall Street but we don't work on it, so resources are limited.  We put $100,000 in **account CES97894573** for your use.\nThe taxpayers don't need to see a return, so use it responsibly for the purpose of this investigation.  Word to the wise: embezzling it \nwould be an **exceptionally** poor career decision.\n\n\n# Your Goal\n* Identify the accomplice of the comptroller.  You only get one shot at this, so make it count.\n* See \"Submitting Evidence\" under the Instructions menu for how to give us the evidence.\n\n# You'll Be Fired If\n* You accuse someone who turns out to be innocent.\n* You spend more than the $100,000 we allocated for this investigation.\n* You go short -- this is not a margin account.\n* You can't develop a case in 500 days.\n\n## Starfighter Notes\n\nThis level is designed to be challenging but not impossible.  There are multiple steps you'll need to overcome to win\nit.  \n\nYour first order of business should probably be identifying the accounts of everyone trading BAC on UIEVEX.\nDon't know how to do that?  Read the API docs *very thoroughly.*",
+    "Submitting Evidence": "# Submitting Evidence\n\nWe'll take your evidence as a JSON document, in the following format:\n\n```\n{\n  \"account\" : \"ABC123456\",\n  \"explanation_link\": \"http://www.example.com\",\n  \"executive_summary\": \"Lorem ipsum blah blah blah.\"\n}\n```\n\n* **account** (string): the trading account of the comptroller's accomplice\n* **explanation_link** (string): a publicly accessible URL leading to a *detailed* explanation of your evidence. (Feel free to show us code via Github or similar.)\n* **executive_summary** (string): A paragraph or two of text explaining your approach.\n\nPost your evidence to ```/gm/instances/YOUR_INSTANCE_ID/judge```  You can find your instance ID by taking a look at the\ndeveloper tools in your browser and looking for the GET request against ```/gm/instances/YOUR_INSTANCE_ID``` which the UI\nis presently polling every few seconds.\n\n## Starfighter Notes\n\nYou have **one shot per level instance** (i.e. per reset of the level) to get this right.  Submitting any valid JSON\ndocument consumes that shot.  (If you have a formatting problem or similar, you can correct it and try again.)\n\nYour submission will be evaluated automatically with regards to the correctness of the accusation.  If you get it right,\nyou're guaranteed at least one badge for winning the level.\n\nStarfighter's founders will also read *every submission* which is correct.  We'd love to talk with you about yours,\nparticularly if you do something which is novel or compelling.  (Feel free to drop us a note in the executive summary\nif you'd rather we not get in touch -- your call.)\n\nWe will award additional badges, at our discretion, for solutions which:\n\n* Are particularly novel.\n* Demonstrate exceptional insight into the problem as presented.\n* Creatively avoid solving the problem presented and instead \"cheat\" to a solution.\n* Go above and beyond the call of duty.\n* Deserve particular recognition for feats of engineering awesomeness.\n\nWe can't wait to see what you come up with.\n"
+  },
+  "tickers": [
+    "BAC"
+  ],
+  "venues": [
+    "UIEVEX"
+  ],
+  "secondsPerTradingDay": 5,
+  "balances": {
+    "USD": 0
+  }
+}
+With :  wss://api.stockfighter.io/ob/api/ws/CES97894573/venues/UIEVEX/tickertape
+TickerTiaProxy >>> {"wsText":"wss://api.stockfighter.io/ob/api/ws/CES97894573/venues/UIEVEX/tickertape","tia":{},"port":8080,"trading":{"scanned":0,"outlier":true,"position":{"cash":0,"shares":0,"ee":{"domain":null,"_events":{"fillevent":[null,null]},"_eventsCount":8},"db":{"asks":{},"bids":{},"cancelled":{"asks":[],"bids":[]},"fills":{"asks":[],"bids":[]}}},"genesis":1463507270107,"levelcfg":{"ok":true,"instanceId":22252,"account":"CES97894573","instructions":{"Instructions":"# Nail This Bastard To The Wall (Street)\n\nWe're the regulator for the UIEV Karachi Exchange (UIEVEX), the Committee for Exchange Security, better known as \nthe CES.  We need your help.\n\nOur primary responsibility is making sure that the public markets operate in a fair and stable manner.  Insider trading,\nwhere someone with a fiduciary duty to a company uses material non-public information for their own benefit,\ndestabilizes the market and destroys investor confidence.  We prosecute it, vigorously, when we find it.\n\nWe got an anonymous tip from a whistleblower inside Bitcoin Airlines Corporation (BAC).  Apparently their comptroller\nwas very underwater on his mortgage but recently, quote, \"a rich uncle died and left me a fortune.\"  We pulled birth\nrecords, marriage licenses, and social network profiles, and we believe no such uncle existed.\n\nWhen comptrollers suddenly come into a lot of money, it either means embezzlement or insider trading.  We have\ntalked to some market makers for Bitcoin Airlines Corporation and they spontaneously offered \"Yeah, it feels funny recently.\nCan't quite put my finger on it.\"\n\nWe used our regulatory authority to lean on the comptroller's brokerage, but his accounts are clean: he has no\nposition in BAC and hasn't in a decade.  We suspect he has an accomplice on the outside.  We have no clue\nwho it is.  We don't have enough resources to put the comptroller under surveillance and we don't have any evidence\nto justify a search warrant of his phone or email.\n\nWe need you to help us identify that accomplice.  Find the account making the insider trades and give us hard evidence\nwhich supports them as being anomalous.  We'll use a regulatory subpoena on their brokerage, get their information,\nand your evidence will be used to support a subpoena of their stored communications.  If they've ever talked to the\ncomptroller, both of them are going to have a *very, very bad time.*\n\nWe regulate Wall Street but we don't work on it, so resources are limited.  We put $100,000 in **account CES97894573** for your use.\nThe taxpayers don't need to see a return, so use it responsibly for the purpose of this investigation.  Word to the wise: embezzling it \nwould be an **exceptionally** poor career decision.\n\n\n# Your Goal\n* Identify the accomplice of the comptroller.  You only get one shot at this, so make it count.\n* See \"Submitting Evidence\" under the Instructions menu for how to give us the evidence.\n\n# You'll Be Fired If\n* You accuse someone who turns out to be innocent.\n* You spend more than the $100,000 we allocated for this investigation.\n* You go short -- this is not a margin account.\n* You can't develop a case in 500 days.\n\n## Starfighter Notes\n\nThis level is designed to be challenging but not impossible.  There are multiple steps you'll need to overcome to win\nit.  \n\nYour first order of business should probably be identifying the accounts of everyone trading BAC on UIEVEX.\nDon't know how to do that?  Read the API docs *very thoroughly.*","Submitting Evidence":"# Submitting Evidence\n\nWe'll take your evidence as a JSON document, in the following format:\n\n```\n{\n  \"account\" : \"ABC123456\",\n  \"explanation_link\": \"http://www.example.com\",\n  \"executive_summary\": \"Lorem ipsum blah blah blah.\"\n}\n```\n\n* **account** (string): the trading account of the comptroller's accomplice\n* **explanation_link** (string): a publicly accessible URL leading to a *detailed* explanation of your evidence. (Feel free to show us code via Github or similar.)\n* **executive_summary** (string): A paragraph or two of text explaining your approach.\n\nPost your evidence to ```/gm/instances/YOUR_INSTANCE_ID/judge```  You can find your instance ID by taking a look at the\ndeveloper tools in your browser and looking for the GET request against ```/gm/instances/YOUR_INSTANCE_ID``` which the UI\nis presently polling every few seconds.\n\n## Starfighter Notes\n\nYou have **one shot per level instance** (i.e. per reset of the level) to get this right.  Submitting any valid JSON\ndocument consumes that shot.  (If you have a formatting problem or similar, you can correct it and try again.)\n\nYour submission will be evaluated automatically with regards to the correctness of the accusation.  If you get it right,\nyou're guaranteed at least one badge for winning the level.\n\nStarfighter's founders will also read *every submission* which is correct.  We'd love to talk with you about yours,\nparticularly if you do something which is novel or compelling.  (Feel free to drop us a note in the executive summary\nif you'd rather we not get in touch -- your call.)\n\nWe will award additional badges, at our discretion, for solutions which:\n\n* Are particularly novel.\n* Demonstrate exceptional insight into the problem as presented.\n* Creatively avoid solving the problem presented and instead \"cheat\" to a solution.\n* Go above and beyond the call of duty.\n* Deserve particular recognition for feats of engineering awesomeness.\n\nWe can't wait to see what you come up with.\n"},"tickers":["BAC"],"venues":["UIEVEX"],"secondsPerTradingDay":5,"balances":{"USD":0}},"aiinterval":null,"stalls":{},"tia":{},"tweakables":{"FSM":"trading","BUCKET_SIZE":20,"ASK_PCT":0.05,"BID_PCT":0.05,"SELL_SIZE":25,"WINDOW":400,"HIST_WINDOW":10},"ee":{"domain":null,"_events":{"fillevent":[null,null]},"_eventsCount":8}}}
+TickerProxy :this.wsText >>> wss://api.stockfighter.io/ob/api/ws/CES97894573/venues/UIEVEX/tickertape
+AbstractWatcher >>> {"wsText":"wss://api.stockfighter.io/ob/api/ws/CES97894573/venues/UIEVEX/tickertape","tia":{},"port":8080,"trading":{"scanned":0,"outlier":true,"position":{"cash":0,"shares":0,"ee":{"domain":null,"_events":{"fillevent":[null,null]},"_eventsCount":8},"db":{"asks":{},"bids":{},"cancelled":{"asks":[],"bids":[]},"fills":{"asks":[],"bids":[]}}},"genesis":1463507270107,"levelcfg":{"ok":true,"instanceId":22252,"account":"CES97894573","instructions":{"Instructions":"# Nail This Bastard To The Wall (Street)\n\nWe're the regulator for the UIEV Karachi Exchange (UIEVEX), the Committee for Exchange Security, better known as \nthe CES.  We need your help.\n\nOur primary responsibility is making sure that the public markets operate in a fair and stable manner.  Insider trading,\nwhere someone with a fiduciary duty to a company uses material non-public information for their own benefit,\ndestabilizes the market and destroys investor confidence.  We prosecute it, vigorously, when we find it.\n\nWe got an anonymous tip from a whistleblower inside Bitcoin Airlines Corporation (BAC).  Apparently their comptroller\nwas very underwater on his mortgage but recently, quote, \"a rich uncle died and left me a fortune.\"  We pulled birth\nrecords, marriage licenses, and social network profiles, and we believe no such uncle existed.\n\nWhen comptrollers suddenly come into a lot of money, it either means embezzlement or insider trading.  We have\ntalked to some market makers for Bitcoin Airlines Corporation and they spontaneously offered \"Yeah, it feels funny recently.\nCan't quite put my finger on it.\"\n\nWe used our regulatory authority to lean on the comptroller's brokerage, but his accounts are clean: he has no\nposition in BAC and hasn't in a decade.  We suspect he has an accomplice on the outside.  We have no clue\nwho it is.  We don't have enough resources to put the comptroller under surveillance and we don't have any evidence\nto justify a search warrant of his phone or email.\n\nWe need you to help us identify that accomplice.  Find the account making the insider trades and give us hard evidence\nwhich supports them as being anomalous.  We'll use a regulatory subpoena on their brokerage, get their information,\nand your evidence will be used to support a subpoena of their stored communications.  If they've ever talked to the\ncomptroller, both of them are going to have a *very, very bad time.*\n\nWe regulate Wall Street but we don't work on it, so resources are limited.  We put $100,000 in **account CES97894573** for your use.\nThe taxpayers don't need to see a return, so use it responsibly for the purpose of this investigation.  Word to the wise: embezzling it \nwould be an **exceptionally** poor career decision.\n\n\n# Your Goal\n* Identify the accomplice of the comptroller.  You only get one shot at this, so make it count.\n* See \"Submitting Evidence\" under the Instructions menu for how to give us the evidence.\n\n# You'll Be Fired If\n* You accuse someone who turns out to be innocent.\n* You spend more than the $100,000 we allocated for this investigation.\n* You go short -- this is not a margin account.\n* You can't develop a case in 500 days.\n\n## Starfighter Notes\n\nThis level is designed to be challenging but not impossible.  There are multiple steps you'll need to overcome to win\nit.  \n\nYour first order of business should probably be identifying the accounts of everyone trading BAC on UIEVEX.\nDon't know how to do that?  Read the API docs *very thoroughly.*","Submitting Evidence":"# Submitting Evidence\n\nWe'll take your evidence as a JSON document, in the following format:\n\n```\n{\n  \"account\" : \"ABC123456\",\n  \"explanation_link\": \"http://www.example.com\",\n  \"executive_summary\": \"Lorem ipsum blah blah blah.\"\n}\n```\n\n* **account** (string): the trading account of the comptroller's accomplice\n* **explanation_link** (string): a publicly accessible URL leading to a *detailed* explanation of your evidence. (Feel free to show us code via Github or similar.)\n* **executive_summary** (string): A paragraph or two of text explaining your approach.\n\nPost your evidence to ```/gm/instances/YOUR_INSTANCE_ID/judge```  You can find your instance ID by taking a look at the\ndeveloper tools in your browser and looking for the GET request against ```/gm/instances/YOUR_INSTANCE_ID``` which the UI\nis presently polling every few seconds.\n\n## Starfighter Notes\n\nYou have **one shot per level instance** (i.e. per reset of the level) to get this right.  Submitting any valid JSON\ndocument consumes that shot.  (If you have a formatting problem or similar, you can correct it and try again.)\n\nYour submission will be evaluated automatically with regards to the correctness of the accusation.  If you get it right,\nyou're guaranteed at least one badge for winning the level.\n\nStarfighter's founders will also read *every submission* which is correct.  We'd love to talk with you about yours,\nparticularly if you do something which is novel or compelling.  (Feel free to drop us a note in the executive summary\nif you'd rather we not get in touch -- your call.)\n\nWe will award additional badges, at our discretion, for solutions which:\n\n* Are particularly novel.\n* Demonstrate exceptional insight into the problem as presented.\n* Creatively avoid solving the problem presented and instead \"cheat\" to a solution.\n* Go above and beyond the call of duty.\n* Deserve particular recognition for feats of engineering awesomeness.\n\nWe can't wait to see what you come up with.\n"},"tickers":["BAC"],"venues":["UIEVEX"],"secondsPerTradingDay":5,"balances":{"USD":0}},"aiinterval":null,"stalls":{},"tia":{},"tweakables":{"FSM":"trading","BUCKET_SIZE":20,"ASK_PCT":0.05,"BID_PCT":0.05,"SELL_SIZE":25,"WINDOW":400,"HIST_WINDOW":10},"ee":{"domain":null,"_events":{"fillevent":[null,null]},"_eventsCount":8}}}
+AbstractWatcher :this.wsText >>> wss://api.stockfighter.io/ob/api/ws/CES97894573/venues/UIEVEX/tickertape
+TickerTiaProxy, start, wstext is : wss://api.stockfighter.io/ob/api/ws/CES97894573/venues/UIEVEX/tickertape
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/CES97894573/venues/UIEVEX/tickertape
+AbstractWatcher:serverWrap
+MuxDemux init : account : CES97894573  venue  UIEVEX  symbol  BAC
+setupAccount :  "CES97894573"
+wstext :  wss://api.stockfighter.io/ob/api/ws//venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws//venues/UIEVEX/executions
+AbstractWatcher:CONNECTION
+cancelSpike
+cancelSpike
+cancelSpike , maxId : 201
+cancelSpike , maxId : 201
+cancelSpike
+setupAccount :  {"account":"CWG78704641"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/CWG78704641/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/CWG78704641/venues/UIEVEX/executions
+setupAccount :  {"account":"RFB50952710"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/RFB50952710/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/RFB50952710/venues/UIEVEX/executions
+setupAccount :  {"account":"MB5492721"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/MB5492721/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MB5492721/venues/UIEVEX/executions
+setupAccount :  {"account":"MKW42083504"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/MKW42083504/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MKW42083504/venues/UIEVEX/executions
+setupAccount :  {"account":"HDE47628228"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/HDE47628228/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/HDE47628228/venues/UIEVEX/executions
+setupAccount :  {"account":"SSS93998190"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/SSS93998190/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SSS93998190/venues/UIEVEX/executions
+setupAccount :  {"account":"BJL55335636"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/BJL55335636/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BJL55335636/venues/UIEVEX/executions
+setupAccount :  {"account":"SRS13142569"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/SRS13142569/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SRS13142569/venues/UIEVEX/executions
+setupAccount :  {"account":"TYM48250297"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/TYM48250297/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/TYM48250297/venues/UIEVEX/executions
+setupAccount :  {"account":"HDE72685240"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/HDE72685240/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/HDE72685240/venues/UIEVEX/executions
+setupAccount :  {"account":"BLS8933464"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/BLS8933464/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BLS8933464/venues/UIEVEX/executions
+setupAccount :  {"account":"SMB6235483"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/SMB6235483/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SMB6235483/venues/UIEVEX/executions
+setupAccount :  {"account":"BTB73839574"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/BTB73839574/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BTB73839574/venues/UIEVEX/executions
+setupAccount :  {"account":"SAB65508941"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/SAB65508941/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SAB65508941/venues/UIEVEX/executions
+setupAccount :  {"account":"DHL52364045"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/DHL52364045/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/DHL52364045/venues/UIEVEX/executions
+setupAccount :  {"account":"BMS44006144"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/BMS44006144/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BMS44006144/venues/UIEVEX/executions
+setupAccount :  {"account":"WIB41555482"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/WIB41555482/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/WIB41555482/venues/UIEVEX/executions
+setupAccount :  {"account":"GWH50362294"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/GWH50362294/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/GWH50362294/venues/UIEVEX/executions
+setupAccount :  {"account":"SHJ87708608"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/SHJ87708608/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SHJ87708608/venues/UIEVEX/executions
+setupAccount :  {"account":"WAR25183292"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/WAR25183292/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/WAR25183292/venues/UIEVEX/executions
+setupAccount :  {"account":"MTB89235122"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/MTB89235122/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MTB89235122/venues/UIEVEX/executions
+setupAccount :  {"account":"MBB44610238"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/MBB44610238/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MBB44610238/venues/UIEVEX/executions
+setupAccount :  {"account":"PTB10464041"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/PTB10464041/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/PTB10464041/venues/UIEVEX/executions
+setupAccount :  {"account":"HAP36285720"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/HAP36285720/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/HAP36285720/venues/UIEVEX/executions
+setupAccount :  {"account":"FJT98894402"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/FJT98894402/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/FJT98894402/venues/UIEVEX/executions
+setupAccount :  {"account":"BMS84167096"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/BMS84167096/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BMS84167096/venues/UIEVEX/executions
+setupAccount :  {"account":"MEB58361986"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/MEB58361986/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MEB58361986/venues/UIEVEX/executions
+setupAccount :  {"account":"PS89910717"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/PS89910717/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/PS89910717/venues/UIEVEX/executions
+setupAccount :  {"account":"GAM96550696"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/GAM96550696/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/GAM96550696/venues/UIEVEX/executions
+setupAccount :  {"account":"FOB69615271"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/FOB69615271/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/FOB69615271/venues/UIEVEX/executions
+setupAccount :  {"account":"MMB89470929"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/MMB89470929/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MMB89470929/venues/UIEVEX/executions
+setupAccount :  {"account":"HAB16455923"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/HAB16455923/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/HAB16455923/venues/UIEVEX/executions
+setupAccount :  {"account":"CAE17375727"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/CAE17375727/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/CAE17375727/venues/UIEVEX/executions
+setupAccount :  {"account":"DBB50479756"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/DBB50479756/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/DBB50479756/venues/UIEVEX/executions
+setupAccount :  {"account":"WAD76569668"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/WAD76569668/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/WAD76569668/venues/UIEVEX/executions
+setupAccount :  {"account":"KJA16925311"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/KJA16925311/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/KJA16925311/venues/UIEVEX/executions
+setupAccount :  {"account":"YGT127075"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/YGT127075/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/YGT127075/venues/UIEVEX/executions
+setupAccount :  {"account":"THE57357368"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/THE57357368/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/THE57357368/venues/UIEVEX/executions
+setupAccount :  {"account":"MS63226388"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/MS63226388/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MS63226388/venues/UIEVEX/executions
+setupAccount :  {"account":"MW97356759"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/MW97356759/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MW97356759/venues/UIEVEX/executions
+setupAccount :  {"account":"MSB76502411"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/MSB76502411/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MSB76502411/venues/UIEVEX/executions
+setupAccount :  {"account":"SH69990605"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/SH69990605/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SH69990605/venues/UIEVEX/executions
+setupAccount :  {"account":"WAA39222437"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/WAA39222437/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/WAA39222437/venues/UIEVEX/executions
+setupAccount :  {"account":"SY38217310"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/SY38217310/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SY38217310/venues/UIEVEX/executions
+setupAccount :  {"account":"TAS96497565"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/TAS96497565/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/TAS96497565/venues/UIEVEX/executions
+setupAccount :  {"account":"AES68451265"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/AES68451265/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/AES68451265/venues/UIEVEX/executions
+setupAccount :  {"account":"HAD75866450"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/HAD75866450/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/HAD75866450/venues/UIEVEX/executions
+setupAccount :  {"account":"AKS49207825"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/AKS49207825/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/AKS49207825/venues/UIEVEX/executions
+setupAccount :  {"account":"HPH64256938"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/HPH64256938/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/HPH64256938/venues/UIEVEX/executions
+setupAccount :  {"account":"YAB74547467"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/YAB74547467/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/YAB74547467/venues/UIEVEX/executions
+setupAccount :  {"account":"YAS40289661"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/YAS40289661/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/YAS40289661/venues/UIEVEX/executions
+setupAccount :  {"account":"KAW99827945"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/KAW99827945/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/KAW99827945/venues/UIEVEX/executions
+setupAccount :  {"account":"LAF86614662"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/LAF86614662/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/LAF86614662/venues/UIEVEX/executions
+setupAccount :  {"account":"DAT11802898"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/DAT11802898/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/DAT11802898/venues/UIEVEX/executions
+setupAccount :  {"account":"EMS74606127"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/EMS74606127/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/EMS74606127/venues/UIEVEX/executions
+setupAccount :  {"account":"ATE7157298"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/ATE7157298/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/ATE7157298/venues/UIEVEX/executions
+setupAccount :  {"account":"IAM22329544"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/IAM22329544/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/IAM22329544/venues/UIEVEX/executions
+setupAccount :  {"account":"HS7290013"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/HS7290013/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/HS7290013/venues/UIEVEX/executions
+setupAccount :  {"account":"DHL6320279"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/DHL6320279/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/DHL6320279/venues/UIEVEX/executions
+setupAccount :  {"account":"SAK34513003"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/SAK34513003/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SAK34513003/venues/UIEVEX/executions
+setupAccount :  {"account":"WKB6119202"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/WKB6119202/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/WKB6119202/venues/UIEVEX/executions
+setupAccount :  {"account":"BAH53601468"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/BAH53601468/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BAH53601468/venues/UIEVEX/executions
+setupAccount :  {"account":"HS61530010"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/HS61530010/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/HS61530010/venues/UIEVEX/executions
+setupAccount :  {"account":"FB30828309"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/FB30828309/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/FB30828309/venues/UIEVEX/executions
+setupAccount :  {"account":"SAH86263388"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/SAH86263388/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SAH86263388/venues/UIEVEX/executions
+setupAccount :  {"account":"CPS30137253"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/CPS30137253/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/CPS30137253/venues/UIEVEX/executions
+setupAccount :  {"account":"BAS85517922"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/BAS85517922/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BAS85517922/venues/UIEVEX/executions
+setupAccount :  {"account":"YB89889298"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/YB89889298/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/YB89889298/venues/UIEVEX/executions
+setupAccount :  {"account":"TPB92873699"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/TPB92873699/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/TPB92873699/venues/UIEVEX/executions
+setupAccount :  {"account":"WAT90131514"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/WAT90131514/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/WAT90131514/venues/UIEVEX/executions
+setupAccount :  {"account":"EPS14268575"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/EPS14268575/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/EPS14268575/venues/UIEVEX/executions
+setupAccount :  {"account":"BPS15813798"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/BPS15813798/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BPS15813798/venues/UIEVEX/executions
+setupAccount :  {"account":"TKB96224422"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/TKB96224422/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/TKB96224422/venues/UIEVEX/executions
+setupAccount :  {"account":"TLY12848333"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/TLY12848333/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/TLY12848333/venues/UIEVEX/executions
+setupAccount :  {"account":"MAM44667937"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/MAM44667937/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MAM44667937/venues/UIEVEX/executions
+setupAccount :  {"account":"EPS48432416"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/EPS48432416/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/EPS48432416/venues/UIEVEX/executions
+setupAccount :  {"account":"MHY56175101"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/MHY56175101/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MHY56175101/venues/UIEVEX/executions
+localwatcher: ooops - client has disconnected [Error: not opened]
+Websocket died - cleaning up connection :  0
+AbstractWatcher:CONNECTION
+setupAccount :  {"account":"THA7575155"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/THA7575155/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/THA7575155/venues/UIEVEX/executions
+setupAccount :  {"account":"SAN16131471"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/SAN16131471/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SAN16131471/venues/UIEVEX/executions
+cancelSpike
+cancelSpike , maxId : 363
+setupAccount :  {"account":"LEB8630910"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/LEB8630910/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/LEB8630910/venues/UIEVEX/executions
+setupAccount :  {"account":"BK97092446"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/BK97092446/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BK97092446/venues/UIEVEX/executions
+setupAccount :  {"account":"EFS96199916"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/EFS96199916/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/EFS96199916/venues/UIEVEX/executions
+setupAccount :  {"account":"RBS57071815"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/RBS57071815/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/RBS57071815/venues/UIEVEX/executions
+setupAccount :  {"account":"DFS17922895"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/DFS17922895/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/DFS17922895/venues/UIEVEX/executions
+setupAccount :  {"account":"OFB23918658"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/OFB23918658/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/OFB23918658/venues/UIEVEX/executions
+setupAccount :  {"account":"WDS84844063"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/WDS84844063/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/WDS84844063/venues/UIEVEX/executions
+setupAccount :  {"account":"while"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/while/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/while/venues/UIEVEX/executions
+setupAccount :  {"account":"FRB2698756"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/FRB2698756/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/FRB2698756/venues/UIEVEX/executions
+cancelSpike
+cancelSpike , maxId : 427
+setupAccount :  {"account":"MFB10364288"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/MFB10364288/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MFB10364288/venues/UIEVEX/executions
+setupAccount :  {"account":"SAP84034715"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/SAP84034715/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SAP84034715/venues/UIEVEX/executions
+setupAccount :  {"account":"HAM49872123"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/HAM49872123/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/HAM49872123/venues/UIEVEX/executions
+setupAccount :  {"account":"HKS72377828"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/HKS72377828/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/HKS72377828/venues/UIEVEX/executions
+setupAccount :  {"account":"AAB42949861"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/AAB42949861/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/AAB42949861/venues/UIEVEX/executions
+setupAccount :  {"account":"RJC12358259"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/RJC12358259/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/RJC12358259/venues/UIEVEX/executions
+setupAccount :  {"account":"BAC58270993"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/BAC58270993/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BAC58270993/venues/UIEVEX/executions
+setupAccount :  {"account":"EYH90259435"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/EYH90259435/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/EYH90259435/venues/UIEVEX/executions
+setupAccount :  {"account":"AKS60625513"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/AKS60625513/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/AKS60625513/venues/UIEVEX/executions
+setupAccount :  {"account":"BJ79195208"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/BJ79195208/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BJ79195208/venues/UIEVEX/executions
+setupAccount :  {"account":"JAN37318263"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/JAN37318263/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/JAN37318263/venues/UIEVEX/executions
+setupAccount :  {"account":"WSS18070901"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/WSS18070901/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/WSS18070901/venues/UIEVEX/executions
+cancelSpike , maxId : 427
+setupAccount :  {"account":"MR48049997"}
+wstext :  wss://api.stockfighter.io/ob/api/ws/MR48049997/venues/UIEVEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MR48049997/venues/UIEVEX/executions
+cancelSpike
+cancelSpike , maxId : 491
+cancelSpike
+cancelSpike , maxId : 553
+cancelSpike
+cancelSpike , maxId : 627
+cancelSpike
+cancelSpike , maxId : 687
+cancelSpike
+cancelSpike , maxId : 753
+cancelSpike
+cancelSpike , maxId : 826
+cancelSpike
+cancelSpike , maxId : 898
+cancelSpike
+cancelSpike , maxId : 1037
+cancelSpike
+cancelSpike , maxId : 1098
+cancelSpike
+cancelSpike , maxId : 1165
+cancelSpike
+cancelSpike , maxId : 1223
+cancelSpike
+cancelSpike , maxId : 1286
+cancelSpike
+cancelSpike , maxId : 1356
+cancelSpike
+cancelSpike , maxId : 1428
+cancelSpike
+cancelSpike , maxId : 1491
+cancelSpike
+cancelSpike , maxId : 1562
+cancelSpike
+cancelSpike , maxId : 1627
+AbstractWatcher:CONNECTION
+cancelSpike
+cancelSpike , maxId : 1685
+localwatcher: ooops - client has disconnected [Error: not opened]
+Websocket died - cleaning up connection :  0
+cancelSpike
+cancelSpike , maxId : 1746
+AbstractWatcher:CONNECTION
+cancelSpike
+cancelSpike , maxId : 1810
+cancelSpike
+cancelSpike
+cancelSpike , maxId : 1880
+cancelSpike , maxId : 1889
+cancelSpike
+cancelSpike , maxId : 2006
+cancelSpike
+cancelSpike , maxId : 2075
+cancelSpike
+cancelSpike , maxId : 2139
+C&C harness control API initializing
+LOCK:  1463507270107 intervalLength 10000 now 1463507421793 drift 151686 chunk 30 target 31 targetInMs 1463507425107 timeOutInMs 3314
+C&C harness control API initializing
+strategy
+NET : MIDPOINT  [ 7585 ]
+sell:  25   limit   75850
+buy:  20   limit   7585
+sell:  25   limit   758510
+buy:  20   limit   7575
+sell:  25   limit   758520
+buy:  20   limit   7565
+sell:  25   limit   758530
+buy:  20   limit   7555
+cancelSpike
+sell:error:  [Error: updatePosition: null inputs]
+BID:  {"ok":true,"symbol":"BAC","venue":"UIEVEX","direction":"buy","originalQty":20,"qty":20,"price":7575,"orderType":"limit","id":2205,"account":"CES97894573","ts":"2016-05-17T17:52:32.635554437Z","fills":[],"totalFilled":0,"open":true}
+sell:error:  [Error: updatePosition: null inputs]
+BID:  {"ok":true,"symbol":"BAC","venue":"UIEVEX","direction":"buy","originalQty":20,"qty":20,"price":7585,"orderType":"limit","id":2206,"account":"CES97894573","ts":"2016-05-17T17:52:32.637377164Z","fills":[],"totalFilled":0,"open":true}
+sell:error:  [Error: updatePosition: null inputs]
+BID:  {"ok":true,"symbol":"BAC","venue":"UIEVEX","direction":"buy","originalQty":20,"qty":20,"price":7565,"orderType":"limit","id":2207,"account":"CES97894573","ts":"2016-05-17T17:52:32.641142131Z","fills":[],"totalFilled":0,"open":true}
+sell:error:  [Error: updatePosition: null inputs]
+BID:  {"ok":true,"symbol":"BAC","venue":"UIEVEX","direction":"buy","originalQty":20,"qty":20,"price":7555,"orderType":"limit","id":2208,"account":"CES97894573","ts":"2016-05-17T17:52:32.680162225Z","fills":[],"totalFilled":0,"open":true}
+cancelSpike , maxId : 2209
+tradingAccountFromBuffer - strainge input
+tradingAccountFromBuffer - strainge input
+tradingAccountFromBuffer - strainge input
+tradingAccountFromBuffer - strainge input
+cancelSpike
+cancelSpike , maxId : 2276
+strategy
+NET : MIDPOINT  [ 7773 ]
+sell:  25   limit   77730
+buy:  20   limit   7773
+sell:  25   limit   777310
+buy:  20   limit   7763
+sell:  25   limit   777320
+buy:  20   limit   7753
+sell:  25   limit   777330
+buy:  20   limit   7743
+cancelSpike
+sell:error:  [Error: updatePosition: null inputs]
+sell:error:  [Error: updatePosition: null inputs]
+BID:  {"ok":true,"symbol":"BAC","venue":"UIEVEX","direction":"buy","originalQty":20,"qty":0,"price":7763,"orderType":"limit","id":2347,"account":"CES97894573","ts":"2016-05-17T17:52:42.004893953Z","fills":[{"price":7717,"qty":20,"ts":"2016-05-17T17:52:42.004896482Z"}],"totalFilled":20,"open":false}
+FILL:  {"ok":true,"account":"CES97894573","venue":"UIEVEX","symbol":"BAC","order":{"ok":true,"symbol":"BAC","venue":"UIEVEX","direction":"buy","originalQty":20,"qty":0,"price":7763,"orderType":"limit","id":2347,"account":"CES97894573","ts":"2016-05-17T17:52:42.004893953Z","fills":[{"price":7717,"qty":20,"ts":"2016-05-17T17:52:42.004896482Z"}],"totalFilled":20,"open":false},"standingId":2331,"incomingId":2347,"price":7717,"filled":20,"filledAt":"2016-05-17T17:52:42.004896482Z","standingComplete":false,"incomingComplete":true}
+TRIDENT : limit :  2447  canceling  2347
+TRIDENT : limit :  2447  canceling  2348
+TRIDENT : limit :  2447  canceling  2349
+TRIDENT : limit :  2447  canceling  2350
+TRIDENT : limit :  2447  canceling  2351
+TRIDENT : limit :  2447  canceling  2352
+TRIDENT : limit :  2447  canceling  2353
+TRIDENT : limit :  2447  canceling  2354
+TRIDENT : limit :  2447  canceling  2355
+TRIDENT : limit :  2447  canceling  2356
+TRIDENT : limit :  2447  canceling  2357
+TRIDENT : limit :  2447  canceling  2358
+TRIDENT : limit :  2447  canceling  2359
+TRIDENT : limit :  2447  canceling  2360
+TRIDENT : limit :  2447  canceling  2361
+TRIDENT : limit :  2447  canceling  2362
+TRIDENT : limit :  2447  canceling  2363
+TRIDENT : limit :  2447  canceling  2364
+TRIDENT : limit :  2447  canceling  2365
+TRIDENT : limit :  2447  canceling  2366
+TRIDENT : limit :  2447  canceling  2367
+TRIDENT : limit :  2447  canceling  2368
+TRIDENT : limit :  2447  canceling  2369
+TRIDENT : limit :  2447  canceling  2370
+TRIDENT : limit :  2447  canceling  2371
+TRIDENT : limit :  2447  canceling  2372
+TRIDENT : limit :  2447  canceling  2373
+TRIDENT : limit :  2447  canceling  2374
+TRIDENT : limit :  2447  canceling  2375
+TRIDENT : limit :  2447  canceling  2376
+TRIDENT : limit :  2447  canceling  2377
+TRIDENT : limit :  2447  canceling  2378
+TRIDENT : limit :  2447  canceling  2379
+TRIDENT : limit :  2447  canceling  2380
+TRIDENT : limit :  2447  canceling  2381
+TRIDENT : limit :  2447  canceling  2382
+TRIDENT : limit :  2447  canceling  2383
+TRIDENT : limit :  2447  canceling  2384
+TRIDENT : limit :  2447  canceling  2385
+TRIDENT : limit :  2447  canceling  2386
+TRIDENT : limit :  2447  canceling  2387
+TRIDENT : limit :  2447  canceling  2388
+TRIDENT : limit :  2447  canceling  2389
+TRIDENT : limit :  2447  canceling  2390
+TRIDENT : limit :  2447  canceling  2391
+TRIDENT : limit :  2447  canceling  2392
+TRIDENT : limit :  2447  canceling  2393
+TRIDENT : limit :  2447  canceling  2394
+TRIDENT : limit :  2447  canceling  2395
+TRIDENT : limit :  2447  canceling  2396
+TRIDENT : limit :  2447  canceling  2397
+TRIDENT : limit :  2447  canceling  2398
+TRIDENT : limit :  2447  canceling  2399
+TRIDENT : limit :  2447  canceling  2400
+TRIDENT : limit :  2447  canceling  2401
+TRIDENT : limit :  2447  canceling  2402
+TRIDENT : limit :  2447  canceling  2403
+TRIDENT : limit :  2447  canceling  2404
+TRIDENT : limit :  2447  canceling  2405
+TRIDENT : limit :  2447  canceling  2406
+TRIDENT : limit :  2447  canceling  2407
+TRIDENT : limit :  2447  canceling  2408
+TRIDENT : limit :  2447  canceling  2409
+TRIDENT : limit :  2447  canceling  2410
+TRIDENT : limit :  2447  canceling  2411
+TRIDENT : limit :  2447  canceling  2412
+TRIDENT : limit :  2447  canceling  2413
+TRIDENT : limit :  2447  canceling  2414
+TRIDENT : limit :  2447  canceling  2415
+TRIDENT : limit :  2447  canceling  2416
+TRIDENT : limit :  2447  canceling  2417
+TRIDENT : limit :  2447  canceling  2418
+TRIDENT : limit :  2447  canceling  2419
+TRIDENT : limit :  2447  canceling  2420
+TRIDENT : limit :  2447  canceling  2421
+TRIDENT : limit :  2447  canceling  2422
+TRIDENT : limit :  2447  canceling  2423
+TRIDENT : limit :  2447  canceling  2424
+TRIDENT : limit :  2447  canceling  2425
+TRIDENT : limit :  2447  canceling  2426
+TRIDENT : limit :  2447  canceling  2427
+TRIDENT : limit :  2447  canceling  2428
+TRIDENT : limit :  2447  canceling  2429
+TRIDENT : limit :  2447  canceling  2430
+TRIDENT : limit :  2447  canceling  2431
+TRIDENT : limit :  2447  canceling  2432
+TRIDENT : limit :  2447  canceling  2433
+TRIDENT : limit :  2447  canceling  2434
+TRIDENT : limit :  2447  canceling  2435
+TRIDENT : limit :  2447  canceling  2436
+TRIDENT : limit :  2447  canceling  2437
+TRIDENT : limit :  2447  canceling  2438
+TRIDENT : limit :  2447  canceling  2439
+TRIDENT : limit :  2447  canceling  2440
+TRIDENT : limit :  2447  canceling  2441
+TRIDENT : limit :  2447  canceling  2442
+TRIDENT : limit :  2447  canceling  2443
+TRIDENT : limit :  2447  canceling  2444
+TRIDENT : limit :  2447  canceling  2445
+TRIDENT : limit :  2447  canceling  2446
+execwatcher: ooops - client has disconnected [Error: not opened]
+execwatcher :Websocket died - cleaning up connection :  0
+FILL:  {"ok":true,"account":"CES97894573","venue":"UIEVEX","symbol":"BAC","order":{"ok":true,"symbol":"BAC","venue":"UIEVEX","direction":"buy","originalQty":20,"qty":0,"price":7743,"orderType":"limit","id":2348,"account":"CES97894573","ts":"2016-05-17T17:52:42.014635438Z","fills":[{"price":7717,"qty":20,"ts":"2016-05-17T17:52:42.014637135Z"}],"totalFilled":20,"open":false},"standingId":2331,"incomingId":2348,"price":7717,"filled":20,"filledAt":"2016-05-17T17:52:42.014637135Z","standingComplete":false,"incomingComplete":true}
+TRIDENT : limit :  2448  canceling  2348
+TRIDENT : limit :  2448  canceling  2349
+TRIDENT : limit :  2448  canceling  2350
+TRIDENT : limit :  2448  canceling  2351
+TRIDENT : limit :  2448  canceling  2352
+TRIDENT : limit :  2448  canceling  2353
+TRIDENT : limit :  2448  canceling  2354
+TRIDENT : limit :  2448  canceling  2355
+TRIDENT : limit :  2448  canceling  2356
+TRIDENT : limit :  2448  canceling  2357
+TRIDENT : limit :  2448  canceling  2358
+TRIDENT : limit :  2448  canceling  2359
+TRIDENT : limit :  2448  canceling  2360
+TRIDENT : limit :  2448  canceling  2361
+TRIDENT : limit :  2448  canceling  2362
+TRIDENT : limit :  2448  canceling  2363
+TRIDENT : limit :  2448  canceling  2364
+TRIDENT : limit :  2448  canceling  2365
+TRIDENT : limit :  2448  canceling  2366
+TRIDENT : limit :  2448  canceling  2367
+TRIDENT : limit :  2448  canceling  2368
+TRIDENT : limit :  2448  canceling  2369
+TRIDENT : limit :  2448  canceling  2370
+TRIDENT : limit :  2448  canceling  2371
+TRIDENT : limit :  2448  canceling  2372
+TRIDENT : limit :  2448  canceling  2373
+TRIDENT : limit :  2448  canceling  2374
+TRIDENT : limit :  2448  canceling  2375
+TRIDENT : limit :  2448  canceling  2376
+TRIDENT : limit :  2448  canceling  2377
+TRIDENT : limit :  2448  canceling  2378
+TRIDENT : limit :  2448  canceling  2379
+TRIDENT : limit :  2448  canceling  2380
+TRIDENT : limit :  2448  canceling  2381
+TRIDENT : limit :  2448  canceling  2382
+TRIDENT : limit :  2448  canceling  2383
+TRIDENT : limit :  2448  canceling  2384
+TRIDENT : limit :  2448  canceling  2385
+TRIDENT : limit :  2448  canceling  2386
+TRIDENT : limit :  2448  canceling  2387
+TRIDENT : limit :  2448  canceling  2388
+TRIDENT : limit :  2448  canceling  2389
+TRIDENT : limit :  2448  canceling  2390
+TRIDENT : limit :  2448  canceling  2391
+TRIDENT : limit :  2448  canceling  2392
+TRIDENT : limit :  2448  canceling  2393
+TRIDENT : limit :  2448  canceling  2394
+TRIDENT : limit :  2448  canceling  2395
+TRIDENT : limit :  2448  canceling  2396
+TRIDENT : limit :  2448  canceling  2397
+TRIDENT : limit :  2448  canceling  2398
+TRIDENT : limit :  2448  canceling  2399
+TRIDENT : limit :  2448  canceling  2400
+TRIDENT : limit :  2448  canceling  2401
+TRIDENT : limit :  2448  canceling  2402
+TRIDENT : limit :  2448  canceling  2403
+TRIDENT : limit :  2448  canceling  2404
+TRIDENT : limit :  2448  canceling  2405
+TRIDENT : limit :  2448  canceling  2406
+TRIDENT : limit :  2448  canceling  2407
+TRIDENT : limit :  2448  canceling  2408
+TRIDENT : limit :  2448  canceling  2409
+TRIDENT : limit :  2448  canceling  2410
+TRIDENT : limit :  2448  canceling  2411
+TRIDENT : limit :  2448  canceling  2412
+TRIDENT : limit :  2448  canceling  2413
+TRIDENT : limit :  2448  canceling  2414
+TRIDENT : limit :  2448  canceling  2415
+TRIDENT : limit :  2448  canceling  2416
+TRIDENT : limit :  2448  canceling  2417
+TRIDENT : limit :  2448  canceling  2418
+TRIDENT : limit :  2448  canceling  2419
+TRIDENT : limit :  2448  canceling  2420
+TRIDENT : limit :  2448  canceling  2421
+TRIDENT : limit :  2448  canceling  2422
+TRIDENT : limit :  2448  canceling  2423
+TRIDENT : limit :  2448  canceling  2424
+TRIDENT : limit :  2448  canceling  2425
+TRIDENT : limit :  2448  canceling  2426
+TRIDENT : limit :  2448  canceling  2427
+TRIDENT : limit :  2448  canceling  2428
+TRIDENT : limit :  2448  canceling  2429
+TRIDENT : limit :  2448  canceling  2430
+TRIDENT : limit :  2448  canceling  2431
+TRIDENT : limit :  2448  canceling  2432
+TRIDENT : limit :  2448  canceling  2433
+TRIDENT : limit :  2448  canceling  2434
+TRIDENT : limit :  2448  canceling  2435
+TRIDENT : limit :  2448  canceling  2436
+TRIDENT : limit :  2448  canceling  2437
+TRIDENT : limit :  2448  canceling  2438
+TRIDENT : limit :  2448  canceling  2439
+TRIDENT : limit :  2448  canceling  2440
+TRIDENT : limit :  2448  canceling  2441
+TRIDENT : limit :  2448  canceling  2442
+TRIDENT : limit :  2448  canceling  2443
+TRIDENT : limit :  2448  canceling  2444
+TRIDENT : limit :  2448  canceling  2445
+TRIDENT : limit :  2448  canceling  2446
+TRIDENT : limit :  2448  canceling  2447
+FILL:  {"ok":true,"account":"CES97894573","venue":"UIEVEX","symbol":"BAC","order":{"ok":true,"symbol":"BAC","venue":"UIEVEX","direction":"buy","originalQty":20,"qty":0,"price":7753,"orderType":"limit","id":2349,"account":"CES97894573","ts":"2016-05-17T17:52:42.023953202Z","fills":[{"price":7717,"qty":20,"ts":"2016-05-17T17:52:42.023955732Z"}],"totalFilled":20,"open":false},"standingId":2331,"incomingId":2349,"price":7717,"filled":20,"filledAt":"2016-05-17T17:52:42.023955732Z","standingComplete":false,"incomingComplete":true}
+TRIDENT : limit :  2449  canceling  2349
+TRIDENT : limit :  2449  canceling  2350
+TRIDENT : limit :  2449  canceling  2351
+TRIDENT : limit :  2449  canceling  2352
+TRIDENT : limit :  2449  canceling  2353
+TRIDENT : limit :  2449  canceling  2354
+TRIDENT : limit :  2449  canceling  2355
+TRIDENT : limit :  2449  canceling  2356
+TRIDENT : limit :  2449  canceling  2357
+TRIDENT : limit :  2449  canceling  2358
+TRIDENT : limit :  2449  canceling  2359
+TRIDENT : limit :  2449  canceling  2360
+TRIDENT : limit :  2449  canceling  2361
+TRIDENT : limit :  2449  canceling  2362
+TRIDENT : limit :  2449  canceling  2363
+TRIDENT : limit :  2449  canceling  2364
+TRIDENT : limit :  2449  canceling  2365
+TRIDENT : limit :  2449  canceling  2366
+TRIDENT : limit :  2449  canceling  2367
+TRIDENT : limit :  2449  canceling  2368
+TRIDENT : limit :  2449  canceling  2369
+TRIDENT : limit :  2449  canceling  2370
+TRIDENT : limit :  2449  canceling  2371
+TRIDENT : limit :  2449  canceling  2372
+TRIDENT : limit :  2449  canceling  2373
+TRIDENT : limit :  2449  canceling  2374
+TRIDENT : limit :  2449  canceling  2375
+TRIDENT : limit :  2449  canceling  2376
+TRIDENT : limit :  2449  canceling  2377
+TRIDENT : limit :  2449  canceling  2378
+TRIDENT : limit :  2449  canceling  2379
+TRIDENT : limit :  2449  canceling  2380
+TRIDENT : limit :  2449  canceling  2381
+TRIDENT : limit :  2449  canceling  2382
+TRIDENT : limit :  2449  canceling  2383
+TRIDENT : limit :  2449  canceling  2384
+TRIDENT : limit :  2449  canceling  2385
+TRIDENT : limit :  2449  canceling  2386
+TRIDENT : limit :  2449  canceling  2387
+TRIDENT : limit :  2449  canceling  2388
+TRIDENT : limit :  2449  canceling  2389
+TRIDENT : limit :  2449  canceling  2390
+TRIDENT : limit :  2449  canceling  2391
+TRIDENT : limit :  2449  canceling  2392
+TRIDENT : limit :  2449  canceling  2393
+TRIDENT : limit :  2449  canceling  2394
+TRIDENT : limit :  2449  canceling  2395
+TRIDENT : limit :  2449  canceling  2396
+TRIDENT : limit :  2449  canceling  2397
+TRIDENT : limit :  2449  canceling  2398
+TRIDENT : limit :  2449  canceling  2399
+TRIDENT : limit :  2449  canceling  2400
+TRIDENT : limit :  2449  canceling  2401
+TRIDENT : limit :  2449  canceling  2402
+TRIDENT : limit :  2449  canceling  2403
+TRIDENT : limit :  2449  canceling  2404
+TRIDENT : limit :  2449  canceling  2405
+TRIDENT : limit :  2449  canceling  2406
+TRIDENT : limit :  2449  canceling  2407
+TRIDENT : limit :  2449  canceling  2408
+TRIDENT : limit :  2449  canceling  2409
+TRIDENT : limit :  2449  canceling  2410
+TRIDENT : limit :  2449  canceling  2411
+TRIDENT : limit :  2449  canceling  2412
+TRIDENT : limit :  2449  canceling  2413
+TRIDENT : limit :  2449  canceling  2414
+TRIDENT : limit :  2449  canceling  2415
+TRIDENT : limit :  2449  canceling  2416
+TRIDENT : limit :  2449  canceling  2417
+TRIDENT : limit :  2449  canceling  2418
+TRIDENT : limit :  2449  canceling  2419
+TRIDENT : limit :  2449  canceling  2420
+TRIDENT : limit :  2449  canceling  2421
+TRIDENT : limit :  2449  canceling  2422
+TRIDENT : limit :  2449  canceling  2423
+TRIDENT : limit :  2449  canceling  2424
+TRIDENT : limit :  2449  canceling  2425
+TRIDENT : limit :  2449  canceling  2426
+TRIDENT : limit :  2449  canceling  2427
+TRIDENT : limit :  2449  canceling  2428
+TRIDENT : limit :  2449  canceling  2429
+TRIDENT : limit :  2449  canceling  2430
+TRIDENT : limit :  2449  canceling  2431
+TRIDENT : limit :  2449  canceling  2432
+TRIDENT : limit :  2449  canceling  2433
+TRIDENT : limit :  2449  canceling  2434
+TRIDENT : limit :  2449  canceling  2435
+TRIDENT : limit :  2449  canceling  2436
+TRIDENT : limit :  2449  canceling  2437
+TRIDENT : limit :  2449  canceling  2438
+TRIDENT : limit :  2449  canceling  2439
+TRIDENT : limit :  2449  canceling  2440
+TRIDENT : limit :  2449  canceling  2441
+TRIDENT : limit :  2449  canceling  2442
+TRIDENT : limit :  2449  canceling  2443
+TRIDENT : limit :  2449  canceling  2444
+TRIDENT : limit :  2449  canceling  2445
+TRIDENT : limit :  2449  canceling  2446
+TRIDENT : limit :  2449  canceling  2447
+TRIDENT : limit :  2449  canceling  2448
+FILL:  {"ok":true,"account":"CES97894573","venue":"UIEVEX","symbol":"BAC","order":{"ok":true,"symbol":"BAC","venue":"UIEVEX","direction":"buy","originalQty":20,"qty":0,"price":7773,"orderType":"limit","id":2350,"account":"CES97894573","ts":"2016-05-17T17:52:42.028787758Z","fills":[{"price":7717,"qty":20,"ts":"2016-05-17T17:52:42.028789349Z"}],"totalFilled":20,"open":false},"standingId":2331,"incomingId":2350,"price":7717,"filled":20,"filledAt":"2016-05-17T17:52:42.028789349Z","standingComplete":false,"incomingComplete":true}
+TRIDENT : limit :  2450  canceling  2350
+TRIDENT : limit :  2450  canceling  2351
+TRIDENT : limit :  2450  canceling  2352
+TRIDENT : limit :  2450  canceling  2353
+TRIDENT : limit :  2450  canceling  2354
+TRIDENT : limit :  2450  canceling  2355
+TRIDENT : limit :  2450  canceling  2356
+TRIDENT : limit :  2450  canceling  2357
+TRIDENT : limit :  2450  canceling  2358
+TRIDENT : limit :  2450  canceling  2359
+TRIDENT : limit :  2450  canceling  2360
+TRIDENT : limit :  2450  canceling  2361
+TRIDENT : limit :  2450  canceling  2362
+TRIDENT : limit :  2450  canceling  2363
+TRIDENT : limit :  2450  canceling  2364
+TRIDENT : limit :  2450  canceling  2365
+TRIDENT : limit :  2450  canceling  2366
+TRIDENT : limit :  2450  canceling  2367
+TRIDENT : limit :  2450  canceling  2368
+TRIDENT : limit :  2450  canceling  2369
+TRIDENT : limit :  2450  canceling  2370
+TRIDENT : limit :  2450  canceling  2371
+TRIDENT : limit :  2450  canceling  2372
+TRIDENT : limit :  2450  canceling  2373
+TRIDENT : limit :  2450  canceling  2374
+TRIDENT : limit :  2450  canceling  2375
+TRIDENT : limit :  2450  canceling  2376
+TRIDENT : limit :  2450  canceling  2377
+TRIDENT : limit :  2450  canceling  2378
+TRIDENT : limit :  2450  canceling  2379
+TRIDENT : limit :  2450  canceling  2380
+TRIDENT : limit :  2450  canceling  2381
+TRIDENT : limit :  2450  canceling  2382
+TRIDENT : limit :  2450  canceling  2383
+TRIDENT : limit :  2450  canceling  2384
+TRIDENT : limit :  2450  canceling  2385
+TRIDENT : limit :  2450  canceling  2386
+TRIDENT : limit :  2450  canceling  2387
+TRIDENT : limit :  2450  canceling  2388
+TRIDENT : limit :  2450  canceling  2389
+TRIDENT : limit :  2450  canceling  2390
+TRIDENT : limit :  2450  canceling  2391
+TRIDENT : limit :  2450  canceling  2392
+TRIDENT : limit :  2450  canceling  2393
+TRIDENT : limit :  2450  canceling  2394
+TRIDENT : limit :  2450  canceling  2395
+TRIDENT : limit :  2450  canceling  2396
+TRIDENT : limit :  2450  canceling  2397
+TRIDENT : limit :  2450  canceling  2398
+TRIDENT : limit :  2450  canceling  2399
+TRIDENT : limit :  2450  canceling  2400
+TRIDENT : limit :  2450  canceling  2401
+TRIDENT : limit :  2450  canceling  2402
+TRIDENT : limit :  2450  canceling  2403
+TRIDENT : limit :  2450  canceling  2404
+TRIDENT : limit :  2450  canceling  2405
+TRIDENT : limit :  2450  canceling  2406
+TRIDENT : limit :  2450  canceling  2407
+TRIDENT : limit :  2450  canceling  2408
+TRIDENT : limit :  2450  canceling  2409
+TRIDENT : limit :  2450  canceling  2410
+TRIDENT : limit :  2450  canceling  2411
+TRIDENT : limit :  2450  canceling  2412
+TRIDENT : limit :  2450  canceling  2413
+TRIDENT : limit :  2450  canceling  2414
+TRIDENT : limit :  2450  canceling  2415
+TRIDENT : limit :  2450  canceling  2416
+TRIDENT : limit :  2450  canceling  2417
+TRIDENT : limit :  2450  canceling  2418
+TRIDENT : limit :  2450  canceling  2419
+TRIDENT : limit :  2450  canceling  2420
+TRIDENT : limit :  2450  canceling  2421
+TRIDENT : limit :  2450  canceling  2422
+TRIDENT : limit :  2450  canceling  2423
+TRIDENT : limit :  2450  canceling  2424
+TRIDENT : limit :  2450  canceling  2425
+TRIDENT : limit :  2450  canceling  2426
+TRIDENT : limit :  2450  canceling  2427
+TRIDENT : limit :  2450  canceling  2428
+TRIDENT : limit :  2450  canceling  2429
+TRIDENT : limit :  2450  canceling  2430
+TRIDENT : limit :  2450  canceling  2431
+TRIDENT : limit :  2450  canceling  2432
+TRIDENT : limit :  2450  canceling  2433
+TRIDENT : limit :  2450  canceling  2434
+TRIDENT : limit :  2450  canceling  2435
+TRIDENT : limit :  2450  canceling  2436
+TRIDENT : limit :  2450  canceling  2437
+TRIDENT : limit :  2450  canceling  2438
+TRIDENT : limit :  2450  canceling  2439
+TRIDENT : limit :  2450  canceling  2440
+TRIDENT : limit :  2450  canceling  2441
+TRIDENT : limit :  2450  canceling  2442
+TRIDENT : limit :  2450  canceling  2443
+TRIDENT : limit :  2450  canceling  2444
+TRIDENT : limit :  2450  canceling  2445
+TRIDENT : limit :  2450  canceling  2446
+TRIDENT : limit :  2450  canceling  2447
+TRIDENT : limit :  2450  canceling  2448
+TRIDENT : limit :  2450  canceling  2449
+sell:error:  [Error: updatePosition: null inputs]
+BID:  {"ok":true,"symbol":"BAC","venue":"UIEVEX","direction":"buy","originalQty":20,"qty":0,"price":7743,"orderType":"limit","id":2348,"account":"CES97894573","ts":"2016-05-17T17:52:42.014635438Z","fills":[{"price":7717,"qty":20,"ts":"2016-05-17T17:52:42.014637135Z"}],"totalFilled":20,"open":false}
+sell:error:  [Error: updatePosition: null inputs]
+BID:  {"ok":true,"symbol":"BAC","venue":"UIEVEX","direction":"buy","originalQty":20,"qty":0,"price":7753,"orderType":"limit","id":2349,"account":"CES97894573","ts":"2016-05-17T17:52:42.023953202Z","fills":[{"price":7717,"qty":20,"ts":"2016-05-17T17:52:42.023955732Z"}],"totalFilled":20,"open":false}
+cancelSpike , maxId : 2351
+BID:  {"ok":true,"symbol":"BAC","venue":"UIEVEX","direction":"buy","originalQty":20,"qty":0,"price":7773,"orderType":"limit","id":2350,"account":"CES97894573","ts":"2016-05-17T17:52:42.028787758Z","fills":[{"price":7717,"qty":20,"ts":"2016-05-17T17:52:42.028789349Z"}],"totalFilled":20,"open":false}
+CANCEL:  {"ok":false,"error":"order 2368 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2368 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2365 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2365 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2369 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2369 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2375 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2375 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2392 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2392 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2400 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2400 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2412 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2412 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2413 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2413 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2415 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2415 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2416 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2416 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2417 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2417 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2419 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2419 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2420 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2420 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2418 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2418 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2421 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2421 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2422 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2422 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2425 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2425 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2424 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2424 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2423 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2423 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2429 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2429 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2428 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2428 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2426 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2426 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2427 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2427 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2434 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2434 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2357 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2357 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2383 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2383 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2379 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2379 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2377 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2377 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2376 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2376 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2389 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2389 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2388 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2388 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2386 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2386 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2384 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2384 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2392 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2392 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2403 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2403 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2385 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2385 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2395 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2395 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2406 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2406 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2438 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2438 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2359 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2359 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2414 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2414 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2448 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2448 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2358 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2358 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2357 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2357 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2356 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2356 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2363 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2363 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2375 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2375 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2374 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2374 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2379 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2379 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2394 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2394 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2392 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2392 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2389 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2389 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2395 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2395 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2397 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2397 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2406 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2406 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2405 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2405 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2403 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2403 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2407 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2407 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2408 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2408 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2404 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2404 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2410 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2410 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2411 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2411 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2425 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2425 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2431 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2431 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2427 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2427 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2430 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2430 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2428 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2428 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2429 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2429 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2433 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2433 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2438 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2438 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2353 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2353 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2436 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2436 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2441 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2441 [Error: updateCancel : malformed object input: >]
+CANCEL:  {
+  "ok": true,
+  "symbol": "BAC",
+  "venue": "UIEVEX",
+  "direction": "buy",
+  "originalQty": 20,
+  "qty": 0,
+  "price": 7753,
+  "orderType": "limit",
+  "id": 2349,
+  "account": "CES97894573",
+  "ts": "2016-05-17T17:52:42.023953202Z",
+  "fills": [
+    {
+      "price": 7717,
+      "qty": 20,
+      "ts": "2016-05-17T17:52:42.023955732Z"
+    }
+  ],
+  "totalFilled": 20,
+  "open": false
+}
+WARNING , CANCELLING obj isnt recorded in bids or asks {"ok":true,"symbol":"BAC","venue":"UIEVEX","direction":"buy","originalQty":20,"qty":0,"price":7753,"orderType":"limit","id":2349,"account":"CES97894573","ts":"2016-05-17T17:52:42.023953202Z","fills":[{"price":7717,"qty":20,"ts":"2016-05-17T17:52:42.023955732Z"}],"totalFilled":20,"open":false}
+cancel:error:  2349 [Error: cancel : not in bids or asks : cant cancel :]
+CANCEL:  {"ok":false,"error":"order 2356 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2356 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2385 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2385 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2354 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2354 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2389 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2389 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2403 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2403 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2358 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2358 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2402 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2402 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2407 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2407 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2433 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2433 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2436 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2436 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2444 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2444 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2439 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2439 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2441 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2441 [Error: updateCancel : malformed object input: >]
+tradingAccountFromBuffer - strainge input
+CANCEL:  {"ok":false,"error":"order 2446 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2446 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2442 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2442 [Error: updateCancel : malformed object input: >]
+tradingAccountFromBuffer - strainge input
+CANCEL:  {
+  "ok": true,
+  "symbol": "BAC",
+  "venue": "UIEVEX",
+  "direction": "buy",
+  "originalQty": 20,
+  "qty": 0,
+  "price": 7773,
+  "orderType": "limit",
+  "id": 2350,
+  "account": "CES97894573",
+  "ts": "2016-05-17T17:52:42.028787758Z",
+  "fills": [
+    {
+      "price": 7717,
+      "qty": 20,
+      "ts": "2016-05-17T17:52:42.028789349Z"
+    }
+  ],
+  "totalFilled": 20,
+  "open": false
+}
+WARNING , CANCELLING obj isnt recorded in bids or asks {"ok":true,"symbol":"BAC","venue":"UIEVEX","direction":"buy","originalQty":20,"qty":0,"price":7773,"orderType":"limit","id":2350,"account":"CES97894573","ts":"2016-05-17T17:52:42.028787758Z","fills":[{"price":7717,"qty":20,"ts":"2016-05-17T17:52:42.028789349Z"}],"totalFilled":20,"open":false}
+cancel:error:  2350 [Error: cancel : not in bids or asks : cant cancel :]
+CANCEL:  {
+  "ok": true,
+  "symbol": "BAC",
+  "venue": "UIEVEX",
+  "direction": "buy",
+  "originalQty": 20,
+  "qty": 0,
+  "price": 7743,
+  "orderType": "limit",
+  "id": 2348,
+  "account": "CES97894573",
+  "ts": "2016-05-17T17:52:42.014635438Z",
+  "fills": [
+    {
+      "price": 7717,
+      "qty": 20,
+      "ts": "2016-05-17T17:52:42.014637135Z"
+    }
+  ],
+  "totalFilled": 20,
+  "open": false
+}
+WARNING , CANCELLING obj isnt recorded in bids or asks {"ok":true,"symbol":"BAC","venue":"UIEVEX","direction":"buy","originalQty":20,"qty":0,"price":7743,"orderType":"limit","id":2348,"account":"CES97894573","ts":"2016-05-17T17:52:42.014635438Z","fills":[{"price":7717,"qty":20,"ts":"2016-05-17T17:52:42.014637135Z"}],"totalFilled":20,"open":false}
+cancel:error:  2348 [Error: cancel : not in bids or asks : cant cancel :]
+CANCEL:  {
+  "ok": true,
+  "symbol": "BAC",
+  "venue": "UIEVEX",
+  "direction": "buy",
+  "originalQty": 20,
+  "qty": 0,
+  "price": 7753,
+  "orderType": "limit",
+  "id": 2349,
+  "account": "CES97894573",
+  "ts": "2016-05-17T17:52:42.023953202Z",
+  "fills": [
+    {
+      "price": 7717,
+      "qty": 20,
+      "ts": "2016-05-17T17:52:42.023955732Z"
+    }
+  ],
+  "totalFilled": 20,
+  "open": false
+}
+WARNING , CANCELLING obj isnt recorded in bids or asks {"ok":true,"symbol":"BAC","venue":"UIEVEX","direction":"buy","originalQty":20,"qty":0,"price":7753,"orderType":"limit","id":2349,"account":"CES97894573","ts":"2016-05-17T17:52:42.023953202Z","fills":[{"price":7717,"qty":20,"ts":"2016-05-17T17:52:42.023955732Z"}],"totalFilled":20,"open":false}
+cancel:error:  2349 [Error: cancel : not in bids or asks : cant cancel :]
+CANCEL:  {"ok":false,"error":"order 2382 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2382 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2352 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2352 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2351 not found (the venue purges orders after a while)"}
+
+cancel:error:  2351 [Error: updateCancel : malformed object input: >]
+cancelSpike
+CANCEL:  {"ok":false,"error":"order 2354 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2354 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2358 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2358 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2355 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2355 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2353 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2353 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2360 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2360 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2359 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2359 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2361 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2361 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2364 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2364 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2366 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2366 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2422 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2422 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2424 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2424 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2426 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2426 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2434 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2434 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2433 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2433 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2435 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2435 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2432 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2432 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2442 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2442 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2440 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2440 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2437 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2437 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2355 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2355 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2436 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2436 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2439 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2439 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2353 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2353 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2445 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2445 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2352 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2352 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2364 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2364 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2361 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2361 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2444 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2444 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2358 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2358 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2357 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2357 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2354 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2354 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2446 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2446 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2443 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2443 [Error: updateCancel : malformed object input: >]
+CANCEL:  {
+  "ok": true,
+  "symbol": "BAC",
+  "venue": "UIEVEX",
+  "direction": "buy",
+  "originalQty": 20,
+  "qty": 0,
+  "price": 7773,
+  "orderType": "limit",
+  "id": 2350,
+  "account": "CES97894573",
+  "ts": "2016-05-17T17:52:42.028787758Z",
+  "fills": [
+    {
+      "price": 7717,
+      "qty": 20,
+      "ts": "2016-05-17T17:52:42.028789349Z"
+    }
+  ],
+  "totalFilled": 20,
+  "open": false
+}
+WARNING , CANCELLING obj isnt recorded in bids or asks {"ok":true,"symbol":"BAC","venue":"UIEVEX","direction":"buy","originalQty":20,"qty":0,"price":7773,"orderType":"limit","id":2350,"account":"CES97894573","ts":"2016-05-17T17:52:42.028787758Z","fills":[{"price":7717,"qty":20,"ts":"2016-05-17T17:52:42.028789349Z"}],"totalFilled":20,"open":false}
+cancel:error:  2350 [Error: cancel : not in bids or asks : cant cancel :]
+CANCEL:  {"ok":false,"error":"order 2447 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2447 [Error: updateCancel : malformed object input: >]
+CANCEL:  {
+  "ok": true,
+  "symbol": "BAC",
+  "venue": "UIEVEX",
+  "direction": "buy",
+  "originalQty": 20,
+  "qty": 0,
+  "price": 7753,
+  "orderType": "limit",
+  "id": 2349,
+  "account": "CES97894573",
+  "ts": "2016-05-17T17:52:42.023953202Z",
+  "fills": [
+    {
+      "price": 7717,
+      "qty": 20,
+      "ts": "2016-05-17T17:52:42.023955732Z"
+    }
+  ],
+  "totalFilled": 20,
+  "open": false
+}
+WARNING , CANCELLING obj isnt recorded in bids or asks {"ok":true,"symbol":"BAC","venue":"UIEVEX","direction":"buy","originalQty":20,"qty":0,"price":7753,"orderType":"limit","id":2349,"account":"CES97894573","ts":"2016-05-17T17:52:42.023953202Z","fills":[{"price":7717,"qty":20,"ts":"2016-05-17T17:52:42.023955732Z"}],"totalFilled":20,"open":false}
+cancel:error:  2349 [Error: cancel : not in bids or asks : cant cancel :]
+CANCEL:  {"ok":false,"error":"order 2356 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2356 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2363 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2363 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2362 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2362 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2370 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2370 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2351 not found (the venue purges orders after a while)"}
+
+cancel:error:  2351 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2367 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2367 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2360 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2360 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2365 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2365 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2366 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2366 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2368 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2368 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2369 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2369 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2374 not found (highest available on this venue is 2353)"}
+
+cancel:error:  2374 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2381 not found (highest available on this venue is 2360)"}
+
+cancel:error:  2381 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2377 not found (highest available on this venue is 2360)"}
+
+cancel:error:  2377 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account MR48049997."}
+
+cancel:error:  2362 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account SAN16131471."}
+
+cancel:error:  2364 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2376 not found (highest available on this venue is 2372)"}
+
+cancel:error:  2376 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2383 not found (highest available on this venue is 2378)"}
+
+cancel:error:  2383 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account WSS18070901."}
+
+cancel:error:  2366 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HKS72377828."}
+
+cancel:error:  2378 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2386 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EFS96199916."}
+
+cancel:error:  2367 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EMS74606127."}
+
+cancel:error:  2370 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EMS74606127."}
+
+cancel:error:  2374 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EMS74606127."}
+
+cancel:error:  2372 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2387 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account SAP84034715."}
+
+cancel:error:  2384 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account SAP84034715."}
+
+cancel:error:  2384 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account BAC58270993."}
+
+cancel:error:  2379 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account DFS17922895."}
+
+cancel:error:  2382 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account DFS17922895."}
+
+cancel:error:  2382 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EMS74606127."}
+
+cancel:error:  2373 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2392 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2391 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HKS72377828."}
+
+cancel:error:  2378 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HDE47628228."}
+
+cancel:error:  2390 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EPS48432416."}
+
+cancel:error:  2380 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2385 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HDE47628228."}
+
+cancel:error:  2389 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HDE47628228."}
+
+cancel:error:  2388 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2386 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HDE47628228."}
+
+cancel:error:  2400 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2393 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2428 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2428 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2430 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2430 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2429 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2429 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2435 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2435 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2438 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2438 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2441 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2441 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2443 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2443 [Error: updateCancel : malformed object input: >]
+CANCEL:  {
+  "ok": true,
+  "symbol": "BAC",
+  "venue": "UIEVEX",
+  "direction": "buy",
+  "originalQty": 20,
+  "qty": 0,
+  "price": 7773,
+  "orderType": "limit",
+  "id": 2350,
+  "account": "CES97894573",
+  "ts": "2016-05-17T17:52:42.028787758Z",
+  "fills": [
+    {
+      "price": 7717,
+      "qty": 20,
+      "ts": "2016-05-17T17:52:42.028789349Z"
+    }
+  ],
+  "totalFilled": 20,
+  "open": false
+}
+WARNING , CANCELLING obj isnt recorded in bids or asks {"ok":true,"symbol":"BAC","venue":"UIEVEX","direction":"buy","originalQty":20,"qty":0,"price":7773,"orderType":"limit","id":2350,"account":"CES97894573","ts":"2016-05-17T17:52:42.028787758Z","fills":[{"price":7717,"qty":20,"ts":"2016-05-17T17:52:42.028789349Z"}],"totalFilled":20,"open":false}
+cancel:error:  2350 [Error: cancel : not in bids or asks : cant cancel :]
+CANCEL:  {"ok":false,"error":"order 2436 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2436 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2439 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2439 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HDE47628228."}
+
+cancel:error:  2354 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account MFB10364288."}
+
+cancel:error:  2360 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2444 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2444 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2445 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2445 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HDE47628228."}
+
+cancel:error:  2353 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2446 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2446 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account AKS60625513."}
+
+cancel:error:  2359 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HDE47628228."}
+
+cancel:error:  2355 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account WSS18070901."}
+
+cancel:error:  2366 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EYH90259435."}
+
+cancel:error:  2365 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account MR48049997."}
+
+cancel:error:  2362 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EFS96199916."}
+
+cancel:error:  2367 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account AAB42949861."}
+
+cancel:error:  2368 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account OFB23918658."}
+
+cancel:error:  2369 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EMS74606127."}
+
+cancel:error:  2370 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EMS74606127."}
+
+cancel:error:  2371 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EMS74606127."}
+
+cancel:error:  2373 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account WDS84844063."}
+
+cancel:error:  2376 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HKS72377828."}
+
+cancel:error:  2378 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account BJ79195208."}
+
+cancel:error:  2383 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account DHL6320279."}
+
+cancel:error:  2377 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account DFS17922895."}
+
+cancel:error:  2382 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account SAP84034715."}
+
+cancel:error:  2384 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EPS48432416."}
+
+cancel:error:  2380 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account JAN37318263."}
+
+cancel:error:  2381 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2387 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HDE47628228."}
+
+cancel:error:  2390 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2385 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EMS74606127."}
+
+cancel:error:  2396 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HDE47628228."}
+
+cancel:error:  2400 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EMS74606127."}
+
+cancel:error:  2398 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HDE47628228."}
+
+cancel:error:  2402 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2424 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2424 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2419 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2419 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2417 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2417 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2418 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2418 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2434 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2434 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2440 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2440 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2439 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2439 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2447 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2447 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2445 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2445 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2446 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2446 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2443 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2443 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2448 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2448 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2444 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2444 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2449 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2449 [Error: updateCancel : malformed object input: >]
+cancelSpike , maxId : 2412
+tradingAccountFromBuffer - strainge input
+tradingAccountFromBuffer - strainge input
+CANCEL:  {"ok":false,"error":"order 2440 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2440 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HAM49872123."}
+
+cancel:error:  2363 [Error: updateCancel : malformed object input: >]
+C&C harness control API initializing
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2393 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EMS74606127."}
+
+cancel:error:  2396 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EMS74606127."}
+
+cancel:error:  2394 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EMS74606127."}
+
+cancel:error:  2398 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HDE47628228."}
+
+cancel:error:  2405 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HDE47628228."}
+
+cancel:error:  2404 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2409 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2414 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2414 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2410 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EMS74606127."}
+
+cancel:error:  2371 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2431 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2431 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2430 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2430 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2432 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2432 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2435 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2435 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2438 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2438 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2437 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2437 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2440 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2440 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2445 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2445 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2443 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2443 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2356 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2356 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account JAN37318263."}
+
+cancel:error:  2381 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2369 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2369 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2365 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2365 [Error: updateCancel : malformed object input: >]
+CANCEL:  {
+  "ok": true,
+  "symbol": "BAC",
+  "venue": "UIEVEX",
+  "direction": "buy",
+  "originalQty": 20,
+  "qty": 0,
+  "price": 7773,
+  "orderType": "limit",
+  "id": 2350,
+  "account": "CES97894573",
+  "ts": "2016-05-17T17:52:42.028787758Z",
+  "fills": [
+    {
+      "price": 7717,
+      "qty": 20,
+      "ts": "2016-05-17T17:52:42.028789349Z"
+    }
+  ],
+  "totalFilled": 20,
+  "open": false
+}
+WARNING , CANCELLING obj isnt recorded in bids or asks {"ok":true,"symbol":"BAC","venue":"UIEVEX","direction":"buy","originalQty":20,"qty":0,"price":7773,"orderType":"limit","id":2350,"account":"CES97894573","ts":"2016-05-17T17:52:42.028787758Z","fills":[{"price":7717,"qty":20,"ts":"2016-05-17T17:52:42.028789349Z"}],"totalFilled":20,"open":false}
+cancel:error:  2350 [Error: cancel : not in bids or asks : cant cancel :]
+CANCEL:  {
+  "ok": true,
+  "symbol": "BAC",
+  "venue": "UIEVEX",
+  "direction": "buy",
+  "originalQty": 20,
+  "qty": 0,
+  "price": 7763,
+  "orderType": "limit",
+  "id": 2347,
+  "account": "CES97894573",
+  "ts": "2016-05-17T17:52:42.004893953Z",
+  "fills": [
+    {
+      "price": 7717,
+      "qty": 20,
+      "ts": "2016-05-17T17:52:42.004896482Z"
+    }
+  ],
+  "totalFilled": 20,
+  "open": false
+}
+WARNING , CANCELLING obj isnt recorded in bids or asks {"ok":true,"symbol":"BAC","venue":"UIEVEX","direction":"buy","originalQty":20,"qty":0,"price":7763,"orderType":"limit","id":2347,"account":"CES97894573","ts":"2016-05-17T17:52:42.004893953Z","fills":[{"price":7717,"qty":20,"ts":"2016-05-17T17:52:42.004896482Z"}],"totalFilled":20,"open":false}
+cancel:error:  2347 [Error: cancel : not in bids or asks : cant cancel :]
+CANCEL:  {
+  "ok": true,
+  "symbol": "BAC",
+  "venue": "UIEVEX",
+  "direction": "buy",
+  "originalQty": 20,
+  "qty": 0,
+  "price": 7743,
+  "orderType": "limit",
+  "id": 2348,
+  "account": "CES97894573",
+  "ts": "2016-05-17T17:52:42.014635438Z",
+  "fills": [
+    {
+      "price": 7717,
+      "qty": 20,
+      "ts": "2016-05-17T17:52:42.014637135Z"
+    }
+  ],
+  "totalFilled": 20,
+  "open": false
+}
+WARNING , CANCELLING obj isnt recorded in bids or asks {"ok":true,"symbol":"BAC","venue":"UIEVEX","direction":"buy","originalQty":20,"qty":0,"price":7743,"orderType":"limit","id":2348,"account":"CES97894573","ts":"2016-05-17T17:52:42.014635438Z","fills":[{"price":7717,"qty":20,"ts":"2016-05-17T17:52:42.014637135Z"}],"totalFilled":20,"open":false}
+cancel:error:  2348 [Error: cancel : not in bids or asks : cant cancel :]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account RJC12358259."}
+
+cancel:error:  2351 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account MHY56175101."}
+
+cancel:error:  2352 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account LEB8630910."}
+
+cancel:error:  2357 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HDE47628228."}
+
+cancel:error:  2355 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account MFB10364288."}
+
+cancel:error:  2360 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account MAM44667937."}
+
+cancel:error:  2361 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2363 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2363 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2362 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2362 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account AKS60625513."}
+
+cancel:error:  2359 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2367 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2367 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account DHL6320279."}
+
+cancel:error:  2377 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2370 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2370 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2371 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2371 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2372 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2372 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2380 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2380 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2373 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2373 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2374 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2374 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2378 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2378 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2381 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2381 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2424 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2424 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2387 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2387 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2426 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2426 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2434 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2434 [Error: updateCancel : malformed object input: >]
+C&C harness control API initializing
+CANCEL:  {"ok":false,"error":"order 2390 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2390 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2391 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2391 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2393 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2393 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2395 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2395 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2396 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2396 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2394 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2394 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2397 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2397 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2447 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2447 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2404 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2404 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2400 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2400 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2399 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2399 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2402 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2402 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2410 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2410 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2405 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2405 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2401 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2401 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2406 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2406 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2414 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2414 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2407 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2407 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2408 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2408 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2412 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2412 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2411 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2411 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2409 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2409 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2417 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2417 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2418 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2418 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2413 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2413 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2415 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2415 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2416 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2416 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2427 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2427 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2419 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2419 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2420 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2420 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2421 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2421 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2423 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2423 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2431 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2431 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2429 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2429 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2425 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2425 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2428 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2428 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2430 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2430 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2386 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2441 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2441 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2391 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HDE47628228."}
+
+cancel:error:  2388 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2393 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EMS74606127."}
+
+cancel:error:  2399 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2411 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EMS74606127."}
+
+cancel:error:  2397 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2371 not found (highest available on this venue is 2353)"}
+
+cancel:error:  2371 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HDE47628228."}
+
+cancel:error:  2401 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2372 not found (highest available on this venue is 2353)"}
+
+cancel:error:  2372 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2373 not found (highest available on this venue is 2353)"}
+
+cancel:error:  2373 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2375 not found (highest available on this venue is 2353)"}
+
+cancel:error:  2375 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2379 not found (highest available on this venue is 2353)"}
+
+cancel:error:  2379 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2409 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EPS48432416."}
+
+cancel:error:  2380 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2351 not found (the venue purges orders after a while)"}
+
+cancel:error:  2351 [Error: updateCancel : malformed object input: >]
+cancelSpike
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HDE47628228."}
+
+cancel:error:  2388 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2408 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HDE47628228."}
+
+cancel:error:  2401 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EMS74606127."}
+
+cancel:error:  2399 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2437 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2437 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2391 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account WDS84844063."}
+
+cancel:error:  2376 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EMS74606127."}
+
+cancel:error:  2397 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EMS74606127."}
+
+cancel:error:  2395 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EMS74606127."}
+
+cancel:error:  2396 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EMS74606127."}
+
+cancel:error:  2394 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HDE47628228."}
+
+cancel:error:  2404 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EMS74606127."}
+
+cancel:error:  2398 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EMS74606127."}
+
+cancel:error:  2399 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HDE47628228."}
+
+cancel:error:  2405 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HDE47628228."}
+
+cancel:error:  2401 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HDE47628228."}
+
+cancel:error:  2403 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HDE47628228."}
+
+cancel:error:  2390 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2387 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account BJ79195208."}
+
+cancel:error:  2383 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EMS74606127."}
+
+cancel:error:  2372 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HDE47628228."}
+
+cancel:error:  2402 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2406 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HAM49872123."}
+
+cancel:error:  2412 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2409 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2411 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2407 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2410 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2408 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2420 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account AAB42949861."}
+
+cancel:error:  2413 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2419 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EFS96199916."}
+
+cancel:error:  2415 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2421 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2423 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account HKS72377828."}
+
+cancel:error:  2418 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account BAC58270993."}
+
+cancel:error:  2427 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account CWG78704641."}
+
+cancel:error:  2422 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account WDS84844063."}
+
+cancel:error:  2417 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EYH90259435."}
+
+cancel:error:  2425 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account BK97092446."}
+
+cancel:error:  2433 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account MFB10364288."}
+
+cancel:error:  2431 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account AKS60625513."}
+
+cancel:error:  2432 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account EMS74606127."}
+
+cancel:error:  2442 [Error: updateCancel : malformed object input: >]
+cancelSpike , maxId : 2482
+CANCEL:  {"ok":false,"error":"order 2375 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2375 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2368 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2368 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2412 not found (the venue purges orders after a while)"}
+
+cancel:error:  2412 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2415 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2415 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2413 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2413 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2422 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2422 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2421 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2421 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2420 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2420 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2398 not found (highest available on this venue is 2351)"}
+
+cancel:error:  2398 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2435 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2435 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2432 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2432 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2437 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2437 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2442 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2442 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account SAN16131471."}
+
+cancel:error:  2364 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account MHY56175101."}
+
+cancel:error:  2414 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account MAM44667937."}
+
+cancel:error:  2361 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account OFB23918658."}
+
+cancel:error:  2416 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2416 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2416 [Error: updateCancel : malformed object input: >]
+cancelSpike
+CANCEL:  {"ok":false,"error":"Not authorized to delete that order.  You have to own account MHY56175101."}
+
+cancel:error:  2352 [Error: updateCancel : malformed object input: >]
+cancelSpike , maxId : 2549
+CANCEL:  {"ok":false,"error":"order 2423 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2423 [Error: updateCancel : malformed object input: >]
+CANCEL:  {"ok":false,"error":"order 2426 not found (highest available on this venue is 2412)"}
+
+cancel:error:  2426 [Error: updateCancel : malformed object input: >]
+cancelSpike
+cancelSpike , maxId : 2621
+cancelSpike
+cancelSpike , maxId : 2685
+cancelSpike
+cancelSpike , maxId : 2753
+cancelSpike
+cancelSpike , maxId : 2816
+cancelSpike
+cancelSpike , maxId : 2881
+cancelSpike
+cancelSpike , maxId : 2945
+cancelSpike
+cancelSpike , maxId : 3006
+cancelSpike
+cancelSpike , maxId : 3077
+cancelSpike
+cancelSpike , maxId : 3152
+cancelSpike
+cancelSpike , maxId : 3217
+cancelSpike
+cancelSpike , maxId : 3287
+cancelSpike
+cancelSpike , maxId : 3354
+cancelSpike
+cancelSpike , maxId : 3413
+cancelSpike
+cancelSpike , maxId : 3471
+cancelSpike
+cancelSpike , maxId : 3538
+cancelSpike
+cancelSpike , maxId : 3538
+cancelSpike
+cancelSpike , maxId : 3538
+cancelSpike
+cancelSpike , maxId : 3538
+cancelSpike
+cancelSpike , maxId : 3538
+cancelSpike
+cancelSpike , maxId : UIEVE
+cancelSpike
+cancelSpike , maxId : UIEVE
+cancelSpike
+cancelSpike , maxId : UIEVE
+cancelSpike
+cancelSpike , maxId : UIEVE
+cancelSpike
+cancelSpike , maxId : UIEVE
+cancelSpike
+cancelSpike , maxId : UIEVE
+cancelSpike
+cancelSpike , maxId : UIEVE
+cancelSpike
+cancelSpike , maxId : UIEVE
+cancelSpike
+cancelSpike , maxId : UIEVE
+cancelSpike
+cancelSpike , maxId : UIEVE
+cancelSpike
+cancelSpike , maxId : UIEVE
+cancelSpike
+cancelSpike , maxId : UIEVE
+cancelSpike
+cancelSpike , maxId : UIEVE
+cancelSpike
+cancelSpike , maxId : UIEVE
+cancelSpike
+cancelSpike , maxId : UIEVE
+cancelSpike
+cancelSpike , maxId : UIEVE
+cancelSpike
+cancelSpike , maxId : UIEVE
+cancelSpike
+cancelSpike , maxId : UIEVE
+cancelSpike
+cancelSpike , maxId : UIEVE
+cancelSpike
+cancelSpike , maxId : UIEVE

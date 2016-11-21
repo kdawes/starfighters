@@ -1,0 +1,12 @@
+source ./env.sh
+
+if [ -z $1 ];
+then
+  echo "usage : check <instanceid>"
+  exit 1
+fi
+
+#echo "sing HEADER = ${HEADER}"
+#echo "using URL = ${URL}"
+
+curl -H ${HEADER} ${URL}/instances/$1

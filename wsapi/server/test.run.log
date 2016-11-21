@@ -1,0 +1,458 @@
+worker 52200 started.
+RESTART LEVEL
+levelREstart
+StartWatchers : leveljs object   {
+  "ok": true,
+  "instanceId": 22252,
+  "account": "CES57332486",
+  "instructions": {
+    "Instructions": "# Nail This Bastard To The Wall (Street)\n\nWe're the regulator for the OND Beijing Exchange (ONDBEX), the Committee for Exchange Security, better known as \nthe CES.  We need your help.\n\nOur primary responsibility is making sure that the public markets operate in a fair and stable manner.  Insider trading,\nwhere someone with a fiduciary duty to a company uses material non-public information for their own benefit,\ndestabilizes the market and destroys investor confidence.  We prosecute it, vigorously, when we find it.\n\nWe got an anonymous tip from a whistleblower inside AOY Holdings (AOY).  Apparently their comptroller\nwas very underwater on his mortgage but recently, quote, \"a rich uncle died and left me a fortune.\"  We pulled birth\nrecords, marriage licenses, and social network profiles, and we believe no such uncle existed.\n\nWhen comptrollers suddenly come into a lot of money, it either means embezzlement or insider trading.  We have\ntalked to some market makers for AOY Holdings and they spontaneously offered \"Yeah, it feels funny recently.\nCan't quite put my finger on it.\"\n\nWe used our regulatory authority to lean on the comptroller's brokerage, but his accounts are clean: he has no\nposition in AOY and hasn't in a decade.  We suspect he has an accomplice on the outside.  We have no clue\nwho it is.  We don't have enough resources to put the comptroller under surveillance and we don't have any evidence\nto justify a search warrant of his phone or email.\n\nWe need you to help us identify that accomplice.  Find the account making the insider trades and give us hard evidence\nwhich supports them as being anomalous.  We'll use a regulatory subpoena on their brokerage, get their information,\nand your evidence will be used to support a subpoena of their stored communications.  If they've ever talked to the\ncomptroller, both of them are going to have a *very, very bad time.*\n\nWe regulate Wall Street but we don't work on it, so resources are limited.  We put $100,000 in **account CES57332486** for your use.\nThe taxpayers don't need to see a return, so use it responsibly for the purpose of this investigation.  Word to the wise: embezzling it \nwould be an **exceptionally** poor career decision.\n\n\n# Your Goal\n* Identify the accomplice of the comptroller.  You only get one shot at this, so make it count.\n* See \"Submitting Evidence\" under the Instructions menu for how to give us the evidence.\n\n# You'll Be Fired If\n* You accuse someone who turns out to be innocent.\n* You spend more than the $100,000 we allocated for this investigation.\n* You go short -- this is not a margin account.\n* You can't develop a case in 500 days.\n\n## Starfighter Notes\n\nThis level is designed to be challenging but not impossible.  There are multiple steps you'll need to overcome to win\nit.  \n\nYour first order of business should probably be identifying the accounts of everyone trading AOY on ONDBEX.\nDon't know how to do that?  Read the API docs *very thoroughly.*",
+    "Submitting Evidence": "# Submitting Evidence\n\nWe'll take your evidence as a JSON document, in the following format:\n\n```\n{\n  \"account\" : \"ABC123456\",\n  \"explanation_link\": \"http://www.example.com\",\n  \"executive_summary\": \"Lorem ipsum blah blah blah.\"\n}\n```\n\n* **account** (string): the trading account of the comptroller's accomplice\n* **explanation_link** (string): a publicly accessible URL leading to a *detailed* explanation of your evidence. (Feel free to show us code via Github or similar.)\n* **executive_summary** (string): A paragraph or two of text explaining your approach.\n\nPost your evidence to ```/gm/instances/YOUR_INSTANCE_ID/judge```  You can find your instance ID by taking a look at the\ndeveloper tools in your browser and looking for the GET request against ```/gm/instances/YOUR_INSTANCE_ID``` which the UI\nis presently polling every few seconds.\n\n## Starfighter Notes\n\nYou have **one shot per level instance** (i.e. per reset of the level) to get this right.  Submitting any valid JSON\ndocument consumes that shot.  (If you have a formatting problem or similar, you can correct it and try again.)\n\nYour submission will be evaluated automatically with regards to the correctness of the accusation.  If you get it right,\nyou're guaranteed at least one badge for winning the level.\n\nStarfighter's founders will also read *every submission* which is correct.  We'd love to talk with you about yours,\nparticularly if you do something which is novel or compelling.  (Feel free to drop us a note in the executive summary\nif you'd rather we not get in touch -- your call.)\n\nWe will award additional badges, at our discretion, for solutions which:\n\n* Are particularly novel.\n* Demonstrate exceptional insight into the problem as presented.\n* Creatively avoid solving the problem presented and instead \"cheat\" to a solution.\n* Go above and beyond the call of duty.\n* Deserve particular recognition for feats of engineering awesomeness.\n\nWe can't wait to see what you come up with.\n"
+  },
+  "tickers": [
+    "AOY"
+  ],
+  "venues": [
+    "ONDBEX"
+  ],
+  "secondsPerTradingDay": 5,
+  "balances": {
+    "USD": 0
+  }
+}
+With :  wss://api.stockfighter.io/ob/api/ws/CES57332486/venues/ONDBEX/tickertape
+With :  wss://api.stockfighter.io/ob/api/ws/CES57332486/venues/ONDBEX/executions
+TickerProxy >>> {"wsText":"wss://api.stockfighter.io/ob/api/ws/CES57332486/venues/ONDBEX/tickertape","tia":{},"port":9090,"ee":{"domain":null,"_events":{},"_eventsCount":0}}
+TickerProxy :this.wsText >>> wss://api.stockfighter.io/ob/api/ws/CES57332486/venues/ONDBEX/tickertape
+AbstractWatcher >>> {"wsText":"wss://api.stockfighter.io/ob/api/ws/CES57332486/venues/ONDBEX/tickertape","tia":{},"port":9090,"ee":{"domain":null,"_events":{},"_eventsCount":0}}
+AbstractWatcher :this.wsText >>> wss://api.stockfighter.io/ob/api/ws/CES57332486/venues/ONDBEX/tickertape
+TickerProxy, start, wstext is : wss://api.stockfighter.io/ob/api/ws/CES57332486/venues/ONDBEX/tickertape
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/CES57332486/venues/ONDBEX/tickertape
+AbstractWatcher:serverWrap
+ExecWatcher >>> {"wsText":"wss://api.stockfighter.io/ob/api/ws/CES57332486/venues/ONDBEX/executions","instanceId":22252,"tia":{},"port":8081,"ee":{"domain":null,"_events":{},"_eventsCount":1}}
+ExecWatcher :this.wsText >>> wss://api.stockfighter.io/ob/api/ws/CES57332486/venues/ONDBEX/executions
+AbstractWatcher >>> {"wsText":"wss://api.stockfighter.io/ob/api/ws/CES57332486/venues/ONDBEX/executions","instanceId":22252,"tia":{},"port":8081,"ee":{"domain":null,"_events":{},"_eventsCount":1}}
+AbstractWatcher :this.wsText >>> wss://api.stockfighter.io/ob/api/ws/CES57332486/venues/ONDBEX/executions
+ExecWatcher, start, wstext is : wss://api.stockfighter.io/ob/api/ws/CES57332486/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/CES57332486/venues/ONDBEX/executions
+AbstractWatcher:serverWrap
+Watiting for localWatcher...
+localWatcher : go ---> 22252
+localWatcher >>> {"wsText":"ws://localhost:8123","instanceId":22252,"tia":{},"port":8123}
+localWatcher :this.wsText >>> ws://localhost:8123
+AbstractWatcher >>> {"wsText":"ws://localhost:8123","instanceId":22252,"tia":{},"port":8123}
+AbstractWatcher :this.wsText >>> ws://localhost:8123
+localwatcher, start, wstext is : ws://localhost:8123
+AbstractWatcher:serverWrap
+Watiting for OrderbookWatcher... ONDBEX   AOY
+ExecWatcher >>> {"wsText":"ws://localhost:8082","instanceId":22252,"tia":{},"port":8082,"venue":"ONDBEX","symbol":"AOY"}
+ExecWatcher :this.wsText >>> ws://localhost:8082
+AbstractWatcher >>> {"wsText":"ws://localhost:8082","instanceId":22252,"tia":{},"port":8082,"venue":"ONDBEX","symbol":"AOY"}
+AbstractWatcher :this.wsText >>> ws://localhost:8082
+watcher, start, wstext is : ws://localhost:8082
+AbstractWatcher:serverWrap
+Watiting for AskBidWatcher... and EE is a  object
+local AskBidWatcher  >>> {"instanceId":22252,"port":8888,"ee":{"domain":null,"_events":{},"_eventsCount":2}}
+AbstractWatcher >>> {"instanceId":22252,"port":8888,"ee":{"domain":null,"_events":{},"_eventsCount":2}}
+AbstractWatcher :this.wsText >>> undefined
+ AskBidWatcher , start, wstext is : undefined
+AbstractWatcher:serverWrap
+TRADING :  AOY
+LEVELCFG : beautified :  {
+  "ok": true,
+  "instanceId": 22252,
+  "account": "CES57332486",
+  "instructions": {
+    "Instructions": "# Nail This Bastard To The Wall (Street)\n\nWe're the regulator for the OND Beijing Exchange (ONDBEX), the Committee for Exchange Security, better known as \nthe CES.  We need your help.\n\nOur primary responsibility is making sure that the public markets operate in a fair and stable manner.  Insider trading,\nwhere someone with a fiduciary duty to a company uses material non-public information for their own benefit,\ndestabilizes the market and destroys investor confidence.  We prosecute it, vigorously, when we find it.\n\nWe got an anonymous tip from a whistleblower inside AOY Holdings (AOY).  Apparently their comptroller\nwas very underwater on his mortgage but recently, quote, \"a rich uncle died and left me a fortune.\"  We pulled birth\nrecords, marriage licenses, and social network profiles, and we believe no such uncle existed.\n\nWhen comptrollers suddenly come into a lot of money, it either means embezzlement or insider trading.  We have\ntalked to some market makers for AOY Holdings and they spontaneously offered \"Yeah, it feels funny recently.\nCan't quite put my finger on it.\"\n\nWe used our regulatory authority to lean on the comptroller's brokerage, but his accounts are clean: he has no\nposition in AOY and hasn't in a decade.  We suspect he has an accomplice on the outside.  We have no clue\nwho it is.  We don't have enough resources to put the comptroller under surveillance and we don't have any evidence\nto justify a search warrant of his phone or email.\n\nWe need you to help us identify that accomplice.  Find the account making the insider trades and give us hard evidence\nwhich supports them as being anomalous.  We'll use a regulatory subpoena on their brokerage, get their information,\nand your evidence will be used to support a subpoena of their stored communications.  If they've ever talked to the\ncomptroller, both of them are going to have a *very, very bad time.*\n\nWe regulate Wall Street but we don't work on it, so resources are limited.  We put $100,000 in **account CES57332486** for your use.\nThe taxpayers don't need to see a return, so use it responsibly for the purpose of this investigation.  Word to the wise: embezzling it \nwould be an **exceptionally** poor career decision.\n\n\n# Your Goal\n* Identify the accomplice of the comptroller.  You only get one shot at this, so make it count.\n* See \"Submitting Evidence\" under the Instructions menu for how to give us the evidence.\n\n# You'll Be Fired If\n* You accuse someone who turns out to be innocent.\n* You spend more than the $100,000 we allocated for this investigation.\n* You go short -- this is not a margin account.\n* You can't develop a case in 500 days.\n\n## Starfighter Notes\n\nThis level is designed to be challenging but not impossible.  There are multiple steps you'll need to overcome to win\nit.  \n\nYour first order of business should probably be identifying the accounts of everyone trading AOY on ONDBEX.\nDon't know how to do that?  Read the API docs *very thoroughly.*",
+    "Submitting Evidence": "# Submitting Evidence\n\nWe'll take your evidence as a JSON document, in the following format:\n\n```\n{\n  \"account\" : \"ABC123456\",\n  \"explanation_link\": \"http://www.example.com\",\n  \"executive_summary\": \"Lorem ipsum blah blah blah.\"\n}\n```\n\n* **account** (string): the trading account of the comptroller's accomplice\n* **explanation_link** (string): a publicly accessible URL leading to a *detailed* explanation of your evidence. (Feel free to show us code via Github or similar.)\n* **executive_summary** (string): A paragraph or two of text explaining your approach.\n\nPost your evidence to ```/gm/instances/YOUR_INSTANCE_ID/judge```  You can find your instance ID by taking a look at the\ndeveloper tools in your browser and looking for the GET request against ```/gm/instances/YOUR_INSTANCE_ID``` which the UI\nis presently polling every few seconds.\n\n## Starfighter Notes\n\nYou have **one shot per level instance** (i.e. per reset of the level) to get this right.  Submitting any valid JSON\ndocument consumes that shot.  (If you have a formatting problem or similar, you can correct it and try again.)\n\nYour submission will be evaluated automatically with regards to the correctness of the accusation.  If you get it right,\nyou're guaranteed at least one badge for winning the level.\n\nStarfighter's founders will also read *every submission* which is correct.  We'd love to talk with you about yours,\nparticularly if you do something which is novel or compelling.  (Feel free to drop us a note in the executive summary\nif you'd rather we not get in touch -- your call.)\n\nWe will award additional badges, at our discretion, for solutions which:\n\n* Are particularly novel.\n* Demonstrate exceptional insight into the problem as presented.\n* Creatively avoid solving the problem presented and instead \"cheat\" to a solution.\n* Go above and beyond the call of duty.\n* Deserve particular recognition for feats of engineering awesomeness.\n\nWe can't wait to see what you come up with.\n"
+  },
+  "tickers": [
+    "AOY"
+  ],
+  "venues": [
+    "ONDBEX"
+  ],
+  "secondsPerTradingDay": 5,
+  "balances": {
+    "USD": 0
+  }
+}
+With :  wss://api.stockfighter.io/ob/api/ws/CES57332486/venues/ONDBEX/tickertape
+TickerTiaProxy >>> {"wsText":"wss://api.stockfighter.io/ob/api/ws/CES57332486/venues/ONDBEX/tickertape","tia":{},"port":8080,"trading":{"scanned":0,"outlier":true,"position":{"cash":0,"shares":0,"ee":{"domain":null,"_events":{"fillevent":[null,null]},"_eventsCount":8},"db":{"asks":{},"bids":{},"cancelled":{"asks":[],"bids":[]},"fills":{"asks":[],"bids":[]}}},"genesis":1463466034311,"levelcfg":{"ok":true,"instanceId":22252,"account":"CES57332486","instructions":{"Instructions":"# Nail This Bastard To The Wall (Street)\n\nWe're the regulator for the OND Beijing Exchange (ONDBEX), the Committee for Exchange Security, better known as \nthe CES.  We need your help.\n\nOur primary responsibility is making sure that the public markets operate in a fair and stable manner.  Insider trading,\nwhere someone with a fiduciary duty to a company uses material non-public information for their own benefit,\ndestabilizes the market and destroys investor confidence.  We prosecute it, vigorously, when we find it.\n\nWe got an anonymous tip from a whistleblower inside AOY Holdings (AOY).  Apparently their comptroller\nwas very underwater on his mortgage but recently, quote, \"a rich uncle died and left me a fortune.\"  We pulled birth\nrecords, marriage licenses, and social network profiles, and we believe no such uncle existed.\n\nWhen comptrollers suddenly come into a lot of money, it either means embezzlement or insider trading.  We have\ntalked to some market makers for AOY Holdings and they spontaneously offered \"Yeah, it feels funny recently.\nCan't quite put my finger on it.\"\n\nWe used our regulatory authority to lean on the comptroller's brokerage, but his accounts are clean: he has no\nposition in AOY and hasn't in a decade.  We suspect he has an accomplice on the outside.  We have no clue\nwho it is.  We don't have enough resources to put the comptroller under surveillance and we don't have any evidence\nto justify a search warrant of his phone or email.\n\nWe need you to help us identify that accomplice.  Find the account making the insider trades and give us hard evidence\nwhich supports them as being anomalous.  We'll use a regulatory subpoena on their brokerage, get their information,\nand your evidence will be used to support a subpoena of their stored communications.  If they've ever talked to the\ncomptroller, both of them are going to have a *very, very bad time.*\n\nWe regulate Wall Street but we don't work on it, so resources are limited.  We put $100,000 in **account CES57332486** for your use.\nThe taxpayers don't need to see a return, so use it responsibly for the purpose of this investigation.  Word to the wise: embezzling it \nwould be an **exceptionally** poor career decision.\n\n\n# Your Goal\n* Identify the accomplice of the comptroller.  You only get one shot at this, so make it count.\n* See \"Submitting Evidence\" under the Instructions menu for how to give us the evidence.\n\n# You'll Be Fired If\n* You accuse someone who turns out to be innocent.\n* You spend more than the $100,000 we allocated for this investigation.\n* You go short -- this is not a margin account.\n* You can't develop a case in 500 days.\n\n## Starfighter Notes\n\nThis level is designed to be challenging but not impossible.  There are multiple steps you'll need to overcome to win\nit.  \n\nYour first order of business should probably be identifying the accounts of everyone trading AOY on ONDBEX.\nDon't know how to do that?  Read the API docs *very thoroughly.*","Submitting Evidence":"# Submitting Evidence\n\nWe'll take your evidence as a JSON document, in the following format:\n\n```\n{\n  \"account\" : \"ABC123456\",\n  \"explanation_link\": \"http://www.example.com\",\n  \"executive_summary\": \"Lorem ipsum blah blah blah.\"\n}\n```\n\n* **account** (string): the trading account of the comptroller's accomplice\n* **explanation_link** (string): a publicly accessible URL leading to a *detailed* explanation of your evidence. (Feel free to show us code via Github or similar.)\n* **executive_summary** (string): A paragraph or two of text explaining your approach.\n\nPost your evidence to ```/gm/instances/YOUR_INSTANCE_ID/judge```  You can find your instance ID by taking a look at the\ndeveloper tools in your browser and looking for the GET request against ```/gm/instances/YOUR_INSTANCE_ID``` which the UI\nis presently polling every few seconds.\n\n## Starfighter Notes\n\nYou have **one shot per level instance** (i.e. per reset of the level) to get this right.  Submitting any valid JSON\ndocument consumes that shot.  (If you have a formatting problem or similar, you can correct it and try again.)\n\nYour submission will be evaluated automatically with regards to the correctness of the accusation.  If you get it right,\nyou're guaranteed at least one badge for winning the level.\n\nStarfighter's founders will also read *every submission* which is correct.  We'd love to talk with you about yours,\nparticularly if you do something which is novel or compelling.  (Feel free to drop us a note in the executive summary\nif you'd rather we not get in touch -- your call.)\n\nWe will award additional badges, at our discretion, for solutions which:\n\n* Are particularly novel.\n* Demonstrate exceptional insight into the problem as presented.\n* Creatively avoid solving the problem presented and instead \"cheat\" to a solution.\n* Go above and beyond the call of duty.\n* Deserve particular recognition for feats of engineering awesomeness.\n\nWe can't wait to see what you come up with.\n"},"tickers":["AOY"],"venues":["ONDBEX"],"secondsPerTradingDay":5,"balances":{"USD":0}},"aiinterval":null,"stalls":{},"tia":{},"tweakables":{"FSM":"trading","BUCKET_SIZE":20,"ASK_PCT":0.05,"BID_PCT":0.05,"SELL_SIZE":25,"WINDOW":400,"HIST_WINDOW":10},"ee":{"domain":null,"_events":{"fillevent":[null,null]},"_eventsCount":8}}}
+TickerProxy :this.wsText >>> wss://api.stockfighter.io/ob/api/ws/CES57332486/venues/ONDBEX/tickertape
+AbstractWatcher >>> {"wsText":"wss://api.stockfighter.io/ob/api/ws/CES57332486/venues/ONDBEX/tickertape","tia":{},"port":8080,"trading":{"scanned":0,"outlier":true,"position":{"cash":0,"shares":0,"ee":{"domain":null,"_events":{"fillevent":[null,null]},"_eventsCount":8},"db":{"asks":{},"bids":{},"cancelled":{"asks":[],"bids":[]},"fills":{"asks":[],"bids":[]}}},"genesis":1463466034311,"levelcfg":{"ok":true,"instanceId":22252,"account":"CES57332486","instructions":{"Instructions":"# Nail This Bastard To The Wall (Street)\n\nWe're the regulator for the OND Beijing Exchange (ONDBEX), the Committee for Exchange Security, better known as \nthe CES.  We need your help.\n\nOur primary responsibility is making sure that the public markets operate in a fair and stable manner.  Insider trading,\nwhere someone with a fiduciary duty to a company uses material non-public information for their own benefit,\ndestabilizes the market and destroys investor confidence.  We prosecute it, vigorously, when we find it.\n\nWe got an anonymous tip from a whistleblower inside AOY Holdings (AOY).  Apparently their comptroller\nwas very underwater on his mortgage but recently, quote, \"a rich uncle died and left me a fortune.\"  We pulled birth\nrecords, marriage licenses, and social network profiles, and we believe no such uncle existed.\n\nWhen comptrollers suddenly come into a lot of money, it either means embezzlement or insider trading.  We have\ntalked to some market makers for AOY Holdings and they spontaneously offered \"Yeah, it feels funny recently.\nCan't quite put my finger on it.\"\n\nWe used our regulatory authority to lean on the comptroller's brokerage, but his accounts are clean: he has no\nposition in AOY and hasn't in a decade.  We suspect he has an accomplice on the outside.  We have no clue\nwho it is.  We don't have enough resources to put the comptroller under surveillance and we don't have any evidence\nto justify a search warrant of his phone or email.\n\nWe need you to help us identify that accomplice.  Find the account making the insider trades and give us hard evidence\nwhich supports them as being anomalous.  We'll use a regulatory subpoena on their brokerage, get their information,\nand your evidence will be used to support a subpoena of their stored communications.  If they've ever talked to the\ncomptroller, both of them are going to have a *very, very bad time.*\n\nWe regulate Wall Street but we don't work on it, so resources are limited.  We put $100,000 in **account CES57332486** for your use.\nThe taxpayers don't need to see a return, so use it responsibly for the purpose of this investigation.  Word to the wise: embezzling it \nwould be an **exceptionally** poor career decision.\n\n\n# Your Goal\n* Identify the accomplice of the comptroller.  You only get one shot at this, so make it count.\n* See \"Submitting Evidence\" under the Instructions menu for how to give us the evidence.\n\n# You'll Be Fired If\n* You accuse someone who turns out to be innocent.\n* You spend more than the $100,000 we allocated for this investigation.\n* You go short -- this is not a margin account.\n* You can't develop a case in 500 days.\n\n## Starfighter Notes\n\nThis level is designed to be challenging but not impossible.  There are multiple steps you'll need to overcome to win\nit.  \n\nYour first order of business should probably be identifying the accounts of everyone trading AOY on ONDBEX.\nDon't know how to do that?  Read the API docs *very thoroughly.*","Submitting Evidence":"# Submitting Evidence\n\nWe'll take your evidence as a JSON document, in the following format:\n\n```\n{\n  \"account\" : \"ABC123456\",\n  \"explanation_link\": \"http://www.example.com\",\n  \"executive_summary\": \"Lorem ipsum blah blah blah.\"\n}\n```\n\n* **account** (string): the trading account of the comptroller's accomplice\n* **explanation_link** (string): a publicly accessible URL leading to a *detailed* explanation of your evidence. (Feel free to show us code via Github or similar.)\n* **executive_summary** (string): A paragraph or two of text explaining your approach.\n\nPost your evidence to ```/gm/instances/YOUR_INSTANCE_ID/judge```  You can find your instance ID by taking a look at the\ndeveloper tools in your browser and looking for the GET request against ```/gm/instances/YOUR_INSTANCE_ID``` which the UI\nis presently polling every few seconds.\n\n## Starfighter Notes\n\nYou have **one shot per level instance** (i.e. per reset of the level) to get this right.  Submitting any valid JSON\ndocument consumes that shot.  (If you have a formatting problem or similar, you can correct it and try again.)\n\nYour submission will be evaluated automatically with regards to the correctness of the accusation.  If you get it right,\nyou're guaranteed at least one badge for winning the level.\n\nStarfighter's founders will also read *every submission* which is correct.  We'd love to talk with you about yours,\nparticularly if you do something which is novel or compelling.  (Feel free to drop us a note in the executive summary\nif you'd rather we not get in touch -- your call.)\n\nWe will award additional badges, at our discretion, for solutions which:\n\n* Are particularly novel.\n* Demonstrate exceptional insight into the problem as presented.\n* Creatively avoid solving the problem presented and instead \"cheat\" to a solution.\n* Go above and beyond the call of duty.\n* Deserve particular recognition for feats of engineering awesomeness.\n\nWe can't wait to see what you come up with.\n"},"tickers":["AOY"],"venues":["ONDBEX"],"secondsPerTradingDay":5,"balances":{"USD":0}},"aiinterval":null,"stalls":{},"tia":{},"tweakables":{"FSM":"trading","BUCKET_SIZE":20,"ASK_PCT":0.05,"BID_PCT":0.05,"SELL_SIZE":25,"WINDOW":400,"HIST_WINDOW":10},"ee":{"domain":null,"_events":{"fillevent":[null,null]},"_eventsCount":8}}}
+AbstractWatcher :this.wsText >>> wss://api.stockfighter.io/ob/api/ws/CES57332486/venues/ONDBEX/tickertape
+TickerTiaProxy, start, wstext is : wss://api.stockfighter.io/ob/api/ws/CES57332486/venues/ONDBEX/tickertape
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/CES57332486/venues/ONDBEX/tickertape
+AbstractWatcher:serverWrap
+MuxDemux init : account : CES57332486  venue  ONDBEX  symbol  AOY
+cancelSpike
+wstext :  wss://api.stockfighter.io/ob/api/ws/SAH80274440/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SAH80274440/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/CAI20601807/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/CAI20601807/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/KAS4893561/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/KAS4893561/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/ILS66360126/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/ILS66360126/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/TSA35189427/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/TSA35189427/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/SR54441118/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SR54441118/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/TDB12602767/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/TDB12602767/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/BIS31709911/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BIS31709911/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/MBS77454133/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MBS77454133/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/TKB80376543/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/TKB80376543/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/AKR29772499/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/AKR29772499/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/SC64885880/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SC64885880/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/KCB43537456/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/KCB43537456/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/LLB87174469/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/LLB87174469/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/BM61236251/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BM61236251/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/RAH42508032/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/RAH42508032/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/HAT45900851/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/HAT45900851/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/MT51383081/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MT51383081/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/AB64781556/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/AB64781556/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/BB72218066/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BB72218066/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/RS98750884/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/RS98750884/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/MH39592782/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MH39592782/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/ROB86254085/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/ROB86254085/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/HMS56789332/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/HMS56789332/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/EBB20040381/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/EBB20040381/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/BI29837476/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BI29837476/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/MFB45060329/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MFB45060329/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/PPB59405481/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/PPB59405481/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/CES38559085/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/CES38559085/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/WBS89341001/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/WBS89341001/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/TS77445924/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/TS77445924/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/MAH66320406/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MAH66320406/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/BTS6430862/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BTS6430862/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/MM73312809/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MM73312809/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/PPB56279218/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/PPB56279218/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/YAP42727699/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/YAP42727699/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/EAK59651631/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/EAK59651631/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/EIB18131447/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/EIB18131447/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/GAL5786635/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/GAL5786635/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/SLB69231966/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SLB69231966/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/PRE19189350/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/PRE19189350/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/BS34123557/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BS34123557/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/EOS67682811/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/EOS67682811/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/WIS39057445/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/WIS39057445/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/CMS23003619/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/CMS23003619/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/WCF12408269/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/WCF12408269/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/RAM89956713/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/RAM89956713/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/DAT88810737/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/DAT88810737/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/BB89649008/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BB89649008/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/FMB59908698/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/FMB59908698/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/MAM5950512/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MAM5950512/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/FBB50315715/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/FBB50315715/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/TSR76981577/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/TSR76981577/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/BD97889892/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BD97889892/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/LTD78053793/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/LTD78053793/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/CMT12885989/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/CMT12885989/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/OPB32418018/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/OPB32418018/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/WAP62472315/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/WAP62472315/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/FSB31458100/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/FSB31458100/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/BWB13720087/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BWB13720087/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/CS6567231/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/CS6567231/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/CBS8349811/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/CBS8349811/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/BBS15040146/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BBS15040146/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/MFB72737303/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MFB72737303/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/JAD53130652/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/JAD53130652/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/LPB87840745/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/LPB87840745/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/FMB55942568/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/FMB55942568/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/MSB41710677/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MSB41710677/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/SH84575720/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SH84575720/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/WMS24252766/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/WMS24252766/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/SK14946482/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SK14946482/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/EFS34772144/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/EFS34772144/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/SKJ93488486/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SKJ93488486/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/SEB24954642/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SEB24954642/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/CAJ63541967/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/CAJ63541967/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/WB80197619/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/WB80197619/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/MMB97900532/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MMB97900532/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/DAS64447268/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/DAS64447268/venues/ONDBEX/executions
+cancelSpike
+wstext :  wss://api.stockfighter.io/ob/api/ws/HAE89546507/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/HAE89546507/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/FSB47445176/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/FSB47445176/venues/ONDBEX/executions
+cancelSpike
+cancelSpike
+promisifyReqest: request: error { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+promisifyRequest: error:  { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+promisifyReqest: request: error { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+promisifyRequest: error:  { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+promisifyReqest: request: error { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+promisifyRequest: error:  { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+promisifyReqest: request: error { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+promisifyRequest: error:  { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+promisifyReqest: request: error { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+promisifyRequest: error:  { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+promisifyReqest: request: error { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+promisifyRequest: error:  { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+promisifyReqest: request: error { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+promisifyRequest: error:  { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+promisifyReqest: request: error { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+promisifyRequest: error:  { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+promisifyReqest: request: error { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+promisifyRequest: error:  { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+promisifyReqest: request: error { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+promisifyRequest: error:  { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+promisifyReqest: request: error { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+promisifyRequest: error:  { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+wstext :  wss://api.stockfighter.io/ob/api/ws/LAD69598000/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/LAD69598000/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/OFB64287219/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/OFB64287219/venues/ONDBEX/executions
+cancelSpike
+wstext :  wss://api.stockfighter.io/ob/api/ws/CBS41330927/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/CBS41330927/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/MBA97233162/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MBA97233162/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/HAY25562367/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/HAY25562367/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/MWR46810430/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MWR46810430/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/ME70161614/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/ME70161614/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/HAW92187017/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/HAW92187017/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/WB16566945/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/WB16566945/venues/ONDBEX/executions
+promisifyReqest: request: error { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+promisifyRequest: error:  { [Error: read ECONNRESET] code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+wstext :  wss://api.stockfighter.io/ob/api/ws/HB75073553/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/HB75073553/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/SAM66919109/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SAM66919109/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/RBB17982542/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/RBB17982542/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/CMS93616368/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/CMS93616368/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/MHP20148478/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/MHP20148478/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/SAP12098681/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SAP12098681/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/AS33370174/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/AS33370174/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/WAS33373893/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/WAS33373893/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/SC15321128/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/SC15321128/venues/ONDBEX/executions
+cancelSpike
+wstext :  wss://api.stockfighter.io/ob/api/ws/LFS91153138/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/LFS91153138/venues/ONDBEX/executions
+wstext :  wss://api.stockfighter.io/ob/api/ws/BTB38238508/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/BTB38238508/venues/ONDBEX/executions
+cancelSpike
+wstext :  wss://api.stockfighter.io/ob/api/ws/while/venues/ONDBEX/executions
+sockWrap
+init......: wss://api.stockfighter.io/ob/api/ws/while/venues/ONDBEX/executions
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike
+cancelSpike

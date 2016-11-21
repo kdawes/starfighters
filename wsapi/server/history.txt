@@ -1,0 +1,500 @@
+   16  node ./index.js 
+   17  node ./index.js 
+   18  node ./index.js 
+   19  node ./index.js 
+   20  node ./index.js 
+   21  node ./index.js 
+   22  node ./index.js 
+   23  node ./index.js 
+   24  node ./index.js 
+   25  node ./index.js 
+   26  node ./index.js 
+   27  node ./index.js 
+   28  node ./index.js 
+   29  node ./index.js 
+   30  node ./index.js 
+   31  node ./index.js 
+   32  node ./index.js 
+   33  node ./index.js 
+   34  node ./index.js 
+   35  node ./index.js 
+   36  node ./index.js 
+   37  node ./index.js 
+   38  node ./index.js 
+   39  node ./index.js --port 8123
+   40  node ./index.js --port 8123 --host localhost
+   41  node ./index.js --port 8123 --host localhost
+   42  node ./index.js 
+   43  node ./index.js --port 8123 
+   44  node ./index.js --port 8123 
+   45  node ./index.js --port 8123 
+   46  node ./index.js --port 8123 
+   47  node ./index.js --port 8123 
+   48  node ./index.js --port 8123 
+   49  node ./index.js --port 8123 
+   50  node ./index.js --port 8123 
+   51  node ./index.js --port 8123 
+   52  node ./index.js --port 8123 
+   53  node ./index.js --port 8123 
+   54  node ./index.js --port 8123 
+   55  node ./index.js --port 8123 
+   56  node ./index.js --port 8123 
+   57  node ./index.js --port 8123 
+   58  node ./index.js 
+   59  node ./index.js 
+   60  node ./index.js 
+   61  node ./index.js 
+   62  node ./index.js 
+   63  node ./index.js 
+   64  node ./index.js 
+   65  node ./index.js 
+   66  node ./index.js 
+   67  node ./index.js 
+   68  node ./index.js 
+   69  node ./index.js 
+   70  node ./index.js 
+   71  node ./index.js 
+   72  node ./index.js --port 8123
+   73  node ./index.js --port 8123
+   74  node ./index.js --port 8123
+   75  node ./index.js --port 8123
+   76  node ./index.js --port 8123
+   77  node ./index.js --port 8080
+   78  node ./index.js --port 8080
+   79  node ./index.js --port 8080
+   80  node ./index.js --port 80
+   81  node ./index.js --port 8123
+   82  node ./index.js --port 8080
+   83  node ./index.js --port 8080
+   84  node ./index.js --port 8080 --url executions
+   85  node ./index.js --port 8080 --url executions
+   86  node ./index.js --port 8123
+   87  node ./index.js --port 8080 --url executions
+   88  node ./index.js --port 8080 
+   89  node ./index.js --port 8080 
+   90  node ./index.js --port 8080 
+   91  node ./index.js --port 8123
+   92  node ./index.js --port 8123
+   93  node ./index.js --port 8123
+   94  node ./index.js --port 8080
+   95  node ./index.js
+   96  less index.js 
+   97  node ./index.js
+   98  node ./index.js --port 8123
+   99  node ./index.js --port 8123
+  100  node ./index.js 
+  101  node ./index.js
+  102  node ./index.js
+  103  node ./index.js
+  104  node ./index.js
+  105  node ./index.js 
+  106  node ./index.js
+  107  node ./index.js --port 8123
+  108  node ./index.js --port 8123
+  109  node ./index.js --port 8123
+  110  node ./index.js --port 8123
+  111  node ./index.js --port 8123
+  112  node ./index.js --port 8123
+  113  node ./index.js --port 8123
+  114  node ./index.js --port 8123
+  115  node ./index.js --port 8123
+  116  node ./index.js --port 8123
+  117  (cd ../../ && grep -r 8123 * (
+  118  (cd ../../ && grep -r 8123 *)
+  119  (cd ../../ && grep -r meta_ws_port *)
+  120  node ./index.js --port 8123
+  121  node ./index.js --port 8123
+  122  node ./index.js --port 8123
+  123  node ./index.js --port 8123
+  124  node ./index.js --port 8123
+  125  node ./index.js --port 8123
+  126  node ./index.js --port 8123
+  127  node ./index.js --port 8123
+  128  node ./index.js --port 8123
+  129  node ./index.js --port 8123
+  130  node ./index.js --port 8123
+  131  node ./index.js --port 8123
+  132  node ./index.js --port 8123
+  133  node ./index.js --port 8123
+  134  node ./index.js --port 8123
+  135  node ./index.js --port 8123
+  136  node ./index.js --port 8123
+  137  node ./index.js --port 8123
+  138  node ./index.js --port 8123
+  139  node ./index.js --port 8123
+  140  node ./index.js --port 8123
+  141  node ./index.js --port 8123
+  142  node ./index.js --port 8123
+  143  node ./index.js --port 8123
+  144  node ./index.js --port 8123
+  145  node ./index.js --port 8123
+  146  node ./index.js --port 8123
+  147  node ./index.js --port 8123
+  148  node ./index.js --port 8123
+  149  node ./index.js --port 8123
+  150  node ./index.js --port 8123
+  151  node ./index.js --port 8123
+  152  node ./index.js --port 8123
+  153  node ./index.js --port 8123
+  154  node ./index.js --port 8123
+  155  node ./index.js --port 8123
+  156  node ./index.js --port 8123
+  157  node ./index.js --port 8123
+  158  node ./index.js --port 8123
+  159  node ./index.js --port 8123
+  160  node ./index.js --port 8123
+  161  node ./index.js --port 8123
+  162  node ./index.js --port 8123
+  163  node ./index.js --port 8123
+  164  node ./index.js --port 8123
+  165  node ./index.js --port 8123
+  166  node ./index.js --port 8123
+  167  node ./index.js --port 8123
+  168  node ./index.js --port 8123
+  169  node ./index.js --port 8123
+  170  node ./index.js --port 8123
+  171  node ./index.js --port 8123
+  172  node ./index.js --port 8123
+  173  node ./index.js --port 8123
+  174  node ./index.js --port 8123
+  175  node ./index.js --port 8123
+  176  node ./index.js --port 8123
+  177  node ./index.js --port 8123
+  178  node ./index.js --port 8123
+  179  node ./index.js --port 8123
+  180  node ./index.js --port 8123
+  181  node ./index.js --port 8123
+  182  node ./index.js --port 8123
+  183  node ./index.js --port 8123
+  184  node ./index.js --port 8123
+  185  node ./index.js --port 8123
+  186  node ./index.js --port 8123
+  187  node ./index.js --port 8123
+  188  node ./index.js --port 8123
+  189  node ./index.js --port 8123
+  190  node ./index.js --port 8123
+  191  node ./index.js --port 8123
+  192  node ./index.js --port 8123
+  193  node ./index.js --port 8123
+  194  node ./index.js --port 8123
+  195  node ./index.js --port 8123
+  196  node ./index.js --port 8123
+  197  node ./index.js --port 8123
+  198  node ./index.js --port 8123
+  199  node ./index.js --port 8123
+  200  node ./index.js --port 8123
+  201  git status
+  202  git add ../../lib/abstractwatcher.js 
+  203  git add ../../lib/execwatcher.js 
+  204  git commit 'refactor common watcher stuff to abstract watcher'
+  205  git push
+  206  git commit -m 'refactor common watcher stuff to abstract watcher'
+  207  git push
+  208  ls 
+  209  pwd
+  210  git push
+  211  node ./index.js --port 8123
+  212  node ./index.js --port 8123
+  213  node ./index.js --port 8123
+  214  node ./index.js --port 8123
+  215  node ./index.js --port 8123
+  216  node ./index.js --port 8123
+  217  node ./index.js --port 8123
+  218  node ./index.js --port 8123
+  219  node ./index.js --port 8123
+  220  node ./index.js --port 8123
+  221  node ./index.js --port 8123
+  222  node ./index.js --port 8123
+  223  node ./index.js --port 8123
+  224  node ./index.js --port 8123
+  225  node ./index.js --port 8123
+  226  node ./index.js --port 8123
+  227  node ./index.js --port 8123
+  228  node ./index.js --port 8123
+  229  python
+  230  ssh whoami.filippo.io
+  231  sudo emacs -nw /etc/ssh_config
+  232  sudo killall sshd
+  233  ps auxwww | grep ssh
+  234  launchctl stop com.openssh.sshd
+  235  sudo launchctl stop com.openssh.sshd
+  236  ssh whoami.filippo.io
+  237  pwd
+  238  cd work/starfightersio
+  239  ls
+  240  cd wsapi/server/
+  241  ls -l
+  242  cat analysis.txt 
+  243  history | grep analysis
+  244  history 
+  245  node ./index.js --instanceid 22252 --resume | tee run.log
+  246  git status
+  247  git diff
+  248  git log
+  249  ls 
+  250  less level5.log 
+  251  grep 52 level5.log 
+  252  grep \"52\" level5.log 
+  253  grep "52" level5.log 
+  254  grep 'qty:"52"' level5.log 
+  255  grep '"qty":"52"' level5.log 
+  256  grep '"qty":52' level5.log 
+  257  grep '"qty":52,' level5.log 
+  258  clear
+  259  grep '"qty":52,' level5.log   less
+  260  ls 
+  261  grep FILLEV level5.log 
+  262  for l in `grep FILLEV level5.log `; do for l in `grep FILLEV level5.log `; do awk '{print $2}'; done
+  263  for l in `grep FILLEV level5.log `; do awk '{print $2}' done
+  264  for l in `grep FILLEV level5.log `; do awk '{print $2}'; done
+  265  for l in `grep FILLEV level5.log `; do echo ${l} | awk '{print $2}'; done
+  266  for l in `grep FILLEV level5.log `; do echo ${l}; done 
+  267  pwd
+  268  ls 
+  269  for f in $(grep FILLEV level5.log); do echo ${f} | awk '{print $2}
+  270  for f in $(grep FILLEV level5.log); do echo ${f} | awk '{print $2}'; done
+  271  for f in $(grep FILLEV level5.log); do echo ${f}; done
+  272  for f in $(grep FILLEV level5.log); do echo ${f} | awk '{print $2}'; done
+  273  for f in $(grep FILLEV level5.log); do echo ${f}; done | less
+  274  less level5.log 
+  275  cat level5.log | grep FILLEV | awk '{print $2}'
+  276  cat level5.log | grep FILLEV | awk '{print $4}'
+  277  cat level5.log | grep FILLEV | awk '{print $4}' | less
+  278  cat level5.log | grep FILLEV | awk '{print $4}' | less
+  279  cat level5.log | grep FILLEV | awk '{print $4}' | json
+  280  cat level5.log | grep FILLEV | awk '{print $4}' > events.txt
+  281  for i in $(cat events.txt); do json < ${i}; done
+  282  json --help
+  283  head -n 1 events.txt 
+  284  head -n 1 events.txt  | json
+  285  for i in $(cat events.txt); do echo ${i} | json | less; done
+  286  for i in $(cat events.txt); do echo ${i} | json >>events2.txt; done
+  287  node
+  288  node ./index.js --instanceid 22252 --restart | tee run.log
+  289  node ./index.js --instanceid 22252 --restart | tee run.log
+  290  node
+  291  node ./index.js --instanceid 22252 --resume | tee run.log
+  292  git diff
+  293  git diff
+  294  git reset --hard HEAD
+  295  node ./index.js --instanceid 22252 --restart | tee run.log
+  296  less run.log 
+  297  node ./index.js --instanceid 22252 --restart | tee run2.log
+  298  history
+  299  cat run2.log | grep FILLEV | awk '{print $4}' 
+  300  cat run2.log | grep FILLEV | awk '{print $4}' > events.txt
+  301  history
+  302  history | grep grep
+  303  for l in `grep FILLEV level5.log `; do for l in `grep FILLEV level5.log `; do awk '{print $2}'; done
+  304   for ACCT in `grep account level5.log  | grep CANCEL | grep -v WARN | awk '{print $13}' | tr -d '."}' | sort | uniq`; > do
+  305  > C=`grep ${ACCT} level5.log | wc -l`
+  306  for ACCT in `grep account level5.log  | grep CANCEL | grep -v WARN | awk '{print $13}' | tr -d '."}' | sort | uniq`; > do
+  307  > C=`grep ${ACCT} level5.log | wc -l`
+  308  for A in `grep FILLEV run2.log | awk {print $13}'
+  309  grep FILLEV run2.log | awk {print $13}'
+  310  grep FILLEV run2.log | awk '{print $13}'
+  311  grep FILLEV run2.log
+  312  grep FILLEV run2.log | awk '{print $2}'
+  313  grep FILLEV run2.log | awk '{print $2}' | sort
+  314  for A in `grep FILLEV run2.log | awk '{print $2}'`; do C=`grep ${A} run2.log`; echo ${A} ${C}; done
+  315  for A in `grep FILLEV run2.log | awk '{print $2}'`; do C=`grep ${A} run2.log | wc -l`; echo ${A} ${C}; done
+  316  for A in `grep FILLEV run2.log | awk '{print $2}' | sort | uniq`; do C=`grep ${A} run2.log | wc -l`; echo ${A} ${C}; done
+  317  grep SMS94423993 run2.log | less 
+  318  less run2.log 
+  319  for A in `grep FILLEV run2.log | awk '{print $2}' | sort | uniq`; do C=`grep ${A} run2.log | wc -l`; echo ${A} ${C}; done
+  320  cd 
+  321  cd work
+  322  mkdir programmingftw
+  323  cd work/
+  324  cd work
+  325  ls
+  326  cd fpWorkshop/
+  327  ls
+  328  cd ..
+  329  ls 
+  330  cd lc
+  331  ls
+  332  cd requiredCourses/
+  333  ls
+  334  less graph.txt 
+  335  less munge.sh
+  336  less viz/
+  337  less viz/graph.dot 
+  338  ls 
+  339  less index.js 
+  340  less out.txt 
+  341  less munge.sh
+  342  less munge.sh
+  343  less index.js 
+  344  ls 
+  345  less graph.txt 
+  346  less munge.sh
+  347  cd viz
+  348  ls 
+  349  less viz.js 
+  350  cd ..
+  351  ls 
+  352  less munge.sh
+  353  cd viz/
+  354  pyServe 
+  355  ls 
+  356  cd ..
+  357  cd viz/
+  358  less index.html
+  359  less ../index.js 
+  360  whois greybranch.com
+  361  echo "tai9knix" | shasum
+  362  echo "str00dl3"
+  363  echo "str00dl3" | shasum
+  364  cat ~/.ssh/id_rsa.pub 
+  365  ssh root@162.243.122.208
+  366  cd
+  367  cd work
+  368  ls
+  369  cd starfightersio
+  370  cd wsapi/server/
+  371  ls
+  372  less events2.txt 
+  373  wc -l events.txt 
+  374  less events2.txt 
+  375  for ACCT in `grep account level5.log  | grep CANCEL | grep -v WARN | awk '{print $13}' | tr -d '."}' | sort | uniq`;
+  376  for ACCT in `grep account level5.log  | grep CANCEL | grep -v WARN | awk '{print $13}' | tr -d '."}' | sort | uniq`; echo ${ACCT}; done
+  377  for ACCT in `grep account level5.log  | grep CANCEL | grep -v WARN | awk '{print $13}' | tr -d '."}' | sort | uniq`; do echo ${ACCT}; done
+  378  grep FILLEV level5.log 
+  379  grep FILLEV level5.log  | awk '{pring $1}'
+  380  grep FILLEV level5.log  | awk '{print $1}'
+  381  grep FILLEV level5.log  | awk '{print $2}'
+  382  grep FILLEV level5.log  | awk '{print $2}' | sort 
+  383  grep FILLEV level5.log  | awk '{print $2}' | sort  > events.log
+  384  for i in $(cat events.log | uniq ); do C=$(grep ${i} events.log); echo ${i} : ${C}; done
+  385  for i in $(cat events.log | uniq ); do C=$(grep ${i} events.log | wc -l); echo ${i} : ${C}; done
+  386  mount
+  387  ls ~/
+  388  ls ~/bin/
+  389  ls 
+  390  hdiutil 
+  391  grep FILLEV level5.log  | awk '{print $2}' | sort  > events.log
+  392  pwd
+  393  cd work/starfightersio
+  394  ls
+  395  grep FILLEV level5.log  | awk '{print $2}' | sort  > events.log
+  396  cat level5.log 
+  397  ls -l
+  398  pwd
+  399  history
+  400  service
+  401  mount
+  402  ls /dev/disk1
+  403  ls /
+  404  mount 
+  405  pwd
+  406  ls 
+  407  lspci
+  408  disk3s1
+  409  ls /dev 
+  410  ls mount
+  411  mkdir usbdrive
+  412  sudo mount -o rw -t auto /dev/disk3s1 usbdrive/
+  413  cd usbdrive
+  414  ls 
+  415  cd ..
+  416  sudo mount -o rw -t auto /dev/disk3s1 usbdrive
+  417  rmdir usbdrive
+  418  ls /dev/disk3s1
+  419  ls -l /dev/disk3s1
+  420  sudo mkdir usb
+  421  sudo mount -o rw -t auto /dev/disk3 usb
+  422  pwd
+  423  sudo mount -o rw -t auto /dev/disk3 /Users/kdawes/usb
+  424  mount --help
+  425  locate *couchdb*
+  426  find / -maxdepth 4 -name *couchdb*
+  427  find / -maxdepth 4 -name *couchdb* 2>/dev/null
+  428  ls /usr/local/lib/couchdb
+  429  find / -maxdepth * -name *couchdb* 2>/dev/null
+  430  find / -maxdepth * -name *couchdb* 2>/dev/null
+  431  cd /
+  432  find / -maxdepth * -name *couchdb* 2>/dev/null
+  433  ls /usr/local/lib
+  434  ls /usr/local/lib/couchdb
+  435  pwd
+  436  ls 
+  437  pwd
+  438  ls 
+  439  cd 
+  440  ls 0a
+  441  ls -a
+  442  ls 
+  443  pwd
+  444  ls *.sh
+  445  less rm_pia_mgr.sh 
+  446  cd 
+  447  cd work
+  448  mkdir greybranch
+  449  cd greybranch
+  450  git init 
+  451  mkdir do-provision
+  452  cd do-provision/
+  453  mkdir config
+  454  pwd
+  455  ls 
+  456  pwd
+  457  ls 
+  458  cd ..
+  459  ls 
+  460  touch ENV.sh
+  461  emacs -nw ENV.sh 
+  462  chmod +X ENV.sh
+  463  source . ENV.sh
+  464  source ./ENV.sh
+  465  env | grep DO_
+  466  env
+  467  jpwd
+  468  pwd
+  469  ls 
+  470  cd do-provision/
+  471  cd do-pro
+  472  cd do-provision
+  473  pwd
+  474  ls 
+  475  cd ..
+  476  ls 
+  477  cd do-provision/
+  478  ls
+  479  rmdir config
+  480  npm install --save digital-ocean-api
+  481  ls 
+  482  touch index.js
+  483  emacs -nw index.js 
+  484  env | grep DO
+  485  node ./index.js
+  486  fg
+  487  node ./index.js
+  488  fg
+  489  node ./index.js
+  490  fgfg
+  491  fg
+  492  node ./index.js
+  493  cat index.js
+  494  cd
+  495  cd Downloads
+  496  ls
+  497  ls | grep -i pia
+  498  ls | grep -i private
+  499  ./Private\ Internet\ Access\ Installer.app/
+  500  cd work
+  501  cd starfightersio
+  502  history
+  503  ls 
+  504  history > history.txt
+  505  history | grep node
+  506  cat run.log 
+  507  node ./index.js --instanceid 22252 --restart | tee run2.log
+  508  cd wsapi/
+  509  ls
+  510  cd server/
+  511  ls 
+  512  ls -l
+  513  less events2.txt 
+  514  less level5.log 
+  515  history > history.txt
