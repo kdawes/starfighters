@@ -10,3 +10,6 @@
 https://news.ycombinator.com/item?id=10724592
 
 http://www.kalzumeus.com/2015/08/20/designing-and-building-stockfighter-our-programming-game/
+
+###I'm using my own api/wrapper/client from here: https://github.com/kdawes/node-stockfighter
+
